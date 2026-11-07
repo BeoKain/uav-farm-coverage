@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this software, cite this source release and the scientific sources listed in docs/REFERENCES.md."
+type: software
+title: "UAV Farm Coverage: Three-UAV Formation Planning and Sensor-Service Simulation"
+authors:
+  - name: "UAV Farm Coverage contributors"
+version: 0.1.0
+date-released: 2026-11-07
+license: MIT
+abstract: "Centralized three-UAV sensor-service planning and simulation with ROS 2, PX4 SITL, Gazebo and optional offline ns-3 replay."

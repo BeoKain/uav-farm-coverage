@@ -1,0 +1,12 @@
+{
+  "observed_environment": {
+    "ubuntu": "24.04",
+    "ros": "Jazzy",
+    "gazebo": "8.15.0",
+    "px4_commit": "0bb36a30ed4390f327c04f8f5d7c5cdcb8e9d235",
+    "px4_git_describe": "v1.18.0-beta1-299-g0bb36a30ed",
+    "px4_msgs_commit": "7f7ebd2a372d0fa93f6c2b6a53c291b4ed4f608e",
+    "ns3": "3.43"
+  },
+  "note": "Reconstructed from the retained project and current inspected environment. This is a source/version record, not a container image or a fresh-install certification."
+}

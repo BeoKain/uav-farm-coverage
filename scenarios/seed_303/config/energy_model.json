@@ -1,0 +1,38 @@
+{
+  "schema": "x500_illustrative_energy_proxy_v1",
+  "source_paper": "https://arxiv.org/abs/1804.02238",
+  "source_equations": [
+    6
+  ],
+  "source_models": {
+    "upstream://PX4-Autopilot/Tools/simulation/gz/models/x500_base/model.sdf": "e807dca3406f7cd5cb3d545898601c3ec17e0e5242e25cf467a69df1812cf436",
+    "upstream://PX4-Autopilot/Tools/simulation/gz/models/x500/model.sdf": "cb76a4afd439f253a8c516b1fcd3528f80347619cfa46bebb620557054fbf125"
+  },
+  "mass_kg": 2.0643076923076924,
+  "rotor_count": 4,
+  "rotor_radius_m": 0.1396153846153846,
+  "thrust_constant_n_per_rad_s2": 8.54858e-06,
+  "moment_to_thrust_ratio_m": 0.016,
+  "air_density_kg_m3": 1.225,
+  "gravity_m_s2": 9.80665,
+  "motor_efficiency": 0.8,
+  "hover_profile_fraction": 0.25,
+  "parasite_coefficient_w_per_m_s_cubed": 0.08,
+  "avionics_w": 5.0,
+  "radio_active_w": 3.0,
+  "climb_efficiency": 0.75,
+  "kinetic_efficiency": 0.75,
+  "mission_energy_limit_wh_per_uav": null,
+  "parameter_status": {
+    "mass_kg": "sum of x500_base inertial masses; no payload",
+    "rotor_radius_m": "proxy from rotor collision-box half-length, not aerodynamic measurement",
+    "motor_constants": "local x500 SDF motor coefficients",
+    "remaining_parameters": "explicit illustrative assumptions; not calibrated to x500 electrical measurements"
+  },
+  "limitations": [
+    "Quasi-steady level-flight formula with illustrative hover split and drag coefficient.",
+    "Added positive gravitational and kinetic work proxies; no regeneration credit.",
+    "No wind, vortex-ring-state model, thrust-margin proof, battery voltage or SOC dynamics.",
+    "Airborne reference mission only: excludes launch, landing, feedback waits and failsafes."
+  ]
+}

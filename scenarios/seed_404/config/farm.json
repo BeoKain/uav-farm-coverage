@@ -1,0 +1,411 @@
+{
+  "schema_version": 1,
+  "world": "farm",
+  "frame": "Gazebo world ENU, metres",
+  "bounds_xy_m": [
+    -50,
+    50,
+    -50,
+    50
+  ],
+  "grid_resolution_m": 1.0,
+  "hill": {
+    "center_xy_m": [
+      10,
+      8
+    ],
+    "height_m": 8,
+    "radii_xy_m": [
+      23,
+      26
+    ]
+  },
+  "terrain_file": "config/terrain.csv",
+  "terrain_interpolation": "piecewise linear; diagonal (i+1,j) to (i,j+1)",
+  "sensors": [
+    {
+      "id": "S01",
+      "world_enu_m": [
+        -41.25536163788628,
+        -9.415984980255509,
+        0.65
+      ],
+      "ground_z_m": 0.0,
+      "data_bytes": 100000,
+      "deadline_s": 300
+    },
+    {
+      "id": "S02",
+      "world_enu_m": [
+        -49.67490694090765,
+        -40.65414020296606,
+        0.65
+      ],
+      "ground_z_m": 0.0,
+      "data_bytes": 100000,
+      "deadline_s": 300
+    },
+    {
+      "id": "S03",
+      "world_enu_m": [
+        9.675086360595863,
+        -16.726258297297292,
+        0.7296595622946718
+      ],
+      "ground_z_m": 0.07965956229467176,
+      "data_bytes": 100000,
+      "deadline_s": 300
+    },
+    {
+      "id": "S04",
+      "world_enu_m": [
+        -10.397429045633665,
+        -39.99190328915411,
+        0.65
+      ],
+      "ground_z_m": 0.0,
+      "data_bytes": 100000,
+      "deadline_s": 300
+    },
+    {
+      "id": "S05",
+      "world_enu_m": [
+        38.24903417831118,
+        16.776250931136303,
+        0.65
+      ],
+      "ground_z_m": 0.0,
+      "data_bytes": 100000,
+      "deadline_s": 300
+    },
+    {
+      "id": "S06",
+      "world_enu_m": [
+        -2.0013503054650315,
+        3.2041177210081813,
+        4.497335156025853
+      ],
+      "ground_z_m": 3.847335156025853,
+      "data_bytes": 100000,
+      "deadline_s": 300
+    },
+    {
+      "id": "S07",
+      "world_enu_m": [
+        -32.09160517191988,
+        8.561584347846818,
+        0.65
+      ],
+      "ground_z_m": 0.0,
+      "data_bytes": 100000,
+      "deadline_s": 300
+    },
+    {
+      "id": "S08",
+      "world_enu_m": [
+        24.978802101728547,
+        -31.62888199789593,
+        0.65
+      ],
+      "ground_z_m": 0.0,
+      "data_bytes": 100000,
+      "deadline_s": 300
+    },
+    {
+      "id": "S09",
+      "world_enu_m": [
+        -35.87178370575893,
+        0.608612396347894,
+        0.65
+      ],
+      "ground_z_m": 0.0,
+      "data_bytes": 100000,
+      "deadline_s": 300
+    },
+    {
+      "id": "S10",
+      "world_enu_m": [
+        -36.75623662606969,
+        -9.160316180711426,
+        0.65
+      ],
+      "ground_z_m": 0.0,
+      "data_bytes": 100000,
+      "deadline_s": 300
+    },
+    {
+      "id": "S11",
+      "world_enu_m": [
+        -23.29369816465654,
+        -45.41268626064108,
+        0.65
+      ],
+      "ground_z_m": 0.0,
+      "data_bytes": 100000,
+      "deadline_s": 300
+    },
+    {
+      "id": "S12",
+      "world_enu_m": [
+        -16.03339840901255,
+        31.626126833764516,
+        0.65
+      ],
+      "ground_z_m": 0.0,
+      "data_bytes": 100000,
+      "deadline_s": 300
+    },
+    {
+      "id": "S13",
+      "world_enu_m": [
+        4.598107629183232,
+        -29.186716620149276,
+        0.6499999999999999
+      ],
+      "ground_z_m": 0.0,
+      "data_bytes": 100000,
+      "deadline_s": 300
+    },
+    {
+      "id": "S14",
+      "world_enu_m": [
+        -44.76314017754706,
+        -40.583890359790985,
+        0.6499999999999999
+      ],
+      "ground_z_m": 0.0,
+      "data_bytes": 100000,
+      "deadline_s": 300
+    },
+    {
+      "id": "S15",
+      "world_enu_m": [
+        49.0211437945035,
+        26.2018139878858,
+        0.65
+      ],
+      "ground_z_m": 0.0,
+      "data_bytes": 100000,
+      "deadline_s": 300
+    },
+    {
+      "id": "S16",
+      "world_enu_m": [
+        10.223382832282212,
+        4.715487257358994,
+        8.385543618403378
+      ],
+      "ground_z_m": 7.735543618403379,
+      "data_bytes": 100000,
+      "deadline_s": 300
+    },
+    {
+      "id": "S17",
+      "world_enu_m": [
+        35.12972920144641,
+        -38.965824613505475,
+        0.65
+      ],
+      "ground_z_m": 0.0,
+      "data_bytes": 100000,
+      "deadline_s": 300
+    },
+    {
+      "id": "S18",
+      "world_enu_m": [
+        27.938639532428624,
+        32.97672547591273,
+        0.6500000000000004
+      ],
+      "ground_z_m": 0.0,
+      "data_bytes": 100000,
+      "deadline_s": 300
+    },
+    {
+      "id": "S19",
+      "world_enu_m": [
+        -20.402882971126203,
+        23.057204129326266,
+        0.6500000000000004
+      ],
+      "ground_z_m": 0.0,
+      "data_bytes": 100000,
+      "deadline_s": 300
+    },
+    {
+      "id": "S20",
+      "world_enu_m": [
+        -17.960029580722825,
+        16.3043006811034,
+        0.65
+      ],
+      "ground_z_m": 0.0,
+      "data_bytes": 100000,
+      "deadline_s": 300
+    },
+    {
+      "id": "S21",
+      "world_enu_m": [
+        -24.826761569231415,
+        -30.30495761447388,
+        0.65
+      ],
+      "ground_z_m": 0.0,
+      "data_bytes": 100000,
+      "deadline_s": 300
+    },
+    {
+      "id": "S22",
+      "world_enu_m": [
+        48.47292811273151,
+        -28.82041151464858,
+        0.65
+      ],
+      "ground_z_m": 0.0,
+      "data_bytes": 100000,
+      "deadline_s": 300
+    },
+    {
+      "id": "S23",
+      "world_enu_m": [
+        -26.036008121858323,
+        -24.168242324986664,
+        0.6499999999999999
+      ],
+      "ground_z_m": 0.0,
+      "data_bytes": 100000,
+      "deadline_s": 300
+    },
+    {
+      "id": "S24",
+      "world_enu_m": [
+        0.6223516967475504,
+        -30.296321568823203,
+        0.6499999999999999
+      ],
+      "ground_z_m": 0.0,
+      "data_bytes": 100000,
+      "deadline_s": 300
+    },
+    {
+      "id": "S25",
+      "world_enu_m": [
+        -45.716781807826564,
+        -14.568767641439116,
+        0.65
+      ],
+      "ground_z_m": 0.0,
+      "data_bytes": 100000,
+      "deadline_s": 300
+    },
+    {
+      "id": "S26",
+      "world_enu_m": [
+        -4.274431627897599,
+        -48.87998440664945,
+        0.65
+      ],
+      "ground_z_m": 0.0,
+      "data_bytes": 100000,
+      "deadline_s": 300
+    },
+    {
+      "id": "S27",
+      "world_enu_m": [
+        48.58877914810323,
+        -38.632015061947875,
+        0.65
+      ],
+      "ground_z_m": 0.0,
+      "data_bytes": 100000,
+      "deadline_s": 300
+    },
+    {
+      "id": "S28",
+      "world_enu_m": [
+        1.3894493510153936,
+        46.6140207543783,
+        0.65
+      ],
+      "ground_z_m": 0.0,
+      "data_bytes": 100000,
+      "deadline_s": 300
+    },
+    {
+      "id": "S29",
+      "world_enu_m": [
+        29.238510791913214,
+        38.85669115350284,
+        0.65
+      ],
+      "ground_z_m": 0.0,
+      "data_bytes": 100000,
+      "deadline_s": 300
+    },
+    {
+      "id": "S30",
+      "world_enu_m": [
+        44.63961769805829,
+        17.5382750271055,
+        0.65
+      ],
+      "ground_z_m": 0.0,
+      "data_bytes": 100000,
+      "deadline_s": 300
+    }
+  ],
+  "uav_spawns": [
+    {
+      "id": "UAV1",
+      "instance": 0,
+      "system_id": 1,
+      "namespace": "/fmu",
+      "world_enu_m": [
+        -70.0,
+        -10.0,
+        0.12
+      ],
+      "yaw_rad": 0
+    },
+    {
+      "id": "UAV2",
+      "instance": 1,
+      "system_id": 2,
+      "namespace": "/px4_1/fmu",
+      "world_enu_m": [
+        -55.0,
+        0.0,
+        0.12
+      ],
+      "yaw_rad": 0
+    },
+    {
+      "id": "UAV3",
+      "instance": 2,
+      "system_id": 3,
+      "namespace": "/px4_2/fmu",
+      "world_enu_m": [
+        -70.0,
+        10.0,
+        0.12
+      ],
+      "yaw_rad": 0
+    }
+  ],
+  "note": "Farm ROI unchanged [-50,50]^2; separate flat west apron outside farm. Extended terrain grid is for flight checking, not enlarged sensor ROI.",
+  "scenario": {
+    "schema": "random30_iid_v1",
+    "layout": "uniform_iid_xy",
+    "seed": 404,
+    "count": 30,
+    "generator": "Python random.Random(seed); successive uniform X then Y draws",
+    "placement": "Full original farm ROI; no minimum spacing, rejection or load balancing",
+    "terrain": "Same triangulated mesh; antenna at ground + 0.65 m"
+  },
+  "flight_bounds_xy_m": [
+    -78,
+    47,
+    -47,
+    47
+  ]
+}

@@ -1,0 +1,1854 @@
+<?xml version='1.0' encoding='utf-8'?>
+<sdf version="1.9">
+  <world name="farm">
+    <physics name="physics" type="ignored">
+      <max_step_size>0.004</max_step_size>
+      <real_time_factor>1</real_time_factor>
+    </physics>
+    <gravity>0 0 -9.80665</gravity>
+    <magnetic_field>6e-06 2.3e-05 -4.2e-05</magnetic_field>
+    <atmosphere type="adiabatic" />
+    <plugin filename="gz-sim-physics-system" name="gz::sim::systems::Physics" />
+    <plugin filename="gz-sim-user-commands-system" name="gz::sim::systems::UserCommands" />
+    <plugin filename="gz-sim-scene-broadcaster-system" name="gz::sim::systems::SceneBroadcaster" />
+    <plugin filename="gz-sim-imu-system" name="gz::sim::systems::Imu" />
+    <plugin filename="gz-sim-air-pressure-system" name="gz::sim::systems::AirPressure" />
+    <plugin filename="gz-sim-navsat-system" name="gz::sim::systems::NavSat" />
+    <plugin filename="gz-sim-magnetometer-system" name="gz::sim::systems::Magnetometer"><use_units_gauss>false</use_units_gauss><use_earth_frame_ned>false</use_earth_frame_ned></plugin>
+    <scene>
+      <ambient>0.55 0.55 0.55 1</ambient>
+      <background>0.68 0.80 0.90 1</background>
+      <shadows>true</shadows>
+    </scene>
+    <light name="sun" type="directional">
+      <pose>0 0 100 0 0 0</pose>
+      <direction>-0.4 0.2 -0.9</direction>
+      <diffuse>0.9 0.9 0.9 1</diffuse>
+      <specular>0.1 0.1 0.1 1</specular>
+      <cast_shadows>true</cast_shadows>
+    </light>
+    <spherical_coordinates>
+      <surface_model>EARTH_WGS84</surface_model>
+      <world_frame_orientation>ENU</world_frame_orientation>
+      <latitude_deg>47.3979710577</latitude_deg>
+      <longitude_deg>8.5461637398</longitude_deg>
+      <elevation>0</elevation>
+      <heading_deg>0</heading_deg>
+    </spherical_coordinates>
+    <include>
+      <uri>model://farm_terrain</uri>
+    </include>
+    <model name="outer_ground">
+      <static>true</static>
+      <pose>0 0 -0.10 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>200 200</size>
+            </plane>
+          </geometry>
+          <material>
+            <diffuse>0.40 0.30 0.19 1</diffuse>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>200 200</size>
+            </plane>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+    <model name="crop_west_0">
+      <static>true</static>
+      <pose>-28 0 0.06 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.6 84 0.1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.13 0.32 0.06 1</ambient>
+            <diffuse>0.13 0.32 0.06 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="crop_west_3">
+      <static>true</static>
+      <pose>-25 0 0.06 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.6 84 0.1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.13 0.32 0.06 1</ambient>
+            <diffuse>0.13 0.32 0.06 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="crop_west_6">
+      <static>true</static>
+      <pose>-22 0 0.06 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.6 84 0.1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.13 0.32 0.06 1</ambient>
+            <diffuse>0.13 0.32 0.06 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="crop_west_9">
+      <static>true</static>
+      <pose>-19 0 0.06 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.6 84 0.1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.13 0.32 0.06 1</ambient>
+            <diffuse>0.13 0.32 0.06 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="crop_west_12">
+      <static>true</static>
+      <pose>-16 0 0.06 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.6 84 0.1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.13 0.32 0.06 1</ambient>
+            <diffuse>0.13 0.32 0.06 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="crop_west_15">
+      <static>true</static>
+      <pose>-13 0 0.06 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.6 84 0.1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.13 0.32 0.06 1</ambient>
+            <diffuse>0.13 0.32 0.06 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="crop_east_38">
+      <static>true</static>
+      <pose>38 0 0.06 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.6 84 0.1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.16 0.36 0.07 1</ambient>
+            <diffuse>0.16 0.36 0.07 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="crop_east_41">
+      <static>true</static>
+      <pose>41 0 0.06 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.6 84 0.1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.16 0.36 0.07 1</ambient>
+            <diffuse>0.16 0.36 0.07 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="crop_east_44">
+      <static>true</static>
+      <pose>44 0 0.06 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.6 84 0.1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.16 0.36 0.07 1</ambient>
+            <diffuse>0.16 0.36 0.07 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="boundary_0_-50">
+      <static>true</static>
+      <pose>0 -50 0.03 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>100 0.15 0.04</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.95 0.95 0.82 1</ambient>
+            <diffuse>0.95 0.95 0.82 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="boundary_0_50">
+      <static>true</static>
+      <pose>0 50 0.03 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>100 0.15 0.04</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.95 0.95 0.82 1</ambient>
+            <diffuse>0.95 0.95 0.82 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="boundary_-50_0">
+      <static>true</static>
+      <pose>-50 0 0.03 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.15 100 0.04</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.95 0.95 0.82 1</ambient>
+            <diffuse>0.95 0.95 0.82 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="boundary_50_0">
+      <static>true</static>
+      <pose>50 0 0.03 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.15 100 0.04</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.95 0.95 0.82 1</ambient>
+            <diffuse>0.95 0.95 0.82 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="S01">
+      <static>true</static>
+      <pose>26.388157446339548 14.478075108630634 1.7296852089375985 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.45 0.45 0.5</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.95 0.40 0.06 1</ambient>
+            <diffuse>0.95 0.40 0.06 1</diffuse>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.45 0.45 0.5</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+    <model name="S01_antenna">
+      <static>true</static>
+      <pose>26.388157446339548 14.478075108630634 2.0796852089375983 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.06 0.06 0.2</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.15 0.15 0.15 1</ambient>
+            <diffuse>0.15 0.15 0.15 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="S02">
+      <static>true</static>
+      <pose>-9.0561919860047269 -30.191255959886231 0.25 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.45 0.45 0.5</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.95 0.40 0.06 1</ambient>
+            <diffuse>0.95 0.40 0.06 1</diffuse>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.45 0.45 0.5</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+    <model name="S02_antenna">
+      <static>true</static>
+      <pose>-9.0561919860047269 -30.191255959886231 0.59999999999999998 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.06 0.06 0.2</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.15 0.15 0.15 1</ambient>
+            <diffuse>0.15 0.15 0.15 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="S03">
+      <static>true</static>
+      <pose>17.670033423604664 46.928581637267513 0.25 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.45 0.45 0.5</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.95 0.40 0.06 1</ambient>
+            <diffuse>0.95 0.40 0.06 1</diffuse>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.45 0.45 0.5</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+    <model name="S03_antenna">
+      <static>true</static>
+      <pose>17.670033423604664 46.928581637267513 0.59999999999999998 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.06 0.06 0.2</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.15 0.15 0.15 1</ambient>
+            <diffuse>0.15 0.15 0.15 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="S04">
+      <static>true</static>
+      <pose>-7.2252911011408045 35.087485947677266 0.25 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.45 0.45 0.5</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.95 0.40 0.06 1</ambient>
+            <diffuse>0.95 0.40 0.06 1</diffuse>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.45 0.45 0.5</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+    <model name="S04_antenna">
+      <static>true</static>
+      <pose>-7.2252911011408045 35.087485947677266 0.59999999999999998 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.06 0.06 0.2</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.15 0.15 0.15 1</ambient>
+            <diffuse>0.15 0.15 0.15 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="S05">
+      <static>true</static>
+      <pose>-46.392169669915205 2.7786041244806512 0.25 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.45 0.45 0.5</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.95 0.40 0.06 1</ambient>
+            <diffuse>0.95 0.40 0.06 1</diffuse>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.45 0.45 0.5</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+    <model name="S05_antenna">
+      <static>true</static>
+      <pose>-46.392169669915205 2.7786041244806512 0.59999999999999998 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.06 0.06 0.2</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.15 0.15 0.15 1</ambient>
+            <diffuse>0.15 0.15 0.15 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="S06">
+      <static>true</static>
+      <pose>-29.84467876148247 -0.57339770365106801 0.25 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.45 0.45 0.5</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.95 0.40 0.06 1</ambient>
+            <diffuse>0.95 0.40 0.06 1</diffuse>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.45 0.45 0.5</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+    <model name="S06_antenna">
+      <static>true</static>
+      <pose>-29.84467876148247 -0.57339770365106801 0.59999999999999998 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.06 0.06 0.2</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.15 0.15 0.15 1</ambient>
+            <diffuse>0.15 0.15 0.15 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="S07">
+      <static>true</static>
+      <pose>11.12527232963626 35.590824963705586 0.25 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.45 0.45 0.5</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.95 0.40 0.06 1</ambient>
+            <diffuse>0.95 0.40 0.06 1</diffuse>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.45 0.45 0.5</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+    <model name="S07_antenna">
+      <static>true</static>
+      <pose>11.12527232963626 35.590824963705586 0.59999999999999998 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.06 0.06 0.2</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.15 0.15 0.15 1</ambient>
+            <diffuse>0.15 0.15 0.15 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="S08">
+      <static>true</static>
+      <pose>2.2965834976967798 36.883893908760854 0.25 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.45 0.45 0.5</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.95 0.40 0.06 1</ambient>
+            <diffuse>0.95 0.40 0.06 1</diffuse>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.45 0.45 0.5</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+    <model name="S08_antenna">
+      <static>true</static>
+      <pose>2.2965834976967798 36.883893908760854 0.59999999999999998 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.06 0.06 0.2</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.15 0.15 0.15 1</ambient>
+            <diffuse>0.15 0.15 0.15 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="S09">
+      <static>true</static>
+      <pose>-17.322065326500926 -37.159010450754927 0.25 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.45 0.45 0.5</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.95 0.40 0.06 1</ambient>
+            <diffuse>0.95 0.40 0.06 1</diffuse>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.45 0.45 0.5</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+    <model name="S09_antenna">
+      <static>true</static>
+      <pose>-17.322065326500926 -37.159010450754927 0.59999999999999998 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.06 0.06 0.2</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.15 0.15 0.15 1</ambient>
+            <diffuse>0.15 0.15 0.15 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="S10">
+      <static>true</static>
+      <pose>-3.5053009201657019 21.524689963586454 1.4445371630478283 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.45 0.45 0.5</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.95 0.40 0.06 1</ambient>
+            <diffuse>0.95 0.40 0.06 1</diffuse>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.45 0.45 0.5</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+    <model name="S10_antenna">
+      <static>true</static>
+      <pose>-3.5053009201657019 21.524689963586454 1.7945371630478282 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.06 0.06 0.2</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.15 0.15 0.15 1</ambient>
+            <diffuse>0.15 0.15 0.15 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="S11">
+      <static>true</static>
+      <pose>20.794440550319877 -46.325470863025473 0.25 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.45 0.45 0.5</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.95 0.40 0.06 1</ambient>
+            <diffuse>0.95 0.40 0.06 1</diffuse>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.45 0.45 0.5</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+    <model name="S11_antenna">
+      <static>true</static>
+      <pose>20.794440550319877 -46.325470863025473 0.59999999999999998 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.06 0.06 0.2</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.15 0.15 0.15 1</ambient>
+            <diffuse>0.15 0.15 0.15 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="S12">
+      <static>true</static>
+      <pose>-25.142851656052734 -24.565525765021125 0.25 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.45 0.45 0.5</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.95 0.40 0.06 1</ambient>
+            <diffuse>0.95 0.40 0.06 1</diffuse>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.45 0.45 0.5</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+    <model name="S12_antenna">
+      <static>true</static>
+      <pose>-25.142851656052734 -24.565525765021125 0.59999999999999998 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.06 0.06 0.2</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.15 0.15 0.15 1</ambient>
+            <diffuse>0.15 0.15 0.15 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="S13">
+      <static>true</static>
+      <pose>-2.842031513210074 36.170204350582466 0.25 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.45 0.45 0.5</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.95 0.40 0.06 1</ambient>
+            <diffuse>0.95 0.40 0.06 1</diffuse>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.45 0.45 0.5</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+    <model name="S13_antenna">
+      <static>true</static>
+      <pose>-2.842031513210074 36.170204350582466 0.60000000000000009 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.06 0.06 0.2</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.15 0.15 0.15 1</ambient>
+            <diffuse>0.15 0.15 0.15 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="S14">
+      <static>true</static>
+      <pose>-22.909070575269965 -45.411490701089349 0.25 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.45 0.45 0.5</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.95 0.40 0.06 1</ambient>
+            <diffuse>0.95 0.40 0.06 1</diffuse>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.45 0.45 0.5</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+    <model name="S14_antenna">
+      <static>true</static>
+      <pose>-22.909070575269965 -45.411490701089349 0.60000000000000009 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.06 0.06 0.2</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.15 0.15 0.15 1</ambient>
+            <diffuse>0.15 0.15 0.15 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="S15">
+      <static>true</static>
+      <pose>39.804416281899904 36.920009275338856 0.25 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.45 0.45 0.5</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.95 0.40 0.06 1</ambient>
+            <diffuse>0.95 0.40 0.06 1</diffuse>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.45 0.45 0.5</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+    <model name="S15_antenna">
+      <static>true</static>
+      <pose>39.804416281899904 36.920009275338856 0.59999999999999998 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.06 0.06 0.2</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.15 0.15 0.15 1</ambient>
+            <diffuse>0.15 0.15 0.15 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="S16">
+      <static>true</static>
+      <pose>27.069965824378812 -46.131220176838326 0.25 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.45 0.45 0.5</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.95 0.40 0.06 1</ambient>
+            <diffuse>0.95 0.40 0.06 1</diffuse>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.45 0.45 0.5</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+    <model name="S16_antenna">
+      <static>true</static>
+      <pose>27.069965824378812 -46.131220176838326 0.59999999999999998 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.06 0.06 0.2</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.15 0.15 0.15 1</ambient>
+            <diffuse>0.15 0.15 0.15 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="S17">
+      <static>true</static>
+      <pose>-23.928923151179426 -32.320574512339107 0.25 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.45 0.45 0.5</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.95 0.40 0.06 1</ambient>
+            <diffuse>0.95 0.40 0.06 1</diffuse>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.45 0.45 0.5</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+    <model name="S17_antenna">
+      <static>true</static>
+      <pose>-23.928923151179426 -32.320574512339107 0.59999999999999998 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.06 0.06 0.2</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.15 0.15 0.15 1</ambient>
+            <diffuse>0.15 0.15 0.15 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="S18">
+      <static>true</static>
+      <pose>41.498458535723813 -37.522373081853409 0.25 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.45 0.45 0.5</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.95 0.40 0.06 1</ambient>
+            <diffuse>0.95 0.40 0.06 1</diffuse>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.45 0.45 0.5</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+    <model name="S18_antenna">
+      <static>true</static>
+      <pose>41.498458535723813 -37.522373081853409 0.59999999999999964 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.06 0.06 0.2</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.15 0.15 0.15 1</ambient>
+            <diffuse>0.15 0.15 0.15 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="S19">
+      <static>true</static>
+      <pose>-37.250465990227177 -27.935514085551137 0.25 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.45 0.45 0.5</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.95 0.40 0.06 1</ambient>
+            <diffuse>0.95 0.40 0.06 1</diffuse>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.45 0.45 0.5</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+    <model name="S19_antenna">
+      <static>true</static>
+      <pose>-37.250465990227177 -27.935514085551137 0.59999999999999964 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.06 0.06 0.2</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.15 0.15 0.15 1</ambient>
+            <diffuse>0.15 0.15 0.15 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="S20">
+      <static>true</static>
+      <pose>29.098903875188327 -30.197743001787604 0.25 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.45 0.45 0.5</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.95 0.40 0.06 1</ambient>
+            <diffuse>0.95 0.40 0.06 1</diffuse>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.45 0.45 0.5</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+    <model name="S20_antenna">
+      <static>true</static>
+      <pose>29.098903875188327 -30.197743001787604 0.59999999999999998 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.06 0.06 0.2</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.15 0.15 0.15 1</ambient>
+            <diffuse>0.15 0.15 0.15 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="S21">
+      <static>true</static>
+      <pose>48.337580440782048 -19.184494096712545 0.25 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.45 0.45 0.5</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.95 0.40 0.06 1</ambient>
+            <diffuse>0.95 0.40 0.06 1</diffuse>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.45 0.45 0.5</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+    <model name="S21_antenna">
+      <static>true</static>
+      <pose>48.337580440782048 -19.184494096712545 0.59999999999999998 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.06 0.06 0.2</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.15 0.15 0.15 1</ambient>
+            <diffuse>0.15 0.15 0.15 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="S22">
+      <static>true</static>
+      <pose>15.008116029728455 -30.812330321422611 0.25 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.45 0.45 0.5</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.95 0.40 0.06 1</ambient>
+            <diffuse>0.95 0.40 0.06 1</diffuse>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.45 0.45 0.5</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+    <model name="S22_antenna">
+      <static>true</static>
+      <pose>15.008116029728455 -30.812330321422611 0.59999999999999998 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.06 0.06 0.2</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.15 0.15 0.15 1</ambient>
+            <diffuse>0.15 0.15 0.15 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="S23">
+      <static>true</static>
+      <pose>-20.794427889268896 36.540627077219042 0.25 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.45 0.45 0.5</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.95 0.40 0.06 1</ambient>
+            <diffuse>0.95 0.40 0.06 1</diffuse>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.45 0.45 0.5</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+    <model name="S23_antenna">
+      <static>true</static>
+      <pose>-20.794427889268896 36.540627077219042 0.60000000000000009 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.06 0.06 0.2</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.15 0.15 0.15 1</ambient>
+            <diffuse>0.15 0.15 0.15 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="S24">
+      <static>true</static>
+      <pose>49.756022368300791 -25.765087474089864 0.25 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.45 0.45 0.5</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.95 0.40 0.06 1</ambient>
+            <diffuse>0.95 0.40 0.06 1</diffuse>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.45 0.45 0.5</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+    <model name="S24_antenna">
+      <static>true</static>
+      <pose>49.756022368300791 -25.765087474089864 0.60000000000000009 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.06 0.06 0.2</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.15 0.15 0.15 1</ambient>
+            <diffuse>0.15 0.15 0.15 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="S25">
+      <static>true</static>
+      <pose>-15.050414376708844 -44.261534800179817 0.25 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.45 0.45 0.5</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.95 0.40 0.06 1</ambient>
+            <diffuse>0.95 0.40 0.06 1</diffuse>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.45 0.45 0.5</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+    <model name="S25_antenna">
+      <static>true</static>
+      <pose>-15.050414376708844 -44.261534800179817 0.59999999999999998 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.06 0.06 0.2</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.15 0.15 0.15 1</ambient>
+            <diffuse>0.15 0.15 0.15 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="S26">
+      <static>true</static>
+      <pose>-30.540414309052554 -11.603851324669023 0.25 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.45 0.45 0.5</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.95 0.40 0.06 1</ambient>
+            <diffuse>0.95 0.40 0.06 1</diffuse>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.45 0.45 0.5</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+    <model name="S26_antenna">
+      <static>true</static>
+      <pose>-30.540414309052554 -11.603851324669023 0.59999999999999998 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.06 0.06 0.2</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.15 0.15 0.15 1</ambient>
+            <diffuse>0.15 0.15 0.15 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="S27">
+      <static>true</static>
+      <pose>2.1129628736350696 7.2826633946500792 6.4621556933330817 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.45 0.45 0.5</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.95 0.40 0.06 1</ambient>
+            <diffuse>0.95 0.40 0.06 1</diffuse>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.45 0.45 0.5</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+    <model name="S27_antenna">
+      <static>true</static>
+      <pose>2.1129628736350696 7.2826633946500792 6.8121556933330814 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.06 0.06 0.2</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.15 0.15 0.15 1</ambient>
+            <diffuse>0.15 0.15 0.15 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="S28">
+      <static>true</static>
+      <pose>-15.054948322947979 -34.195218055988335 0.25 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.45 0.45 0.5</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.95 0.40 0.06 1</ambient>
+            <diffuse>0.95 0.40 0.06 1</diffuse>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.45 0.45 0.5</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+    <model name="S28_antenna">
+      <static>true</static>
+      <pose>-15.054948322947979 -34.195218055988335 0.59999999999999998 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.06 0.06 0.2</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.15 0.15 0.15 1</ambient>
+            <diffuse>0.15 0.15 0.15 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="S29">
+      <static>true</static>
+      <pose>5.5703147340176429 -15.108342553256492 0.49110487668946035 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.45 0.45 0.5</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.95 0.40 0.06 1</ambient>
+            <diffuse>0.95 0.40 0.06 1</diffuse>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.45 0.45 0.5</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+    <model name="S29_antenna">
+      <static>true</static>
+      <pose>5.5703147340176429 -15.108342553256492 0.84110487668946032 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.06 0.06 0.2</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.15 0.15 0.15 1</ambient>
+            <diffuse>0.15 0.15 0.15 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="S30">
+      <static>true</static>
+      <pose>-15.488037384240791 47.320874182987197 0.25 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.45 0.45 0.5</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.95 0.40 0.06 1</ambient>
+            <diffuse>0.95 0.40 0.06 1</diffuse>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.45 0.45 0.5</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+    <model name="S30_antenna">
+      <static>true</static>
+      <pose>-15.488037384240791 47.320874182987197 0.59999999999999998 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.06 0.06 0.2</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.15 0.15 0.15 1</ambient>
+            <diffuse>0.15 0.15 0.15 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="external_launch_apron">
+      <static>true</static>
+      <pose>-64 0 -0.05 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>26 28 0.1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.32 0.35 0.39 1</ambient>
+            <diffuse>0.32 0.35 0.39 1</diffuse>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>26 28 0.1</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+    <model name="apron_access_strip">
+      <static>true</static>
+      <pose>-50.5 0 -0.05 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 5 0.1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.32 0.35 0.39 1</ambient>
+            <diffuse>0.32 0.35 0.39 1</diffuse>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 5 0.1</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+    <model name="pad_1">
+      <static>true</static>
+      <pose>-70.0 -10.0 0.015 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>2.5 2.5 0.02</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.95 0.84 0.24 1</ambient>
+            <diffuse>0.95 0.84 0.24 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="pad_2">
+      <static>true</static>
+      <pose>-55.0 0.0 0.015 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>2.5 2.5 0.02</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.95 0.84 0.24 1</ambient>
+            <diffuse>0.95 0.84 0.24 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="pad_3">
+      <static>true</static>
+      <pose>-70.0 10.0 0.015 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>2.5 2.5 0.02</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.95 0.84 0.24 1</ambient>
+            <diffuse>0.95 0.84 0.24 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+  <gui fullscreen="false"><dialog name="quick_start" show_again="false" />
+
+
+<window>
+  <width>1600</width>
+  <height>900</height>
+  <style material_theme="Light" material_primary="DeepOrange" material_accent="LightBlue" toolbar_color_light="#f3f3f3" toolbar_text_color_light="#111111" toolbar_color_dark="#414141" toolbar_text_color_dark="#f3f3f3" plugin_toolbar_color_light="#bbdefb" plugin_toolbar_text_color_light="#111111" plugin_toolbar_color_dark="#607d8b" plugin_toolbar_text_color_dark="#eeeeee" />
+  <menus>
+    <drawer default="false">
+    </drawer>
+  </menus>
+  <dialog_on_exit>true</dialog_on_exit>
+</window>
+
+
+
+
+<plugin filename="MinimalScene" name="3D View">
+  <gz-gui>
+    <title>3D View</title>
+    <property type="bool" key="showTitleBar">false</property>
+    <property type="string" key="state">docked</property>
+  </gz-gui>
+
+  <engine>ogre2</engine>
+  <scene>scene</scene>
+  <ambient_light>0.4 0.4 0.4</ambient_light>
+  <background_color>0.8 0.8 0.8</background_color>
+  <camera_pose>-65 -35 38 0 0.826 1.57079632679</camera_pose>
+</plugin>
+
+
+<plugin filename="EntityContextMenuPlugin" name="Entity context menu">
+  <gz-gui>
+    <property key="state" type="string">floating</property>
+    <property key="width" type="double">5</property>
+    <property key="height" type="double">5</property>
+    <property key="showTitleBar" type="bool">false</property>
+  </gz-gui>
+</plugin>
+<plugin filename="GzSceneManager" name="Scene Manager">
+  <gz-gui>
+    <property key="resizable" type="bool">false</property>
+    <property key="width" type="double">5</property>
+    <property key="height" type="double">5</property>
+    <property key="state" type="string">floating</property>
+    <property key="showTitleBar" type="bool">false</property>
+  </gz-gui>
+</plugin>
+<plugin filename="InteractiveViewControl" name="Interactive view control">
+  <gz-gui>
+    <property key="resizable" type="bool">false</property>
+    <property key="width" type="double">5</property>
+    <property key="height" type="double">5</property>
+    <property key="state" type="string">floating</property>
+    <property key="showTitleBar" type="bool">false</property>
+  </gz-gui>
+</plugin>
+<plugin filename="CameraTracking" name="Camera Tracking">
+  <gz-gui>
+    <property key="resizable" type="bool">false</property>
+    <property key="width" type="double">5</property>
+    <property key="height" type="double">5</property>
+    <property key="state" type="string">floating</property>
+    <property key="showTitleBar" type="bool">false</property>
+  </gz-gui>
+</plugin>
+<plugin filename="MarkerManager" name="Marker manager">
+  <gz-gui>
+    <property key="resizable" type="bool">false</property>
+    <property key="width" type="double">5</property>
+    <property key="height" type="double">5</property>
+    <property key="state" type="string">floating</property>
+    <property key="showTitleBar" type="bool">false</property>
+  </gz-gui>
+</plugin>
+<plugin filename="SelectEntities" name="Select Entities">
+  <gz-gui>
+    <property key="resizable" type="bool">false</property>
+    <property key="width" type="double">5</property>
+    <property key="height" type="double">5</property>
+    <property key="state" type="string">floating</property>
+    <property key="showTitleBar" type="bool">false</property>
+  </gz-gui>
+</plugin>
+
+<plugin filename="Spawn" name="Spawn Entities">
+  <gz-gui>
+    <property key="resizable" type="bool">false</property>
+    <property key="width" type="double">5</property>
+    <property key="height" type="double">5</property>
+    <property key="state" type="string">floating</property>
+    <property key="showTitleBar" type="bool">false</property>
+  </gz-gui>
+</plugin>
+
+<plugin filename="VisualizationCapabilities" name="Visualization Capabilities">
+  <gz-gui>
+    <property key="resizable" type="bool">false</property>
+    <property key="width" type="double">5</property>
+    <property key="height" type="double">5</property>
+    <property key="state" type="string">floating</property>
+    <property key="showTitleBar" type="bool">false</property>
+  </gz-gui>
+</plugin>
+
+
+<plugin filename="WorldControl" name="World control">
+  <gz-gui>
+    <title>World control</title>
+    <property type="bool" key="showTitleBar">false</property>
+    <property type="bool" key="resizable">false</property>
+    <property type="double" key="height">72</property>
+    <property type="double" key="z">1</property>
+
+    <property type="string" key="state">floating</property>
+    <anchors target="3D View">
+      <line own="left" target="left" />
+      <line own="bottom" target="bottom" />
+    </anchors>
+  </gz-gui>
+
+  <play_pause>true</play_pause>
+  <step>true</step>
+  <start_paused>true</start_paused>
+  <use_event>true</use_event>
+
+</plugin>
+
+
+<plugin filename="WorldStats" name="World stats">
+  <gz-gui>
+    <title>World stats</title>
+    <property type="bool" key="showTitleBar">false</property>
+    <property type="bool" key="resizable">false</property>
+    <property type="double" key="height">110</property>
+    <property type="double" key="width">290</property>
+    <property type="double" key="z">1</property>
+
+    <property type="string" key="state">floating</property>
+    <anchors target="3D View">
+      <line own="right" target="right" />
+      <line own="bottom" target="bottom" />
+    </anchors>
+  </gz-gui>
+
+  <sim_time>true</sim_time>
+  <real_time>true</real_time>
+  <real_time_factor>true</real_time_factor>
+  <iterations>true</iterations>
+</plugin>
+
+
+<plugin filename="Shapes" name="Shapes">
+  <gz-gui>
+    <property key="resizable" type="bool">false</property>
+    <property key="x" type="double">0</property>
+    <property key="y" type="double">0</property>
+    <property key="width" type="double">300</property>
+    <property key="height" type="double">50</property>
+    <property key="state" type="string">floating</property>
+    <property key="showTitleBar" type="bool">false</property>
+    <property key="cardBackground" type="string">#666666</property>
+  </gz-gui>
+</plugin>
+
+
+<plugin filename="Lights" name="Lights">
+  <gz-gui>
+    <property key="resizable" type="bool">false</property>
+    <property key="x" type="double">300</property>
+    <property key="y" type="double">0</property>
+    <property key="width" type="double">150</property>
+    <property key="height" type="double">50</property>
+    <property key="state" type="string">floating</property>
+    <property key="showTitleBar" type="bool">false</property>
+    <property key="cardBackground" type="string">#666666</property>
+  </gz-gui>
+</plugin>
+
+
+<plugin filename="TransformControl" name="Transform control">
+  <gz-gui>
+    <property key="resizable" type="bool">false</property>
+    <property key="x" type="double">0</property>
+    <property key="y" type="double">50</property>
+    <property key="width" type="double">250</property>
+    <property key="height" type="double">50</property>
+    <property key="state" type="string">floating</property>
+    <property key="showTitleBar" type="bool">false</property>
+    <property key="cardBackground" type="string">#777777</property>
+  </gz-gui>
+</plugin>
+
+
+<plugin filename="Screenshot" name="Screenshot">
+  <gz-gui>
+    <property key="resizable" type="bool">false</property>
+    <property key="x" type="double">250</property>
+    <property key="y" type="double">50</property>
+    <property key="width" type="double">50</property>
+    <property key="height" type="double">50</property>
+    <property key="state" type="string">floating</property>
+    <property key="showTitleBar" type="bool">false</property>
+    <property key="cardBackground" type="string">#777777</property>
+  </gz-gui>
+</plugin>
+
+
+<plugin filename="CopyPaste" name="CopyPaste">
+  <gz-gui>
+    <property key="resizable" type="bool">false</property>
+    <property key="x" type="double">300</property>
+    <property key="y" type="double">50</property>
+    <property key="width" type="double">100</property>
+    <property key="height" type="double">50</property>
+    <property key="state" type="string">floating</property>
+    <property key="showTitleBar" type="bool">false</property>
+    <property key="cardBackground" type="string">#777777</property>
+  </gz-gui>
+</plugin>
+
+
+<plugin filename="ComponentInspector" name="Component inspector">
+  <gz-gui>
+    <property type="bool" key="showTitleBar">false</property>
+    <property type="string" key="state">docked</property>
+  </gz-gui>
+</plugin>
+
+
+<plugin filename="EntityTree" name="Entity tree">
+  <gz-gui>
+    <property type="bool" key="showTitleBar">false</property>
+    <property type="string" key="state">docked</property>
+  </gz-gui>
+</plugin>
+<plugin filename="Plot3D" name="UAV1 trajectory"><gz-gui><title>UAV1 trace</title><property key="state" type="string">docked</property><property key="showTitleBar" type="bool">true</property></gz-gui><entity_name>x500_0</entity_name><color>0.09 0.45 0.72 1</color><minimum_distance>0.5</minimum_distance><maximum_points>5000</maximum_points><offset>0 0 0</offset></plugin><plugin filename="Plot3D" name="UAV2 trajectory"><gz-gui><title>UAV2 trace</title><property key="state" type="string">docked</property><property key="showTitleBar" type="bool">true</property></gz-gui><entity_name>x500_1</entity_name><color>0.91 0.52 0.08 1</color><minimum_distance>0.5</minimum_distance><maximum_points>5000</maximum_points><offset>0 0 0</offset></plugin><plugin filename="Plot3D" name="UAV3 trajectory"><gz-gui><title>UAV3 trace</title><property key="state" type="string">docked</property><property key="showTitleBar" type="bool">true</property></gz-gui><entity_name>x500_2</entity_name><color>0.15 0.60 0.36 1</color><minimum_distance>0.5</minimum_distance><maximum_points>5000</maximum_points><offset>0 0 0</offset></plugin></gui><plugin filename="gz-sim-sensors-system" name="gz::sim::systems::Sensors"><render_engine>ogre2</render_engine></plugin></world>
+</sdf>

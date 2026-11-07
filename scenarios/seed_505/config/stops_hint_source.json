@@ -1,0 +1,6570 @@
+{
+  "schema": "formation_execution_v12",
+  "ids": [
+    "UAV1",
+    "UAV2",
+    "UAV3"
+  ],
+  "formation": true,
+  "geometric": true,
+  "config": {
+    "schema_version": 1,
+    "world": "farm",
+    "frame": "Gazebo world ENU, metres",
+    "bounds_xy_m": [
+      -50,
+      50,
+      -50,
+      50
+    ],
+    "grid_resolution_m": 1.0,
+    "hill": {
+      "center_xy_m": [
+        10,
+        8
+      ],
+      "height_m": 8,
+      "radii_xy_m": [
+        23,
+        26
+      ]
+    },
+    "terrain_file": "config/terrain.csv",
+    "terrain_interpolation": "piecewise linear; diagonal (i+1,j) to (i,j+1)",
+    "sensors": [
+      {
+        "id": "S01",
+        "world_enu_m": [
+          -35.039315926390614,
+          34.431006237428505,
+          0.65
+        ],
+        "ground_z_m": 0.0,
+        "data_bytes": 100000,
+        "deadline_s": 300
+      },
+      {
+        "id": "S02",
+        "world_enu_m": [
+          -21.94986467210547,
+          20.16520386211357,
+          0.65
+        ],
+        "ground_z_m": 0.0,
+        "data_bytes": 100000,
+        "deadline_s": 300
+      },
+      {
+        "id": "S03",
+        "world_enu_m": [
+          -20.61134164501316,
+          29.501286546526615,
+          0.65
+        ],
+        "ground_z_m": 0.0,
+        "data_bytes": 100000,
+        "deadline_s": 300
+      },
+      {
+        "id": "S04",
+        "world_enu_m": [
+          14.456193410102458,
+          -43.95076974716613,
+          0.65
+        ],
+        "ground_z_m": 0.0,
+        "data_bytes": 100000,
+        "deadline_s": 300
+      },
+      {
+        "id": "S05",
+        "world_enu_m": [
+          45.91429965154251,
+          34.295049764969306,
+          0.65
+        ],
+        "ground_z_m": 0.0,
+        "data_bytes": 100000,
+        "deadline_s": 300
+      },
+      {
+        "id": "S06",
+        "world_enu_m": [
+          -9.55810800675205,
+          3.561531491109669,
+          1.1450177442552862
+        ],
+        "ground_z_m": 0.4950177442552863,
+        "data_bytes": 100000,
+        "deadline_s": 300
+      },
+      {
+        "id": "S07",
+        "world_enu_m": [
+          22.185559644700746,
+          24.640526541667725,
+          1.4168096496519218
+        ],
+        "ground_z_m": 0.7668096496519218,
+        "data_bytes": 100000,
+        "deadline_s": 300
+      },
+      {
+        "id": "S08",
+        "world_enu_m": [
+          34.156999240362566,
+          46.80428695061967,
+          0.65
+        ],
+        "ground_z_m": 0.0,
+        "data_bytes": 100000,
+        "deadline_s": 300
+      },
+      {
+        "id": "S09",
+        "world_enu_m": [
+          43.27392090605517,
+          -25.074410347986674,
+          0.65
+        ],
+        "ground_z_m": 0.0,
+        "data_bytes": 100000,
+        "deadline_s": 300
+      },
+      {
+        "id": "S10",
+        "world_enu_m": [
+          -48.008448409978634,
+          -21.959174317334384,
+          0.65
+        ],
+        "ground_z_m": 0.0,
+        "data_bytes": 100000,
+        "deadline_s": 300
+      },
+      {
+        "id": "S11",
+        "world_enu_m": [
+          -28.697565107028034,
+          26.313387924071876,
+          0.65
+        ],
+        "ground_z_m": 0.0,
+        "data_bytes": 100000,
+        "deadline_s": 300
+      },
+      {
+        "id": "S12",
+        "world_enu_m": [
+          27.115903712858128,
+          47.70061283417735,
+          0.65
+        ],
+        "ground_z_m": 0.0,
+        "data_bytes": 100000,
+        "deadline_s": 300
+      },
+      {
+        "id": "S13",
+        "world_enu_m": [
+          35.703288410485015,
+          27.701058440597265,
+          0.6499999999999999
+        ],
+        "ground_z_m": 0.0,
+        "data_bytes": 100000,
+        "deadline_s": 300
+      },
+      {
+        "id": "S14",
+        "world_enu_m": [
+          49.128564985727024,
+          24.195281455811852,
+          0.6499999999999999
+        ],
+        "ground_z_m": 0.0,
+        "data_bytes": 100000,
+        "deadline_s": 300
+      },
+      {
+        "id": "S15",
+        "world_enu_m": [
+          -11.794972941497392,
+          29.60495448951245,
+          0.65
+        ],
+        "ground_z_m": 0.0,
+        "data_bytes": 100000,
+        "deadline_s": 300
+      },
+      {
+        "id": "S16",
+        "world_enu_m": [
+          32.230431482268756,
+          -18.809644928560807,
+          0.65
+        ],
+        "ground_z_m": 0.0,
+        "data_bytes": 100000,
+        "deadline_s": 300
+      },
+      {
+        "id": "S17",
+        "world_enu_m": [
+          -25.338637556290568,
+          -31.478938048023142,
+          0.65
+        ],
+        "ground_z_m": 0.0,
+        "data_bytes": 100000,
+        "deadline_s": 300
+      },
+      {
+        "id": "S18",
+        "world_enu_m": [
+          -42.78225274635772,
+          23.054813521378364,
+          0.6500000000000004
+        ],
+        "ground_z_m": 0.0,
+        "data_bytes": 100000,
+        "deadline_s": 300
+      },
+      {
+        "id": "S19",
+        "world_enu_m": [
+          49.72598836049316,
+          30.422641862033075,
+          0.6500000000000004
+        ],
+        "ground_z_m": 0.0,
+        "data_bytes": 100000,
+        "deadline_s": 300
+      },
+      {
+        "id": "S20",
+        "world_enu_m": [
+          8.097246190092342,
+          40.88554861257232,
+          0.65
+        ],
+        "ground_z_m": 0.0,
+        "data_bytes": 100000,
+        "deadline_s": 300
+      },
+      {
+        "id": "S21",
+        "world_enu_m": [
+          -9.748972219734412,
+          -12.715773076476488,
+          0.65
+        ],
+        "ground_z_m": 0.0,
+        "data_bytes": 100000,
+        "deadline_s": 300
+      },
+      {
+        "id": "S22",
+        "world_enu_m": [
+          -49.21484130833199,
+          -32.93072908398858,
+          0.65
+        ],
+        "ground_z_m": 0.0,
+        "data_bytes": 100000,
+        "deadline_s": 300
+      },
+      {
+        "id": "S23",
+        "world_enu_m": [
+          17.75793084167222,
+          -8.111739236991788,
+          2.6675195089430734
+        ],
+        "ground_z_m": 2.0175195089430735,
+        "data_bytes": 100000,
+        "deadline_s": 300
+      },
+      {
+        "id": "S24",
+        "world_enu_m": [
+          46.84419531027214,
+          -48.969540355794564,
+          0.6499999999999999
+        ],
+        "ground_z_m": 0.0,
+        "data_bytes": 100000,
+        "deadline_s": 300
+      },
+      {
+        "id": "S25",
+        "world_enu_m": [
+          36.953564560553346,
+          31.290497579329028,
+          0.65
+        ],
+        "ground_z_m": 0.0,
+        "data_bytes": 100000,
+        "deadline_s": 300
+      },
+      {
+        "id": "S26",
+        "world_enu_m": [
+          12.429575128637346,
+          11.978289695701946,
+          8.098962339614996
+        ],
+        "ground_z_m": 7.4489623396149955,
+        "data_bytes": 100000,
+        "deadline_s": 300
+      },
+      {
+        "id": "S27",
+        "world_enu_m": [
+          13.963559266387094,
+          -43.11974471109761,
+          0.65
+        ],
+        "ground_z_m": 0.0,
+        "data_bytes": 100000,
+        "deadline_s": 300
+      },
+      {
+        "id": "S28",
+        "world_enu_m": [
+          -10.705603045263821,
+          46.14946361564739,
+          0.65
+        ],
+        "ground_z_m": 0.0,
+        "data_bytes": 100000,
+        "deadline_s": 300
+      },
+      {
+        "id": "S29",
+        "world_enu_m": [
+          0.568069197176726,
+          -38.76348546381186,
+          0.65
+        ],
+        "ground_z_m": 0.0,
+        "data_bytes": 100000,
+        "deadline_s": 300
+      },
+      {
+        "id": "S30",
+        "world_enu_m": [
+          -5.232054000057296,
+          -41.77902293329326,
+          0.65
+        ],
+        "ground_z_m": 0.0,
+        "data_bytes": 100000,
+        "deadline_s": 300
+      }
+    ],
+    "uav_spawns": [
+      {
+        "id": "UAV1",
+        "instance": 0,
+        "system_id": 1,
+        "namespace": "/fmu",
+        "world_enu_m": [
+          -70.0,
+          -10.0,
+          0.12
+        ],
+        "yaw_rad": 0
+      },
+      {
+        "id": "UAV2",
+        "instance": 1,
+        "system_id": 2,
+        "namespace": "/px4_1/fmu",
+        "world_enu_m": [
+          -55.0,
+          0.0,
+          0.12
+        ],
+        "yaw_rad": 0
+      },
+      {
+        "id": "UAV3",
+        "instance": 2,
+        "system_id": 3,
+        "namespace": "/px4_2/fmu",
+        "world_enu_m": [
+          -70.0,
+          10.0,
+          0.12
+        ],
+        "yaw_rad": 0
+      }
+    ],
+    "note": "Farm ROI unchanged [-50,50]^2; separate flat west apron outside farm. Extended terrain grid is for flight checking, not enlarged sensor ROI.",
+    "scenario": {
+      "schema": "random30_iid_v1",
+      "layout": "uniform_iid_xy",
+      "seed": 505,
+      "count": 30,
+      "generator": "Python random.Random(seed); successive uniform X then Y draws",
+      "placement": "Full original farm ROI; no minimum spacing, rejection or load balancing",
+      "terrain": "Same triangulated mesh; antenna at ground + 0.65 m"
+    },
+    "flight_bounds_xy_m": [
+      -78,
+      47,
+      -47,
+      47
+    ]
+  },
+  "policy": {
+    "min_distance_m": 12.0,
+    "max_distance_m": 28.0,
+    "max_radius_m": 18.0,
+    "tracking_budget_m": 2.0,
+    "min_agl_m": 5.0,
+    "planned_clearance_m": 8.0,
+    "collection_range_m": 28.0,
+    "service_range_reserve_m": 2.0,
+    "horizontal_speed_m_s": 1.2,
+    "vertical_speed_m_s": 0.6,
+    "acceleration_m_s2": 0.4,
+    "nominal_link_bps": 160000.0,
+    "service_guard_s": 0.5,
+    "scales": [
+      0.9,
+      1.0,
+      1.1
+    ],
+    "max_world_altitude_m": 18.0,
+    "pause_error_m": 0.8,
+    "resume_error_m": 0.3,
+    "max_pause_s": 45.0,
+    "max_step_s": 0.1,
+    "max_age_s": 0.5,
+    "service_position_error_m": 0.35,
+    "service_speed_m_s": 0.25,
+    "service_settle_s": 0.5,
+    "warning_min_m": 14.0,
+    "warning_max_m": 26.0
+  },
+  "mission": {
+    "schema": "formation_energy_offline_v6",
+    "executable_in_sitl": false,
+    "scope": "Offline 3D connector ablation; no flight commands or measured radio/battery",
+    "policy": {
+      "min_distance_m": 12.0,
+      "max_distance_m": 28.0,
+      "max_radius_m": 18.0,
+      "tracking_budget_m": 2.0,
+      "min_agl_m": 5.0,
+      "planned_clearance_m": 8.0,
+      "collection_range_m": 28.0,
+      "service_range_reserve_m": 2.0,
+      "horizontal_speed_m_s": 1.2,
+      "vertical_speed_m_s": 0.6,
+      "acceleration_m_s2": 0.4,
+      "nominal_link_bps": 160000.0,
+      "service_guard_s": 0.5,
+      "scales": [
+        0.9,
+        1.0,
+        1.1
+      ],
+      "max_world_altitude_m": 18.0
+    },
+    "initial_state": [
+      -65.0,
+      0.0,
+      8.0,
+      1.0
+    ],
+    "stages": [
+      {
+        "state": [
+          -21.94986467210547,
+          20.16520386211357,
+          8.806858180180889,
+          1.0
+        ],
+        "sensor_ids": [
+          "S01",
+          "S02",
+          "S03",
+          "S06",
+          "S11",
+          "S15",
+          "S18",
+          "S28"
+        ],
+        "start_s": 44.116420767149165,
+        "end_s": 60.616420767149165
+      },
+      {
+        "state": [
+          -25.338637556290568,
+          -31.478938048023142,
+          10.0,
+          1.0
+        ],
+        "sensor_ids": [
+          "S10",
+          "S17",
+          "S21",
+          "S22",
+          "S29",
+          "S30"
+        ],
+        "start_s": 108.2469533505558,
+        "end_s": 119.2469533505558
+      },
+      {
+        "state": [
+          34.0,
+          -34.0,
+          12.0,
+          1.1
+        ],
+        "sensor_ids": [
+          "S04",
+          "S09",
+          "S16",
+          "S23",
+          "S24",
+          "S27"
+        ],
+        "start_s": 174.0754886750136,
+        "end_s": 190.5754886750136
+      },
+      {
+        "state": [
+          22.185559644700746,
+          24.640526541667725,
+          14.905403924106643,
+          1.0
+        ],
+        "sensor_ids": [
+          "S05",
+          "S07",
+          "S08",
+          "S12",
+          "S13",
+          "S14",
+          "S19",
+          "S20",
+          "S25",
+          "S26"
+        ],
+        "start_s": 245.66753545856469,
+        "end_s": 267.66753545856466
+      }
+    ],
+    "services": [
+      {
+        "sensor": "S01",
+        "uav": "UAV3",
+        "start_s": 44.116420767149165,
+        "end_s": 49.616420767149165,
+        "assumed_bytes": 100000,
+        "position": [
+          -26.94986467210547,
+          30.16520386211357,
+          8.806858180180889
+        ],
+        "stage": 0
+      },
+      {
+        "sensor": "S28",
+        "uav": "UAV3",
+        "start_s": 49.616420767149165,
+        "end_s": 55.116420767149165,
+        "assumed_bytes": 100000,
+        "position": [
+          -26.94986467210547,
+          30.16520386211357,
+          8.806858180180889
+        ],
+        "stage": 0
+      },
+      {
+        "sensor": "S06",
+        "uav": "UAV1",
+        "start_s": 44.116420767149165,
+        "end_s": 49.616420767149165,
+        "assumed_bytes": 100000,
+        "position": [
+          -26.94986467210547,
+          10.165203862113572,
+          8.806858180180889
+        ],
+        "stage": 0
+      },
+      {
+        "sensor": "S18",
+        "uav": "UAV1",
+        "start_s": 49.616420767149165,
+        "end_s": 55.116420767149165,
+        "assumed_bytes": 100000,
+        "position": [
+          -26.94986467210547,
+          10.165203862113572,
+          8.806858180180889
+        ],
+        "stage": 0
+      },
+      {
+        "sensor": "S02",
+        "uav": "UAV2",
+        "start_s": 44.116420767149165,
+        "end_s": 49.616420767149165,
+        "assumed_bytes": 100000,
+        "position": [
+          -11.94986467210547,
+          20.16520386211357,
+          8.806858180180889
+        ],
+        "stage": 0
+      },
+      {
+        "sensor": "S03",
+        "uav": "UAV2",
+        "start_s": 49.616420767149165,
+        "end_s": 55.116420767149165,
+        "assumed_bytes": 100000,
+        "position": [
+          -11.94986467210547,
+          20.16520386211357,
+          8.806858180180889
+        ],
+        "stage": 0
+      },
+      {
+        "sensor": "S11",
+        "uav": "UAV1",
+        "start_s": 55.116420767149165,
+        "end_s": 60.616420767149165,
+        "assumed_bytes": 100000,
+        "position": [
+          -26.94986467210547,
+          10.165203862113572,
+          8.806858180180889
+        ],
+        "stage": 0
+      },
+      {
+        "sensor": "S15",
+        "uav": "UAV2",
+        "start_s": 55.116420767149165,
+        "end_s": 60.616420767149165,
+        "assumed_bytes": 100000,
+        "position": [
+          -11.94986467210547,
+          20.16520386211357,
+          8.806858180180889
+        ],
+        "stage": 0
+      },
+      {
+        "sensor": "S10",
+        "uav": "UAV3",
+        "start_s": 108.2469533505558,
+        "end_s": 113.7469533505558,
+        "assumed_bytes": 100000,
+        "position": [
+          -30.338637556290568,
+          -21.478938048023142,
+          10.0
+        ],
+        "stage": 1
+      },
+      {
+        "sensor": "S29",
+        "uav": "UAV2",
+        "start_s": 108.2469533505558,
+        "end_s": 113.7469533505558,
+        "assumed_bytes": 100000,
+        "position": [
+          -15.338637556290568,
+          -31.478938048023142,
+          10.0
+        ],
+        "stage": 1
+      },
+      {
+        "sensor": "S30",
+        "uav": "UAV2",
+        "start_s": 113.7469533505558,
+        "end_s": 119.2469533505558,
+        "assumed_bytes": 100000,
+        "position": [
+          -15.338637556290568,
+          -31.478938048023142,
+          10.0
+        ],
+        "stage": 1
+      },
+      {
+        "sensor": "S21",
+        "uav": "UAV3",
+        "start_s": 113.7469533505558,
+        "end_s": 119.2469533505558,
+        "assumed_bytes": 100000,
+        "position": [
+          -30.338637556290568,
+          -21.478938048023142,
+          10.0
+        ],
+        "stage": 1
+      },
+      {
+        "sensor": "S22",
+        "uav": "UAV1",
+        "start_s": 108.2469533505558,
+        "end_s": 113.7469533505558,
+        "assumed_bytes": 100000,
+        "position": [
+          -30.338637556290568,
+          -41.47893804802314,
+          10.0
+        ],
+        "stage": 1
+      },
+      {
+        "sensor": "S17",
+        "uav": "UAV1",
+        "start_s": 113.7469533505558,
+        "end_s": 119.2469533505558,
+        "assumed_bytes": 100000,
+        "position": [
+          -30.338637556290568,
+          -41.47893804802314,
+          10.0
+        ],
+        "stage": 1
+      },
+      {
+        "sensor": "S04",
+        "uav": "UAV1",
+        "start_s": 174.0754886750136,
+        "end_s": 179.5754886750136,
+        "assumed_bytes": 100000,
+        "position": [
+          28.5,
+          -45.0,
+          12.0
+        ],
+        "stage": 2
+      },
+      {
+        "sensor": "S23",
+        "uav": "UAV3",
+        "start_s": 174.0754886750136,
+        "end_s": 179.5754886750136,
+        "assumed_bytes": 100000,
+        "position": [
+          28.5,
+          -23.0,
+          12.0
+        ],
+        "stage": 2
+      },
+      {
+        "sensor": "S27",
+        "uav": "UAV1",
+        "start_s": 179.5754886750136,
+        "end_s": 185.0754886750136,
+        "assumed_bytes": 100000,
+        "position": [
+          28.5,
+          -45.0,
+          12.0
+        ],
+        "stage": 2
+      },
+      {
+        "sensor": "S09",
+        "uav": "UAV2",
+        "start_s": 174.0754886750136,
+        "end_s": 179.5754886750136,
+        "assumed_bytes": 100000,
+        "position": [
+          45.0,
+          -34.0,
+          12.0
+        ],
+        "stage": 2
+      },
+      {
+        "sensor": "S16",
+        "uav": "UAV2",
+        "start_s": 179.5754886750136,
+        "end_s": 185.0754886750136,
+        "assumed_bytes": 100000,
+        "position": [
+          45.0,
+          -34.0,
+          12.0
+        ],
+        "stage": 2
+      },
+      {
+        "sensor": "S24",
+        "uav": "UAV1",
+        "start_s": 185.0754886750136,
+        "end_s": 190.5754886750136,
+        "assumed_bytes": 100000,
+        "position": [
+          28.5,
+          -45.0,
+          12.0
+        ],
+        "stage": 2
+      },
+      {
+        "sensor": "S05",
+        "uav": "UAV2",
+        "start_s": 245.66753545856469,
+        "end_s": 251.16753545856469,
+        "assumed_bytes": 100000,
+        "position": [
+          32.185559644700746,
+          24.640526541667725,
+          14.905403924106643
+        ],
+        "stage": 3
+      },
+      {
+        "sensor": "S08",
+        "uav": "UAV3",
+        "start_s": 245.66753545856469,
+        "end_s": 251.16753545856469,
+        "assumed_bytes": 100000,
+        "position": [
+          17.185559644700746,
+          34.640526541667725,
+          14.905403924106643
+        ],
+        "stage": 3
+      },
+      {
+        "sensor": "S12",
+        "uav": "UAV3",
+        "start_s": 251.16753545856469,
+        "end_s": 256.66753545856466,
+        "assumed_bytes": 100000,
+        "position": [
+          17.185559644700746,
+          34.640526541667725,
+          14.905403924106643
+        ],
+        "stage": 3
+      },
+      {
+        "sensor": "S14",
+        "uav": "UAV2",
+        "start_s": 251.16753545856469,
+        "end_s": 256.66753545856466,
+        "assumed_bytes": 100000,
+        "position": [
+          32.185559644700746,
+          24.640526541667725,
+          14.905403924106643
+        ],
+        "stage": 3
+      },
+      {
+        "sensor": "S19",
+        "uav": "UAV2",
+        "start_s": 256.66753545856466,
+        "end_s": 262.16753545856466,
+        "assumed_bytes": 100000,
+        "position": [
+          32.185559644700746,
+          24.640526541667725,
+          14.905403924106643
+        ],
+        "stage": 3
+      },
+      {
+        "sensor": "S20",
+        "uav": "UAV3",
+        "start_s": 256.66753545856466,
+        "end_s": 262.16753545856466,
+        "assumed_bytes": 100000,
+        "position": [
+          17.185559644700746,
+          34.640526541667725,
+          14.905403924106643
+        ],
+        "stage": 3
+      },
+      {
+        "sensor": "S13",
+        "uav": "UAV2",
+        "start_s": 262.16753545856466,
+        "end_s": 267.66753545856466,
+        "assumed_bytes": 100000,
+        "position": [
+          32.185559644700746,
+          24.640526541667725,
+          14.905403924106643
+        ],
+        "stage": 3
+      },
+      {
+        "sensor": "S25",
+        "uav": "UAV3",
+        "start_s": 262.16753545856466,
+        "end_s": 267.66753545856466,
+        "assumed_bytes": 100000,
+        "position": [
+          17.185559644700746,
+          34.640526541667725,
+          14.905403924106643
+        ],
+        "stage": 3
+      },
+      {
+        "sensor": "S07",
+        "uav": "UAV1",
+        "start_s": 245.66753545856469,
+        "end_s": 251.16753545856469,
+        "assumed_bytes": 100000,
+        "position": [
+          17.185559644700746,
+          14.640526541667725,
+          14.905403924106643
+        ],
+        "stage": 3
+      },
+      {
+        "sensor": "S26",
+        "uav": "UAV1",
+        "start_s": 251.16753545856469,
+        "end_s": 256.66753545856466,
+        "assumed_bytes": 100000,
+        "position": [
+          17.185559644700746,
+          14.640526541667725,
+          14.905403924106643
+        ],
+        "stage": 3
+      }
+    ],
+    "segments": [
+      {
+        "start": [
+          -65.0,
+          0.0,
+          8.0,
+          1.0
+        ],
+        "end": [
+          -21.94986467210547,
+          20.16520386211357,
+          8.806858180180889,
+          1.0
+        ],
+        "start_s": 0.0,
+        "end_s": 44.116420767149165,
+        "duration_s": 44.116420767149165,
+        "kind": "TRANSIT",
+        "profile": {
+          "kind": "smooth_cruise_v1",
+          "duration_s": 44.116420767149165,
+          "ramp_s": 4.500648107286283,
+          "cruise_s": 35.1151245525766,
+          "peak_progress_rate_s_inv": 0.025242471189086763
+        }
+      },
+      {
+        "start": [
+          -21.94986467210547,
+          20.16520386211357,
+          8.806858180180889,
+          1.0
+        ],
+        "end": [
+          -21.94986467210547,
+          20.16520386211357,
+          8.806858180180889,
+          1.0
+        ],
+        "start_s": 44.116420767149165,
+        "end_s": 60.616420767149165,
+        "duration_s": 16.5,
+        "kind": "SERVICE",
+        "profile": {
+          "kind": "hold",
+          "duration_s": 16.5
+        }
+      },
+      {
+        "start": [
+          -21.94986467210547,
+          20.16520386211357,
+          8.806858180180889,
+          1.0
+        ],
+        "end": [
+          -25.338637556290568,
+          -31.478938048023142,
+          10.0,
+          1.0
+        ],
+        "start_s": 60.616420767149165,
+        "end_s": 108.2469533505558,
+        "duration_s": 47.63053258340663,
+        "kind": "TRANSIT",
+        "profile": {
+          "kind": "smooth_cruise_v1",
+          "duration_s": 47.63053258340663,
+          "ramp_s": 4.5011956412981675,
+          "cruise_s": 38.62814130081029,
+          "peak_progress_rate_s_inv": 0.02318607404844358
+        }
+      },
+      {
+        "start": [
+          -25.338637556290568,
+          -31.478938048023142,
+          10.0,
+          1.0
+        ],
+        "end": [
+          -25.338637556290568,
+          -31.478938048023142,
+          10.0,
+          1.0
+        ],
+        "start_s": 108.2469533505558,
+        "end_s": 119.2469533505558,
+        "duration_s": 11.0,
+        "kind": "SERVICE",
+        "profile": {
+          "kind": "hold",
+          "duration_s": 11.0
+        }
+      },
+      {
+        "start": [
+          -25.338637556290568,
+          -31.478938048023142,
+          10.0,
+          1.0
+        ],
+        "end": [
+          34.0,
+          -34.0,
+          12.0,
+          1.1
+        ],
+        "start_s": 119.2469533505558,
+        "end_s": 174.0754886750136,
+        "duration_s": 54.82853532445778,
+        "kind": "TRANSIT",
+        "profile": {
+          "kind": "smooth_cruise_v1",
+          "duration_s": 54.82853532445778,
+          "ramp_s": 4.502467033131196,
+          "cruise_s": 45.82360125819539,
+          "peak_progress_rate_s_inv": 0.019870417736812244
+        }
+      },
+      {
+        "start": [
+          34.0,
+          -34.0,
+          12.0,
+          1.1
+        ],
+        "end": [
+          34.0,
+          -34.0,
+          12.0,
+          1.1
+        ],
+        "start_s": 174.0754886750136,
+        "end_s": 190.5754886750136,
+        "duration_s": 16.5,
+        "kind": "SERVICE",
+        "profile": {
+          "kind": "hold",
+          "duration_s": 16.5
+        }
+      },
+      {
+        "start": [
+          34.0,
+          -34.0,
+          12.0,
+          1.1
+        ],
+        "end": [
+          22.185559644700746,
+          24.640526541667725,
+          14.905403924106643,
+          1.0
+        ],
+        "start_s": 190.5754886750136,
+        "end_s": 245.66753545856469,
+        "duration_s": 55.092046783551105,
+        "kind": "TRANSIT",
+        "profile": {
+          "kind": "smooth_cruise_v1",
+          "duration_s": 55.092046783551105,
+          "ramp_s": 4.505151201124239,
+          "cruise_s": 46.08174438130263,
+          "peak_progress_rate_s_inv": 0.019767965369027016
+        }
+      },
+      {
+        "start": [
+          22.185559644700746,
+          24.640526541667725,
+          14.905403924106643,
+          1.0
+        ],
+        "end": [
+          22.185559644700746,
+          24.640526541667725,
+          14.905403924106643,
+          1.0
+        ],
+        "start_s": 245.66753545856469,
+        "end_s": 267.66753545856466,
+        "duration_s": 21.99999999999997,
+        "kind": "SERVICE",
+        "profile": {
+          "kind": "hold",
+          "duration_s": 21.99999999999997
+        }
+      },
+      {
+        "start": [
+          22.185559644700746,
+          24.640526541667725,
+          14.905403924106643,
+          1.0
+        ],
+        "end": [
+          -24.12690565170237,
+          21.94332468195592,
+          14.905403924106643,
+          1.0
+        ],
+        "start_s": 267.66753545856466,
+        "end_s": 310.8266523553317,
+        "duration_s": 43.15911689676706,
+        "kind": "RETURN",
+        "profile": {
+          "kind": "smooth_cruise_v1",
+          "duration_s": 43.15911689676706,
+          "ramp_s": 4.5,
+          "cruise_s": 34.15911689676706,
+          "peak_progress_rate_s_inv": 0.025867119589677613
+        }
+      },
+      {
+        "start": [
+          -24.12690565170237,
+          21.94332468195592,
+          14.905403924106643,
+          1.0
+        ],
+        "end": [
+          -65.0,
+          0.0,
+          8.0,
+          1.0
+        ],
+        "start_s": 310.8266523553317,
+        "end_s": 354.0353494684762,
+        "duration_s": 43.20869711314452,
+        "kind": "RETURN",
+        "profile": {
+          "kind": "smooth_cruise_v1",
+          "duration_s": 43.20869711314452,
+          "ramp_s": 4.549580216377469,
+          "cruise_s": 34.10953668038958,
+          "peak_progress_rate_s_inv": 0.025867119589677617
+        }
+      }
+    ],
+    "energy_estimate": {
+      "status": "uncalibrated_reference_estimate",
+      "per_uav": {
+        "UAV1": {
+          "quasi_steady_j": 109708.75975243344,
+          "positive_climb_work_j": 186.3901381920869,
+          "positive_kinetic_work_j": 11.848805671042332,
+          "avionics_j": 1770.1767473423813,
+          "radio_j": 164.99999999999991,
+          "total_j": 111842.17544363895,
+          "total_wh": 31.067270956566375
+        },
+        "UAV2": {
+          "quasi_steady_j": 109706.01327749957,
+          "positive_climb_work_j": 186.3901381920869,
+          "positive_kinetic_work_j": 11.898513530994528,
+          "avionics_j": 1770.1767473423813,
+          "radio_j": 181.49999999999991,
+          "total_j": 111855.97867656504,
+          "total_wh": 31.071105187934734
+        },
+        "UAV3": {
+          "quasi_steady_j": 109716.10252024629,
+          "positive_climb_work_j": 186.3901381920869,
+          "positive_kinetic_work_j": 11.71718264791626,
+          "avionics_j": 1770.1767473423813,
+          "radio_j": 148.49999999999991,
+          "total_j": 111832.88658842868,
+          "total_wh": 31.064690719007967
+        }
+      },
+      "team_wh": 93.20306686350908,
+      "mission_energy_limit_wh_per_uav": null,
+      "budget_feasible": null,
+      "derived": {
+        "hover_electrical_proxy_w": 311.52698328383235,
+        "induced_velocity_m_s": 5.8079959115679785,
+        "rotor_tip_speed_m_s": 107.42462454852617
+      },
+      "segments": [
+        {
+          "start_s": 0.0,
+          "end_s": 44.116420767149165,
+          "energy": {
+            "UAV1": {
+              "quasi_steady_j": 13654.42202376511,
+              "positive_climb_work_j": 21.778654711322734,
+              "positive_kinetic_work_j": 1.9823062600077046,
+              "avionics_j": 220.58210383574584,
+              "total_j": 13898.765088572187
+            },
+            "UAV2": {
+              "quasi_steady_j": 13654.42202376511,
+              "positive_climb_work_j": 21.778654711322734,
+              "positive_kinetic_work_j": 1.9823062600077046,
+              "avionics_j": 220.58210383574584,
+              "total_j": 13898.765088572187
+            },
+            "UAV3": {
+              "quasi_steady_j": 13654.42202376511,
+              "positive_climb_work_j": 21.778654711322734,
+              "positive_kinetic_work_j": 1.9823062600077046,
+              "avionics_j": 220.58210383574584,
+              "total_j": 13898.765088572187
+            }
+          }
+        },
+        {
+          "start_s": 44.116420767149165,
+          "end_s": 60.616420767149165,
+          "energy": {
+            "UAV1": {
+              "quasi_steady_j": 5140.195224183234,
+              "positive_climb_work_j": 0.0,
+              "positive_kinetic_work_j": 0.0,
+              "avionics_j": 82.5,
+              "total_j": 5222.695224183234
+            },
+            "UAV2": {
+              "quasi_steady_j": 5140.195224183234,
+              "positive_climb_work_j": 0.0,
+              "positive_kinetic_work_j": 0.0,
+              "avionics_j": 82.5,
+              "total_j": 5222.695224183234
+            },
+            "UAV3": {
+              "quasi_steady_j": 5140.195224183234,
+              "positive_climb_work_j": 0.0,
+              "positive_kinetic_work_j": 0.0,
+              "avionics_j": 82.5,
+              "total_j": 5222.695224183234
+            }
+          }
+        },
+        {
+          "start_s": 60.616420767149165,
+          "end_s": 108.2469533505558,
+          "energy": {
+            "UAV1": {
+              "quasi_steady_j": 14741.037364088761,
+              "positive_climb_work_j": 32.205193370728544,
+              "positive_kinetic_work_j": 1.9827886110359711,
+              "avionics_j": 238.15266291703313,
+              "total_j": 15013.378008987558
+            },
+            "UAV2": {
+              "quasi_steady_j": 14741.037364088761,
+              "positive_climb_work_j": 32.205193370728544,
+              "positive_kinetic_work_j": 1.9827886110359711,
+              "avionics_j": 238.15266291703313,
+              "total_j": 15013.378008987558
+            },
+            "UAV3": {
+              "quasi_steady_j": 14741.037364088761,
+              "positive_climb_work_j": 32.205193370728544,
+              "positive_kinetic_work_j": 1.9827886110359711,
+              "avionics_j": 238.15266291703313,
+              "total_j": 15013.378008987558
+            }
+          }
+        },
+        {
+          "start_s": 108.2469533505558,
+          "end_s": 119.2469533505558,
+          "energy": {
+            "UAV1": {
+              "quasi_steady_j": 3426.796816122156,
+              "positive_climb_work_j": 0.0,
+              "positive_kinetic_work_j": 0.0,
+              "avionics_j": 55.0,
+              "total_j": 3481.796816122156
+            },
+            "UAV2": {
+              "quasi_steady_j": 3426.796816122156,
+              "positive_climb_work_j": 0.0,
+              "positive_kinetic_work_j": 0.0,
+              "avionics_j": 55.0,
+              "total_j": 3481.796816122156
+            },
+            "UAV3": {
+              "quasi_steady_j": 3426.796816122156,
+              "positive_climb_work_j": 0.0,
+              "positive_kinetic_work_j": 0.0,
+              "avionics_j": 55.0,
+              "total_j": 3481.796816122156
+            }
+          }
+        },
+        {
+          "start_s": 119.2469533505558,
+          "end_s": 174.0754886750136,
+          "energy": {
+            "UAV1": {
+              "quasi_steady_j": 16971.97333067074,
+              "positive_climb_work_j": 53.98384808205128,
+              "positive_kinetic_work_j": 1.890055620809779,
+              "avionics_j": 274.1426766222889,
+              "total_j": 17301.98991099589
+            },
+            "UAV2": {
+              "quasi_steady_j": 16966.76668842762,
+              "positive_climb_work_j": 53.98384808205128,
+              "positive_kinetic_work_j": 1.9839088721710327,
+              "avionics_j": 274.1426766222889,
+              "total_j": 17296.87712200413
+            },
+            "UAV3": {
+              "quasi_steady_j": 16972.277760052475,
+              "positive_climb_work_j": 53.98384808205128,
+              "positive_kinetic_work_j": 1.884576124030138,
+              "avionics_j": 274.1426766222889,
+              "total_j": 17302.288860880846
+            }
+          }
+        },
+        {
+          "start_s": 174.0754886750136,
+          "end_s": 190.5754886750136,
+          "energy": {
+            "UAV1": {
+              "quasi_steady_j": 5140.195224183234,
+              "positive_climb_work_j": 0.0,
+              "positive_kinetic_work_j": 0.0,
+              "avionics_j": 82.5,
+              "total_j": 5222.695224183234
+            },
+            "UAV2": {
+              "quasi_steady_j": 5140.195224183234,
+              "positive_climb_work_j": 0.0,
+              "positive_kinetic_work_j": 0.0,
+              "avionics_j": 82.5,
+              "total_j": 5222.695224183234
+            },
+            "UAV3": {
+              "quasi_steady_j": 5140.195224183234,
+              "positive_climb_work_j": 0.0,
+              "positive_kinetic_work_j": 0.0,
+              "avionics_j": 82.5,
+              "total_j": 5222.695224183234
+            }
+          }
+        },
+        {
+          "start_s": 190.5754886750136,
+          "end_s": 245.66753545856469,
+          "energy": {
+            "UAV1": {
+              "quasi_steady_j": 17048.255958345144,
+              "positive_climb_work_j": 78.42244202798435,
+              "positive_kinetic_work_j": 1.9862750114285879,
+              "avionics_j": 275.46023391775555,
+              "total_j": 17404.12490930231
+            },
+            "UAV2": {
+              "quasi_steady_j": 17050.7161256544,
+              "positive_climb_work_j": 78.42244202798435,
+              "positive_kinetic_work_j": 1.9421296200195313,
+              "avionics_j": 275.46023391775555,
+              "total_j": 17406.54093122016
+            },
+            "UAV3": {
+              "quasi_steady_j": 17055.294296776265,
+              "positive_climb_work_j": 78.42244202798435,
+              "positive_kinetic_work_j": 1.8601314850821575,
+              "avionics_j": 275.46023391775555,
+              "total_j": 17411.037104207087
+            }
+          }
+        },
+        {
+          "start_s": 245.66753545856469,
+          "end_s": 267.66753545856466,
+          "energy": {
+            "UAV1": {
+              "quasi_steady_j": 6853.593632244303,
+              "positive_climb_work_j": 0.0,
+              "positive_kinetic_work_j": 0.0,
+              "avionics_j": 109.99999999999986,
+              "total_j": 6963.593632244303
+            },
+            "UAV2": {
+              "quasi_steady_j": 6853.593632244303,
+              "positive_climb_work_j": 0.0,
+              "positive_kinetic_work_j": 0.0,
+              "avionics_j": 109.99999999999986,
+              "total_j": 6963.593632244303
+            },
+            "UAV3": {
+              "quasi_steady_j": 6853.593632244303,
+              "positive_climb_work_j": 0.0,
+              "positive_kinetic_work_j": 0.0,
+              "avionics_j": 109.99999999999986,
+              "total_j": 6963.593632244303
+            }
+          }
+        },
+        {
+          "start_s": 267.66753545856466,
+          "end_s": 310.8266523553317,
+          "energy": {
+            "UAV1": {
+              "quasi_steady_j": 13358.408070084595,
+              "positive_climb_work_j": 0.0,
+              "positive_kinetic_work_j": 1.9817353846153847,
+              "avionics_j": 215.79558448383528,
+              "total_j": 13576.185389953045
+            },
+            "UAV2": {
+              "quasi_steady_j": 13358.408070084595,
+              "positive_climb_work_j": 0.0,
+              "positive_kinetic_work_j": 1.9817353846153847,
+              "avionics_j": 215.79558448383528,
+              "total_j": 13576.185389953045
+            },
+            "UAV3": {
+              "quasi_steady_j": 13358.408070084595,
+              "positive_climb_work_j": 0.0,
+              "positive_kinetic_work_j": 1.9817353846153847,
+              "avionics_j": 215.79558448383528,
+              "total_j": 13576.185389953045
+            }
+          }
+        },
+        {
+          "start_s": 310.8266523553317,
+          "end_s": 354.0353494684762,
+          "energy": {
+            "UAV1": {
+              "quasi_steady_j": 13373.88210874615,
+              "positive_climb_work_j": 0.0,
+              "positive_kinetic_work_j": 2.025644783144904,
+              "avionics_j": 216.0434855657226,
+              "total_j": 13591.951239095017
+            },
+            "UAV2": {
+              "quasi_steady_j": 13373.88210874615,
+              "positive_climb_work_j": 0.0,
+              "positive_kinetic_work_j": 2.025644783144904,
+              "avionics_j": 216.0434855657226,
+              "total_j": 13591.951239095017
+            },
+            "UAV3": {
+              "quasi_steady_j": 13373.88210874615,
+              "positive_climb_work_j": 0.0,
+              "positive_kinetic_work_j": 2.025644783144904,
+              "avionics_j": 216.0434855657226,
+              "total_j": 13591.951239095017
+            }
+          }
+        }
+      ],
+      "excludes": [
+        "takeoff",
+        "landing",
+        "feedback pauses",
+        "wind",
+        "battery/SOC dynamics"
+      ]
+    },
+    "summary": {
+      "sensors": 30,
+      "geometrically_scheduled": 30,
+      "stages": 4,
+      "duration_s": 354.0353494684762,
+      "airborne_collection_complete_s": 267.66753545856466,
+      "deadline_misses": 0,
+      "total_lateness_s": 0.0,
+      "deadline_feasible": true,
+      "loads": {
+        "UAV1": 10,
+        "UAV2": 11,
+        "UAV3": 9
+      },
+      "min_world_altitude_m": 8.0,
+      "max_world_altitude_m": 14.905403924106643,
+      "scales_used": [
+        1.0,
+        1.1
+      ],
+      "retiming_mode": "fast",
+      "team_energy_estimate_wh": 93.20306686350908,
+      "energy_budget_feasible": null,
+      "peak_horizontal_speed_m_s": 1.2,
+      "checks": {
+        "reference_min_pair_m": 18.027756377319946,
+        "reference_max_pair_m": 22.0,
+        "reference_min_agl_m": 7.79881286809295,
+        "reference_max_radius_m": 12.298373876248844,
+        "conservative_agl_with_tracking_m": 5.117003658009518,
+        "assumed_tracking_budget_m": 2.0,
+        "deadline_misses": 0,
+        "total_lateness_s": 0.0,
+        "deadline_feasible": true,
+        "note": "Conditional reference geometry only. Deadline clock starts above pads, excluding launch."
+      }
+    },
+    "arm_deadline_prediction": {
+      "clock": "since first ARM command",
+      "services": [
+        {
+          "sensor": "S01",
+          "stage": 0,
+          "reference_end_s": 49.616420767149165,
+          "predicted_since_arm_s": 73.61642076714917,
+          "deadline_s": 300,
+          "slack_s": 226.38357923285082
+        },
+        {
+          "sensor": "S28",
+          "stage": 0,
+          "reference_end_s": 55.116420767149165,
+          "predicted_since_arm_s": 79.11642076714917,
+          "deadline_s": 300,
+          "slack_s": 220.88357923285082
+        },
+        {
+          "sensor": "S06",
+          "stage": 0,
+          "reference_end_s": 49.616420767149165,
+          "predicted_since_arm_s": 73.61642076714917,
+          "deadline_s": 300,
+          "slack_s": 226.38357923285082
+        },
+        {
+          "sensor": "S18",
+          "stage": 0,
+          "reference_end_s": 55.116420767149165,
+          "predicted_since_arm_s": 79.11642076714917,
+          "deadline_s": 300,
+          "slack_s": 220.88357923285082
+        },
+        {
+          "sensor": "S02",
+          "stage": 0,
+          "reference_end_s": 49.616420767149165,
+          "predicted_since_arm_s": 73.61642076714917,
+          "deadline_s": 300,
+          "slack_s": 226.38357923285082
+        },
+        {
+          "sensor": "S03",
+          "stage": 0,
+          "reference_end_s": 55.116420767149165,
+          "predicted_since_arm_s": 79.11642076714917,
+          "deadline_s": 300,
+          "slack_s": 220.88357923285082
+        },
+        {
+          "sensor": "S11",
+          "stage": 0,
+          "reference_end_s": 60.616420767149165,
+          "predicted_since_arm_s": 84.61642076714917,
+          "deadline_s": 300,
+          "slack_s": 215.38357923285082
+        },
+        {
+          "sensor": "S15",
+          "stage": 0,
+          "reference_end_s": 60.616420767149165,
+          "predicted_since_arm_s": 84.61642076714917,
+          "deadline_s": 300,
+          "slack_s": 215.38357923285082
+        },
+        {
+          "sensor": "S10",
+          "stage": 1,
+          "reference_end_s": 113.7469533505558,
+          "predicted_since_arm_s": 138.7469533505558,
+          "deadline_s": 300,
+          "slack_s": 161.2530466494442
+        },
+        {
+          "sensor": "S29",
+          "stage": 1,
+          "reference_end_s": 113.7469533505558,
+          "predicted_since_arm_s": 138.7469533505558,
+          "deadline_s": 300,
+          "slack_s": 161.2530466494442
+        },
+        {
+          "sensor": "S30",
+          "stage": 1,
+          "reference_end_s": 119.2469533505558,
+          "predicted_since_arm_s": 144.2469533505558,
+          "deadline_s": 300,
+          "slack_s": 155.7530466494442
+        },
+        {
+          "sensor": "S21",
+          "stage": 1,
+          "reference_end_s": 119.2469533505558,
+          "predicted_since_arm_s": 144.2469533505558,
+          "deadline_s": 300,
+          "slack_s": 155.7530466494442
+        },
+        {
+          "sensor": "S22",
+          "stage": 1,
+          "reference_end_s": 113.7469533505558,
+          "predicted_since_arm_s": 138.7469533505558,
+          "deadline_s": 300,
+          "slack_s": 161.2530466494442
+        },
+        {
+          "sensor": "S17",
+          "stage": 1,
+          "reference_end_s": 119.2469533505558,
+          "predicted_since_arm_s": 144.2469533505558,
+          "deadline_s": 300,
+          "slack_s": 155.7530466494442
+        },
+        {
+          "sensor": "S04",
+          "stage": 2,
+          "reference_end_s": 179.5754886750136,
+          "predicted_since_arm_s": 205.5754886750136,
+          "deadline_s": 300,
+          "slack_s": 94.42451132498641
+        },
+        {
+          "sensor": "S23",
+          "stage": 2,
+          "reference_end_s": 179.5754886750136,
+          "predicted_since_arm_s": 205.5754886750136,
+          "deadline_s": 300,
+          "slack_s": 94.42451132498641
+        },
+        {
+          "sensor": "S27",
+          "stage": 2,
+          "reference_end_s": 185.0754886750136,
+          "predicted_since_arm_s": 211.0754886750136,
+          "deadline_s": 300,
+          "slack_s": 88.92451132498641
+        },
+        {
+          "sensor": "S09",
+          "stage": 2,
+          "reference_end_s": 179.5754886750136,
+          "predicted_since_arm_s": 205.5754886750136,
+          "deadline_s": 300,
+          "slack_s": 94.42451132498641
+        },
+        {
+          "sensor": "S16",
+          "stage": 2,
+          "reference_end_s": 185.0754886750136,
+          "predicted_since_arm_s": 211.0754886750136,
+          "deadline_s": 300,
+          "slack_s": 88.92451132498641
+        },
+        {
+          "sensor": "S24",
+          "stage": 2,
+          "reference_end_s": 190.5754886750136,
+          "predicted_since_arm_s": 216.5754886750136,
+          "deadline_s": 300,
+          "slack_s": 83.42451132498641
+        },
+        {
+          "sensor": "S05",
+          "stage": 3,
+          "reference_end_s": 251.16753545856469,
+          "predicted_since_arm_s": 278.16753545856466,
+          "deadline_s": 300,
+          "slack_s": 21.832464541435343
+        },
+        {
+          "sensor": "S08",
+          "stage": 3,
+          "reference_end_s": 251.16753545856469,
+          "predicted_since_arm_s": 278.16753545856466,
+          "deadline_s": 300,
+          "slack_s": 21.832464541435343
+        },
+        {
+          "sensor": "S12",
+          "stage": 3,
+          "reference_end_s": 256.66753545856466,
+          "predicted_since_arm_s": 283.66753545856466,
+          "deadline_s": 300,
+          "slack_s": 16.332464541435343
+        },
+        {
+          "sensor": "S14",
+          "stage": 3,
+          "reference_end_s": 256.66753545856466,
+          "predicted_since_arm_s": 283.66753545856466,
+          "deadline_s": 300,
+          "slack_s": 16.332464541435343
+        },
+        {
+          "sensor": "S19",
+          "stage": 3,
+          "reference_end_s": 262.16753545856466,
+          "predicted_since_arm_s": 289.16753545856466,
+          "deadline_s": 300,
+          "slack_s": 10.832464541435343
+        },
+        {
+          "sensor": "S20",
+          "stage": 3,
+          "reference_end_s": 262.16753545856466,
+          "predicted_since_arm_s": 289.16753545856466,
+          "deadline_s": 300,
+          "slack_s": 10.832464541435343
+        },
+        {
+          "sensor": "S13",
+          "stage": 3,
+          "reference_end_s": 267.66753545856466,
+          "predicted_since_arm_s": 294.66753545856466,
+          "deadline_s": 300,
+          "slack_s": 5.332464541435343
+        },
+        {
+          "sensor": "S25",
+          "stage": 3,
+          "reference_end_s": 267.66753545856466,
+          "predicted_since_arm_s": 294.66753545856466,
+          "deadline_s": 300,
+          "slack_s": 5.332464541435343
+        },
+        {
+          "sensor": "S07",
+          "stage": 3,
+          "reference_end_s": 251.16753545856469,
+          "predicted_since_arm_s": 278.16753545856466,
+          "deadline_s": 300,
+          "slack_s": 21.832464541435343
+        },
+        {
+          "sensor": "S26",
+          "stage": 3,
+          "reference_end_s": 256.66753545856466,
+          "predicted_since_arm_s": 283.66753545856466,
+          "deadline_s": 300,
+          "slack_s": 16.332464541435343
+        }
+      ],
+      "deadline_misses": 0,
+      "total_lateness_s": 0.0,
+      "last_service_since_arm_s": 294.66753545856466,
+      "minimum_slack_s": 5.332464541435343,
+      "budget": {
+        "schema": "arm_deadline_budget_v1",
+        "launch_budget_s": 20,
+        "per_service_stop_reserve_s": 1.0,
+        "global_reserve_s": 3.0,
+        "observed_max_launch_s": 17.048000000000002,
+        "observed_max_stage_increment_s": 0.5767487108746394,
+        "derivation": "ceil(max launch + 2 s); ceil_to_0.25(max incremental service drift + 0.25 s); global 3 s",
+        "calibration": [
+          {
+            "path": "archive://farm-sim/experiments/formation_grid30_v6_20261102_01/runtime/collection_flight_tests/20261102_114611_169189_summary.json",
+            "sha256": "61ccec87e336480c410aa56bcf9e98a48dbe9e3c90ba7d0f95c073082318ab5a",
+            "launch_to_mission_s": 17.048000000000002,
+            "stage_observations": [
+              {
+                "stage": 0,
+                "cumulative_overhead_s": 0.5486536642894322,
+                "increment_s": 0.5486536642894322
+              },
+              {
+                "stage": 1,
+                "cumulative_overhead_s": 1.0619869976227676,
+                "increment_s": 0.5133333333333354
+              },
+              {
+                "stage": 2,
+                "cumulative_overhead_s": 1.6047549869410886,
+                "increment_s": 0.542767989318321
+              },
+              {
+                "stage": 3,
+                "cumulative_overhead_s": 2.1580758603628,
+                "increment_s": 0.5533208734217112
+              },
+              {
+                "stage": 4,
+                "cumulative_overhead_s": 2.6554091936961584,
+                "increment_s": 0.4973333333333585
+              },
+              {
+                "stage": 5,
+                "cumulative_overhead_s": 3.144742527029507,
+                "increment_s": 0.4893333333333487
+              }
+            ]
+          },
+          {
+            "path": "archive://farm-sim/experiments/formation_random30_seed404_sitl_v1_20261102_01/runtime/collection_flight_tests/20261102_121554_386926_summary.json",
+            "sha256": "c826824f8100f41a1949f15c9ab9a12061ea706ce6b951d157d08d70e82bfe03",
+            "launch_to_mission_s": 17.02000000000004,
+            "stage_observations": [
+              {
+                "stage": 0,
+                "cumulative_overhead_s": 0.5731884567319199,
+                "increment_s": 0.5731884567319199
+              },
+              {
+                "stage": 1,
+                "cumulative_overhead_s": 1.0787357918003124,
+                "increment_s": 0.5055473350683926
+              },
+              {
+                "stage": 2,
+                "cumulative_overhead_s": 1.5431497031028414,
+                "increment_s": 0.46441391130252896
+              },
+              {
+                "stage": 3,
+                "cumulative_overhead_s": 2.0988810718624364,
+                "increment_s": 0.5557313687595951
+              },
+              {
+                "stage": 4,
+                "cumulative_overhead_s": 2.675629782737076,
+                "increment_s": 0.5767487108746394
+              },
+              {
+                "stage": 5,
+                "cumulative_overhead_s": 3.1687593105417022,
+                "increment_s": 0.4931295278046264
+              },
+              {
+                "stage": 6,
+                "cumulative_overhead_s": 3.73279370940989,
+                "increment_s": 0.5640343988681877
+              },
+              {
+                "stage": 7,
+                "cumulative_overhead_s": 4.219857328080877,
+                "increment_s": 0.48706361867098735
+              }
+            ]
+          }
+        ],
+        "scope": "Development calibration, including seed404; future replay is same-case verification, not unseen validation."
+      },
+      "caveat": "Conservative design reserve based on development flights; not a statistical or worst-case guarantee.",
+      "wait_reserve_energy_wh": 1.846407402489022,
+      "budgeted_mission_energy_proxy_wh": 95.0494742659981
+    },
+    "connector_choices": [
+      {
+        "label": "frozen",
+        "family": "frozen",
+        "offset_m": null,
+        "points": [
+          [
+            -65.0,
+            0.0,
+            8.0,
+            1.0
+          ],
+          [
+            -21.94986467210547,
+            20.16520386211357,
+            8.806858180180889,
+            1.0
+          ]
+        ],
+        "timing_mode": "frozen"
+      },
+      {
+        "label": "frozen",
+        "family": "frozen",
+        "offset_m": null,
+        "points": [
+          [
+            -21.94986467210547,
+            20.16520386211357,
+            8.806858180180889,
+            1.0
+          ],
+          [
+            -25.338637556290568,
+            -31.478938048023142,
+            10.0,
+            1.0
+          ]
+        ],
+        "timing_mode": "frozen"
+      },
+      {
+        "label": "frozen",
+        "family": "frozen",
+        "offset_m": null,
+        "points": [
+          [
+            -25.338637556290568,
+            -31.478938048023142,
+            10.0,
+            1.0
+          ],
+          [
+            34.0,
+            -34.0,
+            12.0,
+            1.1
+          ]
+        ],
+        "timing_mode": "frozen"
+      },
+      {
+        "label": "frozen",
+        "family": "frozen",
+        "offset_m": null,
+        "points": [
+          [
+            34.0,
+            -34.0,
+            12.0,
+            1.1
+          ],
+          [
+            22.185559644700746,
+            24.640526541667725,
+            14.905403924106643,
+            1.0
+          ]
+        ],
+        "timing_mode": "frozen"
+      },
+      {
+        "label": "right_10m_1bend_endpoint_level",
+        "family": "lateral",
+        "offset_m": -10,
+        "points": [
+          [
+            22.185559644700746,
+            24.640526541667725,
+            14.905403924106643,
+            1.0
+          ],
+          [
+            -24.12690565170237,
+            21.94332468195592,
+            14.905403924106643,
+            1.0
+          ],
+          [
+            -65.0,
+            0.0,
+            8.0,
+            1.0
+          ]
+        ],
+        "timing_mode": "fast"
+      }
+    ],
+    "connector_search": {
+      "family": "lateral added to vertical result",
+      "trials": 256,
+      "candidate_stats": [
+        {
+          "generated": 36,
+          "rejected": 6,
+          "valid": 30
+        },
+        {
+          "generated": 36,
+          "rejected": 17,
+          "valid": 19
+        },
+        {
+          "generated": 36,
+          "rejected": 27,
+          "valid": 9
+        },
+        {
+          "generated": 36,
+          "rejected": 34,
+          "valid": 2
+        },
+        {
+          "generated": 36,
+          "rejected": 32,
+          "valid": 4
+        }
+      ],
+      "accepted": [
+        {
+          "sweep": 0,
+          "edge": 4,
+          "label": "right_10m_1bend_endpoint_level",
+          "before_rank": [
+            0,
+            0.0,
+            0.0,
+            95.80175734,
+            356.80654892
+          ],
+          "after_rank": [
+            0,
+            0.0,
+            0.0,
+            95.04947427,
+            354.03534947
+          ]
+        }
+      ],
+      "evaluated": [
+        {
+          "sweep": 0,
+          "edge": 0,
+          "label": "right_10m_1bend_endpoint_linear",
+          "timing_mode": "fast",
+          "rank": [
+            2,
+            5.06226401,
+            0.0,
+            97.87328112,
+            364.67014546
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 0,
+          "label": "right_10m_1bend_endpoint_linear",
+          "timing_mode": "energy",
+          "rank": [
+            2,
+            5.06226401,
+            0.0,
+            97.87328112,
+            364.67014546
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 0,
+          "label": "right_10m_1bend_endpoint_level",
+          "timing_mode": "fast",
+          "rank": [
+            2,
+            5.0644658,
+            0.0,
+            97.87357284,
+            364.67124636
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 0,
+          "label": "right_10m_1bend_endpoint_level",
+          "timing_mode": "energy",
+          "rank": [
+            2,
+            5.0644658,
+            0.0,
+            97.87357284,
+            364.67124636
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 0,
+          "label": "right_10m_1bend_terrain_envelope",
+          "timing_mode": "fast",
+          "rank": [
+            2,
+            5.0644658,
+            0.0,
+            97.87357284,
+            364.67124636
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 0,
+          "label": "right_10m_1bend_terrain_envelope",
+          "timing_mode": "energy",
+          "rank": [
+            2,
+            5.0644658,
+            0.0,
+            97.87357284,
+            364.67124636
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 0,
+          "label": "right_10m_2bend_endpoint_linear",
+          "timing_mode": "fast",
+          "rank": [
+            4,
+            22.9505207,
+            0.0,
+            99.44544024,
+            370.62664363
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 0,
+          "label": "right_10m_2bend_endpoint_linear",
+          "timing_mode": "energy",
+          "rank": [
+            4,
+            22.9505207,
+            0.0,
+            99.44544024,
+            370.62664363
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 0,
+          "label": "right_10m_2bend_endpoint_level",
+          "timing_mode": "fast",
+          "rank": [
+            4,
+            22.96090014,
+            0.0,
+            99.44612784,
+            370.62923849
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 0,
+          "label": "right_10m_2bend_endpoint_level",
+          "timing_mode": "energy",
+          "rank": [
+            4,
+            22.96090014,
+            0.0,
+            99.44612784,
+            370.62923849
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 0,
+          "label": "right_10m_2bend_terrain_envelope",
+          "timing_mode": "fast",
+          "rank": [
+            4,
+            22.96090014,
+            0.0,
+            99.44612784,
+            370.62923849
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 0,
+          "label": "right_10m_2bend_terrain_envelope",
+          "timing_mode": "energy",
+          "rank": [
+            4,
+            22.96090014,
+            0.0,
+            99.44612784,
+            370.62923849
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 0,
+          "label": "left_10m_1bend_endpoint_linear",
+          "timing_mode": "fast",
+          "rank": [
+            2,
+            5.06226401,
+            0.0,
+            97.87328112,
+            364.67014546
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 0,
+          "label": "left_10m_1bend_endpoint_linear",
+          "timing_mode": "energy",
+          "rank": [
+            2,
+            5.06226401,
+            0.0,
+            97.87328112,
+            364.67014546
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 0,
+          "label": "left_10m_1bend_endpoint_level",
+          "timing_mode": "fast",
+          "rank": [
+            2,
+            5.0644658,
+            0.0,
+            97.87357284,
+            364.67124636
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 0,
+          "label": "left_10m_1bend_endpoint_level",
+          "timing_mode": "energy",
+          "rank": [
+            2,
+            5.0644658,
+            0.0,
+            97.87357284,
+            364.67124636
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 0,
+          "label": "left_10m_1bend_terrain_envelope",
+          "timing_mode": "fast",
+          "rank": [
+            2,
+            5.0644658,
+            0.0,
+            97.87357284,
+            364.67124636
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 0,
+          "label": "left_10m_1bend_terrain_envelope",
+          "timing_mode": "energy",
+          "rank": [
+            2,
+            5.0644658,
+            0.0,
+            97.87357284,
+            364.67124636
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 0,
+          "label": "left_10m_2bend_endpoint_linear",
+          "timing_mode": "fast",
+          "rank": [
+            4,
+            22.9505207,
+            0.0,
+            99.44544024,
+            370.62664363
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 0,
+          "label": "left_10m_2bend_endpoint_linear",
+          "timing_mode": "energy",
+          "rank": [
+            4,
+            22.9505207,
+            0.0,
+            99.44544024,
+            370.62664363
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 0,
+          "label": "left_10m_2bend_endpoint_level",
+          "timing_mode": "fast",
+          "rank": [
+            4,
+            22.96090014,
+            0.0,
+            99.44612784,
+            370.62923849
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 0,
+          "label": "left_10m_2bend_endpoint_level",
+          "timing_mode": "energy",
+          "rank": [
+            4,
+            22.96090014,
+            0.0,
+            99.44612784,
+            370.62923849
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 0,
+          "label": "left_10m_2bend_terrain_envelope",
+          "timing_mode": "fast",
+          "rank": [
+            4,
+            22.96090014,
+            0.0,
+            99.44612784,
+            370.62923849
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 0,
+          "label": "left_10m_2bend_terrain_envelope",
+          "timing_mode": "energy",
+          "rank": [
+            4,
+            22.96090014,
+            0.0,
+            99.44612784,
+            370.62923849
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 0,
+          "label": "right_20m_1bend_endpoint_linear",
+          "timing_mode": "fast",
+          "rank": [
+            7,
+            35.27932252,
+            0.0,
+            100.17607458,
+            373.46463096
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 0,
+          "label": "right_20m_1bend_endpoint_linear",
+          "timing_mode": "energy",
+          "rank": [
+            7,
+            35.27932252,
+            0.0,
+            100.17607458,
+            373.46463096
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 0,
+          "label": "right_20m_1bend_endpoint_level",
+          "timing_mode": "fast",
+          "rank": [
+            7,
+            35.28463375,
+            0.0,
+            100.17627563,
+            373.46538971
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 0,
+          "label": "right_20m_1bend_endpoint_level",
+          "timing_mode": "energy",
+          "rank": [
+            7,
+            35.28463375,
+            0.0,
+            100.17627563,
+            373.46538971
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 0,
+          "label": "right_20m_1bend_terrain_envelope",
+          "timing_mode": "fast",
+          "rank": [
+            7,
+            35.28463375,
+            0.0,
+            100.17627563,
+            373.46538971
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 0,
+          "label": "right_20m_1bend_terrain_envelope",
+          "timing_mode": "energy",
+          "rank": [
+            7,
+            35.28463375,
+            0.0,
+            100.17627563,
+            373.46538971
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 0,
+          "label": "right_20m_2bend_endpoint_linear",
+          "timing_mode": "fast",
+          "rank": [
+            10,
+            104.35468957,
+            0.0,
+            102.40372468,
+            381.92448242
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 0,
+          "label": "right_20m_2bend_endpoint_linear",
+          "timing_mode": "energy",
+          "rank": [
+            10,
+            104.35468957,
+            0.0,
+            102.40372468,
+            381.92448242
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 0,
+          "label": "right_20m_2bend_endpoint_level",
+          "timing_mode": "fast",
+          "rank": [
+            10,
+            104.36570072,
+            0.0,
+            102.40401646,
+            381.92558353
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 0,
+          "label": "right_20m_2bend_endpoint_level",
+          "timing_mode": "energy",
+          "rank": [
+            10,
+            104.36570072,
+            0.0,
+            102.40401646,
+            381.92558353
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 0,
+          "label": "right_20m_2bend_terrain_envelope",
+          "timing_mode": "fast",
+          "rank": [
+            10,
+            104.36570072,
+            0.0,
+            102.40401646,
+            381.92558353
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 0,
+          "label": "right_20m_2bend_terrain_envelope",
+          "timing_mode": "energy",
+          "rank": [
+            10,
+            104.36570072,
+            0.0,
+            102.40401646,
+            381.92558353
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 0,
+          "label": "left_20m_1bend_endpoint_linear",
+          "timing_mode": "fast",
+          "rank": [
+            7,
+            35.27932252,
+            0.0,
+            100.17607458,
+            373.46463096
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 0,
+          "label": "left_20m_1bend_endpoint_linear",
+          "timing_mode": "energy",
+          "rank": [
+            7,
+            35.27932252,
+            0.0,
+            100.17607458,
+            373.46463096
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 0,
+          "label": "left_20m_1bend_endpoint_level",
+          "timing_mode": "fast",
+          "rank": [
+            7,
+            35.28463375,
+            0.0,
+            100.17627563,
+            373.46538971
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 0,
+          "label": "left_20m_1bend_endpoint_level",
+          "timing_mode": "energy",
+          "rank": [
+            7,
+            35.28463375,
+            0.0,
+            100.17627563,
+            373.46538971
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 0,
+          "label": "left_20m_1bend_terrain_envelope",
+          "timing_mode": "fast",
+          "rank": [
+            7,
+            35.28463375,
+            0.0,
+            100.17627563,
+            373.46538971
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 0,
+          "label": "left_20m_1bend_terrain_envelope",
+          "timing_mode": "energy",
+          "rank": [
+            7,
+            35.28463375,
+            0.0,
+            100.17627563,
+            373.46538971
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 0,
+          "label": "left_20m_2bend_endpoint_linear",
+          "timing_mode": "fast",
+          "rank": [
+            10,
+            104.35468957,
+            0.0,
+            102.40372468,
+            381.92448242
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 0,
+          "label": "left_20m_2bend_endpoint_linear",
+          "timing_mode": "energy",
+          "rank": [
+            10,
+            104.35468957,
+            0.0,
+            102.40372468,
+            381.92448242
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 0,
+          "label": "left_20m_2bend_endpoint_level",
+          "timing_mode": "fast",
+          "rank": [
+            10,
+            104.36570072,
+            0.0,
+            102.40401646,
+            381.92558353
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 0,
+          "label": "left_20m_2bend_endpoint_level",
+          "timing_mode": "energy",
+          "rank": [
+            10,
+            104.36570072,
+            0.0,
+            102.40401646,
+            381.92558353
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 0,
+          "label": "left_20m_2bend_terrain_envelope",
+          "timing_mode": "fast",
+          "rank": [
+            10,
+            104.36570072,
+            0.0,
+            102.40401646,
+            381.92558353
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 0,
+          "label": "left_20m_2bend_terrain_envelope",
+          "timing_mode": "energy",
+          "rank": [
+            10,
+            104.36570072,
+            0.0,
+            102.40401646,
+            381.92558353
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 0,
+          "label": "right_30m_1bend_endpoint_linear",
+          "timing_mode": "fast",
+          "rank": [
+            10,
+            139.93537639,
+            0.0,
+            103.32290945,
+            385.4825511
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 0,
+          "label": "right_30m_1bend_endpoint_linear",
+          "timing_mode": "energy",
+          "rank": [
+            10,
+            139.93537639,
+            0.0,
+            103.32290945,
+            385.4825511
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 0,
+          "label": "right_30m_1bend_endpoint_level",
+          "timing_mode": "fast",
+          "rank": [
+            10,
+            139.94037476,
+            0.0,
+            103.3230419,
+            385.48305093
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 0,
+          "label": "right_30m_1bend_endpoint_level",
+          "timing_mode": "energy",
+          "rank": [
+            10,
+            139.94037476,
+            0.0,
+            103.3230419,
+            385.48305093
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 0,
+          "label": "right_30m_1bend_terrain_envelope",
+          "timing_mode": "fast",
+          "rank": [
+            10,
+            139.94037476,
+            0.0,
+            103.3230419,
+            385.48305093
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 0,
+          "label": "right_30m_1bend_terrain_envelope",
+          "timing_mode": "energy",
+          "rank": [
+            10,
+            139.94037476,
+            0.0,
+            103.3230419,
+            385.48305093
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 0,
+          "label": "right_30m_2bend_endpoint_linear",
+          "timing_mode": "fast",
+          "rank": [
+            10,
+            244.53879578,
+            0.0,
+            106.07437868,
+            395.94289304
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 0,
+          "label": "right_30m_2bend_endpoint_linear",
+          "timing_mode": "energy",
+          "rank": [
+            10,
+            244.53879578,
+            0.0,
+            106.07437868,
+            395.94289304
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 0,
+          "label": "right_30m_2bend_endpoint_level",
+          "timing_mode": "fast",
+          "rank": [
+            10,
+            244.54221026,
+            0.0,
+            106.07446916,
+            395.94323449
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 0,
+          "label": "right_30m_2bend_endpoint_level",
+          "timing_mode": "energy",
+          "rank": [
+            10,
+            244.54221026,
+            0.0,
+            106.07446916,
+            395.94323449
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 0,
+          "label": "right_30m_2bend_terrain_envelope",
+          "timing_mode": "fast",
+          "rank": [
+            10,
+            244.54169685,
+            0.0,
+            106.07445555,
+            395.94318314
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 0,
+          "label": "right_30m_2bend_terrain_envelope",
+          "timing_mode": "energy",
+          "rank": [
+            10,
+            244.54169685,
+            0.0,
+            106.07445555,
+            395.94318314
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 1,
+          "label": "right_10m_1bend_endpoint_linear",
+          "timing_mode": "fast",
+          "rank": [
+            2,
+            4.55340655,
+            0.0,
+            97.80666151,
+            364.41571673
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 1,
+          "label": "right_10m_1bend_endpoint_linear",
+          "timing_mode": "energy",
+          "rank": [
+            2,
+            4.55340655,
+            0.0,
+            97.80666151,
+            364.41571673
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 1,
+          "label": "right_10m_1bend_endpoint_level",
+          "timing_mode": "fast",
+          "rank": [
+            2,
+            4.55756491,
+            0.0,
+            97.80721246,
+            364.41779591
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 1,
+          "label": "right_10m_1bend_endpoint_level",
+          "timing_mode": "energy",
+          "rank": [
+            2,
+            4.55756491,
+            0.0,
+            97.80721246,
+            364.41779591
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 1,
+          "label": "right_10m_1bend_terrain_envelope",
+          "timing_mode": "fast",
+          "rank": [
+            2,
+            4.57640783,
+            0.0,
+            97.8278579,
+            364.42721738
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 1,
+          "label": "right_10m_1bend_terrain_envelope",
+          "timing_mode": "energy",
+          "rank": [
+            2,
+            4.57640783,
+            0.0,
+            97.8278579,
+            364.42721738
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 1,
+          "label": "right_10m_2bend_endpoint_linear",
+          "timing_mode": "fast",
+          "rank": [
+            4,
+            21.60220461,
+            0.0,
+            99.3571804,
+            370.28956461
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 1,
+          "label": "right_10m_2bend_endpoint_linear",
+          "timing_mode": "energy",
+          "rank": [
+            4,
+            21.60220461,
+            0.0,
+            99.3571804,
+            370.28956461
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 1,
+          "label": "right_10m_2bend_endpoint_level",
+          "timing_mode": "fast",
+          "rank": [
+            4,
+            21.62245572,
+            0.0,
+            99.35852196,
+            370.29462739
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 1,
+          "label": "right_10m_2bend_endpoint_level",
+          "timing_mode": "energy",
+          "rank": [
+            4,
+            21.62245572,
+            0.0,
+            99.35852196,
+            370.29462739
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 1,
+          "label": "right_10m_2bend_terrain_envelope",
+          "timing_mode": "fast",
+          "rank": [
+            4,
+            21.69530338,
+            0.0,
+            99.38149676,
+            370.3128393
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 1,
+          "label": "right_10m_2bend_terrain_envelope",
+          "timing_mode": "energy",
+          "rank": [
+            4,
+            21.69530338,
+            0.0,
+            99.38149676,
+            370.3128393
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 1,
+          "label": "left_10m_1bend_terrain_envelope",
+          "timing_mode": "fast",
+          "rank": [
+            2,
+            4.67889061,
+            0.0,
+            97.88370605,
+            364.47845876
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 1,
+          "label": "left_10m_1bend_terrain_envelope",
+          "timing_mode": "energy",
+          "rank": [
+            2,
+            4.67889061,
+            0.0,
+            97.88370605,
+            364.47845876
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 1,
+          "label": "right_20m_1bend_endpoint_linear",
+          "timing_mode": "fast",
+          "rank": [
+            4,
+            31.19072412,
+            0.0,
+            99.97237618,
+            372.68669449
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 1,
+          "label": "right_20m_1bend_endpoint_linear",
+          "timing_mode": "energy",
+          "rank": [
+            4,
+            31.19072412,
+            0.0,
+            99.97237618,
+            372.68669449
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 1,
+          "label": "right_20m_1bend_endpoint_level",
+          "timing_mode": "fast",
+          "rank": [
+            4,
+            31.19670964,
+            0.0,
+            99.9727727,
+            372.68819087
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 1,
+          "label": "right_20m_1bend_endpoint_level",
+          "timing_mode": "energy",
+          "rank": [
+            4,
+            31.19670964,
+            0.0,
+            99.9727727,
+            372.68819087
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 1,
+          "label": "right_20m_1bend_terrain_envelope",
+          "timing_mode": "fast",
+          "rank": [
+            4,
+            31.22383689,
+            0.0,
+            99.99271866,
+            372.69497268
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 1,
+          "label": "right_20m_1bend_terrain_envelope",
+          "timing_mode": "energy",
+          "rank": [
+            4,
+            31.22383689,
+            0.0,
+            99.99271866,
+            372.69497268
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 1,
+          "label": "right_20m_2bend_endpoint_linear",
+          "timing_mode": "fast",
+          "rank": [
+            10,
+            95.86567056,
+            0.0,
+            102.18144536,
+            381.07558051
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 1,
+          "label": "right_20m_2bend_endpoint_linear",
+          "timing_mode": "energy",
+          "rank": [
+            10,
+            95.86567056,
+            0.0,
+            102.18144536,
+            381.07558051
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 1,
+          "label": "right_20m_2bend_endpoint_level",
+          "timing_mode": "fast",
+          "rank": [
+            10,
+            95.88940231,
+            0.0,
+            102.18207421,
+            381.07795369
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 1,
+          "label": "right_20m_2bend_endpoint_level",
+          "timing_mode": "energy",
+          "rank": [
+            10,
+            95.88940231,
+            0.0,
+            102.18207421,
+            381.07795369
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 1,
+          "label": "right_20m_2bend_terrain_envelope",
+          "timing_mode": "fast",
+          "rank": [
+            10,
+            95.99332889,
+            0.0,
+            102.202977,
+            381.08834635
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 1,
+          "label": "right_20m_2bend_terrain_envelope",
+          "timing_mode": "energy",
+          "rank": [
+            10,
+            95.99332889,
+            0.0,
+            102.202977,
+            381.08834635
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 1,
+          "label": "right_30m_1bend_endpoint_linear",
+          "timing_mode": "fast",
+          "rank": [
+            10,
+            127.19377086,
+            0.0,
+            102.98927643,
+            384.20839054
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 1,
+          "label": "right_30m_1bend_endpoint_linear",
+          "timing_mode": "energy",
+          "rank": [
+            10,
+            127.19377086,
+            0.0,
+            102.98927643,
+            384.20839054
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 1,
+          "label": "right_30m_1bend_endpoint_level",
+          "timing_mode": "fast",
+          "rank": [
+            10,
+            127.20396995,
+            0.0,
+            102.98954669,
+            384.20941045
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 1,
+          "label": "right_30m_1bend_endpoint_level",
+          "timing_mode": "energy",
+          "rank": [
+            10,
+            127.20396995,
+            0.0,
+            102.98954669,
+            384.20941045
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 1,
+          "label": "right_30m_1bend_terrain_envelope",
+          "timing_mode": "fast",
+          "rank": [
+            10,
+            127.25020044,
+            0.0,
+            103.00892061,
+            384.2140335
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 1,
+          "label": "right_30m_1bend_terrain_envelope",
+          "timing_mode": "energy",
+          "rank": [
+            10,
+            127.25020044,
+            0.0,
+            103.00892061,
+            384.2140335
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 1,
+          "label": "right_30m_2bend_endpoint_linear",
+          "timing_mode": "fast",
+          "rank": [
+            10,
+            232.4303974,
+            0.0,
+            105.75732696,
+            394.7320532
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 1,
+          "label": "right_30m_2bend_endpoint_linear",
+          "timing_mode": "energy",
+          "rank": [
+            10,
+            232.4303974,
+            0.0,
+            105.75732696,
+            394.7320532
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 1,
+          "label": "right_30m_2bend_endpoint_level",
+          "timing_mode": "fast",
+          "rank": [
+            10,
+            232.43923511,
+            0.0,
+            105.75756115,
+            394.73293697
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 1,
+          "label": "right_30m_2bend_endpoint_level",
+          "timing_mode": "energy",
+          "rank": [
+            10,
+            232.43923511,
+            0.0,
+            105.75756115,
+            394.73293697
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 1,
+          "label": "right_30m_2bend_terrain_envelope",
+          "timing_mode": "fast",
+          "rank": [
+            10,
+            232.49981325,
+            0.0,
+            105.77731526,
+            394.73899478
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 1,
+          "label": "right_30m_2bend_terrain_envelope",
+          "timing_mode": "energy",
+          "rank": [
+            10,
+            232.49981325,
+            0.0,
+            105.77731526,
+            394.73899478
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 2,
+          "label": "left_10m_1bend_endpoint_linear",
+          "timing_mode": "fast",
+          "rank": [
+            2,
+            3.71501796,
+            0.0,
+            97.69665028,
+            363.99652244
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 2,
+          "label": "left_10m_1bend_endpoint_linear",
+          "timing_mode": "energy",
+          "rank": [
+            2,
+            3.71501796,
+            0.0,
+            97.69665028,
+            363.99652244
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 2,
+          "label": "left_10m_1bend_endpoint_level",
+          "timing_mode": "fast",
+          "rank": [
+            2,
+            3.7238904,
+            0.0,
+            97.69782575,
+            364.00095866
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 2,
+          "label": "left_10m_1bend_endpoint_level",
+          "timing_mode": "energy",
+          "rank": [
+            2,
+            3.7238904,
+            0.0,
+            97.69782575,
+            364.00095866
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 2,
+          "label": "left_10m_1bend_terrain_envelope",
+          "timing_mode": "fast",
+          "rank": [
+            2,
+            3.72115507,
+            0.0,
+            97.69746336,
+            363.999591
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 2,
+          "label": "left_10m_1bend_terrain_envelope",
+          "timing_mode": "energy",
+          "rank": [
+            2,
+            3.72115507,
+            0.0,
+            97.69746336,
+            363.999591
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 2,
+          "label": "left_10m_2bend_endpoint_linear",
+          "timing_mode": "fast",
+          "rank": [
+            4,
+            19.33253925,
+            0.0,
+            99.20820766,
+            369.72214827
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 2,
+          "label": "left_10m_2bend_endpoint_linear",
+          "timing_mode": "energy",
+          "rank": [
+            4,
+            19.33253925,
+            0.0,
+            99.20820766,
+            369.72214827
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 2,
+          "label": "left_10m_2bend_endpoint_level",
+          "timing_mode": "fast",
+          "rank": [
+            4,
+            19.37791424,
+            0.0,
+            99.21121348,
+            369.73349202
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 2,
+          "label": "left_10m_2bend_endpoint_level",
+          "timing_mode": "energy",
+          "rank": [
+            4,
+            19.37791424,
+            0.0,
+            99.21121348,
+            369.73349202
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 2,
+          "label": "left_10m_2bend_terrain_envelope",
+          "timing_mode": "fast",
+          "rank": [
+            4,
+            19.37520907,
+            0.0,
+            99.21967168,
+            369.73281573
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 2,
+          "label": "left_10m_2bend_terrain_envelope",
+          "timing_mode": "energy",
+          "rank": [
+            4,
+            19.37520907,
+            0.0,
+            99.21967168,
+            369.73281573
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 2,
+          "label": "left_20m_1bend_terrain_envelope",
+          "timing_mode": "fast",
+          "rank": [
+            4,
+            25.99902569,
+            0.0,
+            99.68961818,
+            371.38876988
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 2,
+          "label": "left_20m_1bend_terrain_envelope",
+          "timing_mode": "energy",
+          "rank": [
+            4,
+            25.99902569,
+            0.0,
+            99.68961818,
+            371.38876988
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 2,
+          "label": "left_20m_2bend_terrain_envelope",
+          "timing_mode": "fast",
+          "rank": [
+            10,
+            81.31980291,
+            0.0,
+            101.85759005,
+            379.62099375
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 2,
+          "label": "left_20m_2bend_terrain_envelope",
+          "timing_mode": "energy",
+          "rank": [
+            10,
+            81.31980291,
+            0.0,
+            101.85759005,
+            379.62099375
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 2,
+          "label": "left_30m_2bend_terrain_envelope",
+          "timing_mode": "fast",
+          "rank": [
+            10,
+            210.89985199,
+            0.0,
+            105.28290991,
+            392.57899866
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 2,
+          "label": "left_30m_2bend_terrain_envelope",
+          "timing_mode": "energy",
+          "rank": [
+            10,
+            210.89985199,
+            0.0,
+            105.28290991,
+            392.57899866
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 3,
+          "label": "left_10m_1bend_terrain_envelope",
+          "timing_mode": "fast",
+          "rank": [
+            2,
+            3.74433777,
+            0.0,
+            97.72242747,
+            364.01118234
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 3,
+          "label": "left_10m_1bend_terrain_envelope",
+          "timing_mode": "energy",
+          "rank": [
+            2,
+            3.74433777,
+            0.0,
+            97.72242747,
+            364.01118234
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 3,
+          "label": "left_20m_1bend_terrain_envelope",
+          "timing_mode": "fast",
+          "rank": [
+            4,
+            26.30870093,
+            0.0,
+            99.66906919,
+            371.46618869
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 3,
+          "label": "left_20m_1bend_terrain_envelope",
+          "timing_mode": "energy",
+          "rank": [
+            4,
+            26.30870093,
+            0.0,
+            99.66906919,
+            371.46618869
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 4,
+          "label": "right_10m_1bend_endpoint_level",
+          "timing_mode": "fast",
+          "rank": [
+            0,
+            0.0,
+            0.0,
+            95.04947427,
+            354.03534947
+          ],
+          "improves_local_incumbent": true
+        },
+        {
+          "sweep": 0,
+          "edge": 4,
+          "label": "right_10m_1bend_endpoint_level",
+          "timing_mode": "energy",
+          "rank": [
+            0,
+            0.0,
+            0.0,
+            95.04947427,
+            354.03534947
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 4,
+          "label": "right_10m_2bend_endpoint_level",
+          "timing_mode": "fast",
+          "rank": [
+            0,
+            0.0,
+            0.0,
+            96.48266885,
+            359.46047625
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 4,
+          "label": "right_10m_2bend_endpoint_level",
+          "timing_mode": "energy",
+          "rank": [
+            0,
+            0.0,
+            0.0,
+            96.48266885,
+            359.46047625
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 4,
+          "label": "left_10m_2bend_terrain_envelope",
+          "timing_mode": "fast",
+          "rank": [
+            0,
+            0.0,
+            0.0,
+            96.51728827,
+            359.50843535
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 4,
+          "label": "left_10m_2bend_terrain_envelope",
+          "timing_mode": "energy",
+          "rank": [
+            0,
+            0.0,
+            0.0,
+            96.51728827,
+            359.50843535
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 4,
+          "label": "right_20m_1bend_endpoint_level",
+          "timing_mode": "fast",
+          "rank": [
+            0,
+            0.0,
+            0.0,
+            96.4129344,
+            359.24254329
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 0,
+          "edge": 4,
+          "label": "right_20m_1bend_endpoint_level",
+          "timing_mode": "energy",
+          "rank": [
+            0,
+            0.0,
+            0.0,
+            96.4129344,
+            359.24254329
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 0,
+          "label": "right_10m_1bend_endpoint_linear",
+          "timing_mode": "fast",
+          "rank": [
+            2,
+            5.06226401,
+            0.0,
+            97.12099804,
+            361.89894601
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 0,
+          "label": "right_10m_1bend_endpoint_linear",
+          "timing_mode": "energy",
+          "rank": [
+            2,
+            5.06226401,
+            0.0,
+            97.12099804,
+            361.89894601
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 0,
+          "label": "right_10m_1bend_endpoint_level",
+          "timing_mode": "fast",
+          "rank": [
+            2,
+            5.0644658,
+            0.0,
+            97.12128976,
+            361.90004691
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 0,
+          "label": "right_10m_1bend_endpoint_level",
+          "timing_mode": "energy",
+          "rank": [
+            2,
+            5.0644658,
+            0.0,
+            97.12128976,
+            361.90004691
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 0,
+          "label": "right_10m_1bend_terrain_envelope",
+          "timing_mode": "fast",
+          "rank": [
+            2,
+            5.0644658,
+            0.0,
+            97.12128976,
+            361.90004691
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 0,
+          "label": "right_10m_1bend_terrain_envelope",
+          "timing_mode": "energy",
+          "rank": [
+            2,
+            5.0644658,
+            0.0,
+            97.12128976,
+            361.90004691
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 0,
+          "label": "right_10m_2bend_endpoint_linear",
+          "timing_mode": "fast",
+          "rank": [
+            4,
+            22.9505207,
+            0.0,
+            98.69315717,
+            367.85544419
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 0,
+          "label": "right_10m_2bend_endpoint_linear",
+          "timing_mode": "energy",
+          "rank": [
+            4,
+            22.9505207,
+            0.0,
+            98.69315717,
+            367.85544419
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 0,
+          "label": "right_10m_2bend_endpoint_level",
+          "timing_mode": "fast",
+          "rank": [
+            4,
+            22.96090014,
+            0.0,
+            98.69384477,
+            367.85803905
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 0,
+          "label": "right_10m_2bend_endpoint_level",
+          "timing_mode": "energy",
+          "rank": [
+            4,
+            22.96090014,
+            0.0,
+            98.69384477,
+            367.85803905
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 0,
+          "label": "right_10m_2bend_terrain_envelope",
+          "timing_mode": "fast",
+          "rank": [
+            4,
+            22.96090014,
+            0.0,
+            98.69384477,
+            367.85803905
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 0,
+          "label": "right_10m_2bend_terrain_envelope",
+          "timing_mode": "energy",
+          "rank": [
+            4,
+            22.96090014,
+            0.0,
+            98.69384477,
+            367.85803905
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 0,
+          "label": "left_10m_1bend_endpoint_linear",
+          "timing_mode": "fast",
+          "rank": [
+            2,
+            5.06226401,
+            0.0,
+            97.12099804,
+            361.89894601
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 0,
+          "label": "left_10m_1bend_endpoint_linear",
+          "timing_mode": "energy",
+          "rank": [
+            2,
+            5.06226401,
+            0.0,
+            97.12099804,
+            361.89894601
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 0,
+          "label": "left_10m_1bend_endpoint_level",
+          "timing_mode": "fast",
+          "rank": [
+            2,
+            5.0644658,
+            0.0,
+            97.12128976,
+            361.90004691
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 0,
+          "label": "left_10m_1bend_endpoint_level",
+          "timing_mode": "energy",
+          "rank": [
+            2,
+            5.0644658,
+            0.0,
+            97.12128976,
+            361.90004691
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 0,
+          "label": "left_10m_1bend_terrain_envelope",
+          "timing_mode": "fast",
+          "rank": [
+            2,
+            5.0644658,
+            0.0,
+            97.12128976,
+            361.90004691
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 0,
+          "label": "left_10m_1bend_terrain_envelope",
+          "timing_mode": "energy",
+          "rank": [
+            2,
+            5.0644658,
+            0.0,
+            97.12128976,
+            361.90004691
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 0,
+          "label": "left_10m_2bend_endpoint_linear",
+          "timing_mode": "fast",
+          "rank": [
+            4,
+            22.9505207,
+            0.0,
+            98.69315717,
+            367.85544419
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 0,
+          "label": "left_10m_2bend_endpoint_linear",
+          "timing_mode": "energy",
+          "rank": [
+            4,
+            22.9505207,
+            0.0,
+            98.69315717,
+            367.85544419
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 0,
+          "label": "left_10m_2bend_endpoint_level",
+          "timing_mode": "fast",
+          "rank": [
+            4,
+            22.96090014,
+            0.0,
+            98.69384477,
+            367.85803905
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 0,
+          "label": "left_10m_2bend_endpoint_level",
+          "timing_mode": "energy",
+          "rank": [
+            4,
+            22.96090014,
+            0.0,
+            98.69384477,
+            367.85803905
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 0,
+          "label": "left_10m_2bend_terrain_envelope",
+          "timing_mode": "fast",
+          "rank": [
+            4,
+            22.96090014,
+            0.0,
+            98.69384477,
+            367.85803905
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 0,
+          "label": "left_10m_2bend_terrain_envelope",
+          "timing_mode": "energy",
+          "rank": [
+            4,
+            22.96090014,
+            0.0,
+            98.69384477,
+            367.85803905
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 0,
+          "label": "right_20m_1bend_endpoint_linear",
+          "timing_mode": "fast",
+          "rank": [
+            7,
+            35.27932252,
+            0.0,
+            99.4237915,
+            370.69343151
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 0,
+          "label": "right_20m_1bend_endpoint_linear",
+          "timing_mode": "energy",
+          "rank": [
+            7,
+            35.27932252,
+            0.0,
+            99.4237915,
+            370.69343151
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 0,
+          "label": "right_20m_1bend_endpoint_level",
+          "timing_mode": "fast",
+          "rank": [
+            7,
+            35.28463375,
+            0.0,
+            99.42399256,
+            370.69419026
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 0,
+          "label": "right_20m_1bend_endpoint_level",
+          "timing_mode": "energy",
+          "rank": [
+            7,
+            35.28463375,
+            0.0,
+            99.42399256,
+            370.69419026
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 0,
+          "label": "right_20m_1bend_terrain_envelope",
+          "timing_mode": "fast",
+          "rank": [
+            7,
+            35.28463375,
+            0.0,
+            99.42399256,
+            370.69419026
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 0,
+          "label": "right_20m_1bend_terrain_envelope",
+          "timing_mode": "energy",
+          "rank": [
+            7,
+            35.28463375,
+            0.0,
+            99.42399256,
+            370.69419026
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 0,
+          "label": "right_20m_2bend_endpoint_linear",
+          "timing_mode": "fast",
+          "rank": [
+            10,
+            104.35468957,
+            0.0,
+            101.6514416,
+            379.15328297
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 0,
+          "label": "right_20m_2bend_endpoint_linear",
+          "timing_mode": "energy",
+          "rank": [
+            10,
+            104.35468957,
+            0.0,
+            101.6514416,
+            379.15328297
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 0,
+          "label": "right_20m_2bend_endpoint_level",
+          "timing_mode": "fast",
+          "rank": [
+            10,
+            104.36570072,
+            0.0,
+            101.65173338,
+            379.15438408
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 0,
+          "label": "right_20m_2bend_endpoint_level",
+          "timing_mode": "energy",
+          "rank": [
+            10,
+            104.36570072,
+            0.0,
+            101.65173338,
+            379.15438408
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 0,
+          "label": "right_20m_2bend_terrain_envelope",
+          "timing_mode": "fast",
+          "rank": [
+            10,
+            104.36570072,
+            0.0,
+            101.65173338,
+            379.15438408
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 0,
+          "label": "right_20m_2bend_terrain_envelope",
+          "timing_mode": "energy",
+          "rank": [
+            10,
+            104.36570072,
+            0.0,
+            101.65173338,
+            379.15438408
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 0,
+          "label": "left_20m_1bend_endpoint_linear",
+          "timing_mode": "fast",
+          "rank": [
+            7,
+            35.27932252,
+            0.0,
+            99.4237915,
+            370.69343151
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 0,
+          "label": "left_20m_1bend_endpoint_linear",
+          "timing_mode": "energy",
+          "rank": [
+            7,
+            35.27932252,
+            0.0,
+            99.4237915,
+            370.69343151
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 0,
+          "label": "left_20m_1bend_endpoint_level",
+          "timing_mode": "fast",
+          "rank": [
+            7,
+            35.28463375,
+            0.0,
+            99.42399256,
+            370.69419026
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 0,
+          "label": "left_20m_1bend_endpoint_level",
+          "timing_mode": "energy",
+          "rank": [
+            7,
+            35.28463375,
+            0.0,
+            99.42399256,
+            370.69419026
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 0,
+          "label": "left_20m_1bend_terrain_envelope",
+          "timing_mode": "fast",
+          "rank": [
+            7,
+            35.28463375,
+            0.0,
+            99.42399256,
+            370.69419026
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 0,
+          "label": "left_20m_1bend_terrain_envelope",
+          "timing_mode": "energy",
+          "rank": [
+            7,
+            35.28463375,
+            0.0,
+            99.42399256,
+            370.69419026
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 0,
+          "label": "left_20m_2bend_endpoint_linear",
+          "timing_mode": "fast",
+          "rank": [
+            10,
+            104.35468957,
+            0.0,
+            101.6514416,
+            379.15328297
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 0,
+          "label": "left_20m_2bend_endpoint_linear",
+          "timing_mode": "energy",
+          "rank": [
+            10,
+            104.35468957,
+            0.0,
+            101.6514416,
+            379.15328297
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 0,
+          "label": "left_20m_2bend_endpoint_level",
+          "timing_mode": "fast",
+          "rank": [
+            10,
+            104.36570072,
+            0.0,
+            101.65173338,
+            379.15438408
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 0,
+          "label": "left_20m_2bend_endpoint_level",
+          "timing_mode": "energy",
+          "rank": [
+            10,
+            104.36570072,
+            0.0,
+            101.65173338,
+            379.15438408
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 0,
+          "label": "left_20m_2bend_terrain_envelope",
+          "timing_mode": "fast",
+          "rank": [
+            10,
+            104.36570072,
+            0.0,
+            101.65173338,
+            379.15438408
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 0,
+          "label": "left_20m_2bend_terrain_envelope",
+          "timing_mode": "energy",
+          "rank": [
+            10,
+            104.36570072,
+            0.0,
+            101.65173338,
+            379.15438408
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 0,
+          "label": "right_30m_1bend_endpoint_linear",
+          "timing_mode": "fast",
+          "rank": [
+            10,
+            139.93537639,
+            0.0,
+            102.57062637,
+            382.71135165
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 0,
+          "label": "right_30m_1bend_endpoint_linear",
+          "timing_mode": "energy",
+          "rank": [
+            10,
+            139.93537639,
+            0.0,
+            102.57062637,
+            382.71135165
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 0,
+          "label": "right_30m_1bend_endpoint_level",
+          "timing_mode": "fast",
+          "rank": [
+            10,
+            139.94037476,
+            0.0,
+            102.57075882,
+            382.71185149
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 0,
+          "label": "right_30m_1bend_endpoint_level",
+          "timing_mode": "energy",
+          "rank": [
+            10,
+            139.94037476,
+            0.0,
+            102.57075882,
+            382.71185149
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 0,
+          "label": "right_30m_1bend_terrain_envelope",
+          "timing_mode": "fast",
+          "rank": [
+            10,
+            139.94037476,
+            0.0,
+            102.57075882,
+            382.71185149
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 0,
+          "label": "right_30m_1bend_terrain_envelope",
+          "timing_mode": "energy",
+          "rank": [
+            10,
+            139.94037476,
+            0.0,
+            102.57075882,
+            382.71185149
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 0,
+          "label": "right_30m_2bend_endpoint_linear",
+          "timing_mode": "fast",
+          "rank": [
+            10,
+            244.53879578,
+            0.0,
+            105.3220956,
+            393.17169359
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 0,
+          "label": "right_30m_2bend_endpoint_linear",
+          "timing_mode": "energy",
+          "rank": [
+            10,
+            244.53879578,
+            0.0,
+            105.3220956,
+            393.17169359
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 0,
+          "label": "right_30m_2bend_endpoint_level",
+          "timing_mode": "fast",
+          "rank": [
+            10,
+            244.54221026,
+            0.0,
+            105.32218608,
+            393.17203504
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 0,
+          "label": "right_30m_2bend_endpoint_level",
+          "timing_mode": "energy",
+          "rank": [
+            10,
+            244.54221026,
+            0.0,
+            105.32218608,
+            393.17203504
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 0,
+          "label": "right_30m_2bend_terrain_envelope",
+          "timing_mode": "fast",
+          "rank": [
+            10,
+            244.54169685,
+            0.0,
+            105.32217248,
+            393.1719837
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 0,
+          "label": "right_30m_2bend_terrain_envelope",
+          "timing_mode": "energy",
+          "rank": [
+            10,
+            244.54169685,
+            0.0,
+            105.32217248,
+            393.1719837
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 1,
+          "label": "right_10m_1bend_endpoint_linear",
+          "timing_mode": "fast",
+          "rank": [
+            2,
+            4.55340655,
+            0.0,
+            97.05437843,
+            361.64451729
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 1,
+          "label": "right_10m_1bend_endpoint_linear",
+          "timing_mode": "energy",
+          "rank": [
+            2,
+            4.55340655,
+            0.0,
+            97.05437843,
+            361.64451729
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 1,
+          "label": "right_10m_1bend_endpoint_level",
+          "timing_mode": "fast",
+          "rank": [
+            2,
+            4.55756491,
+            0.0,
+            97.05492938,
+            361.64659647
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 1,
+          "label": "right_10m_1bend_endpoint_level",
+          "timing_mode": "energy",
+          "rank": [
+            2,
+            4.55756491,
+            0.0,
+            97.05492938,
+            361.64659647
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 1,
+          "label": "right_10m_1bend_terrain_envelope",
+          "timing_mode": "fast",
+          "rank": [
+            2,
+            4.57640783,
+            0.0,
+            97.07557482,
+            361.65601793
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 1,
+          "label": "right_10m_1bend_terrain_envelope",
+          "timing_mode": "energy",
+          "rank": [
+            2,
+            4.57640783,
+            0.0,
+            97.07557482,
+            361.65601793
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 1,
+          "label": "right_10m_2bend_endpoint_linear",
+          "timing_mode": "fast",
+          "rank": [
+            4,
+            21.60220461,
+            0.0,
+            98.60489732,
+            367.51836516
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 1,
+          "label": "right_10m_2bend_endpoint_linear",
+          "timing_mode": "energy",
+          "rank": [
+            4,
+            21.60220461,
+            0.0,
+            98.60489732,
+            367.51836516
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 1,
+          "label": "right_10m_2bend_endpoint_level",
+          "timing_mode": "fast",
+          "rank": [
+            4,
+            21.62245572,
+            0.0,
+            98.60623889,
+            367.52342794
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 1,
+          "label": "right_10m_2bend_endpoint_level",
+          "timing_mode": "energy",
+          "rank": [
+            4,
+            21.62245572,
+            0.0,
+            98.60623889,
+            367.52342794
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 1,
+          "label": "right_10m_2bend_terrain_envelope",
+          "timing_mode": "fast",
+          "rank": [
+            4,
+            21.69530338,
+            0.0,
+            98.62921369,
+            367.54163986
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 1,
+          "label": "right_10m_2bend_terrain_envelope",
+          "timing_mode": "energy",
+          "rank": [
+            4,
+            21.69530338,
+            0.0,
+            98.62921369,
+            367.54163986
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 1,
+          "label": "left_10m_1bend_terrain_envelope",
+          "timing_mode": "fast",
+          "rank": [
+            2,
+            4.67889061,
+            0.0,
+            97.13142298,
+            361.70725932
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 1,
+          "label": "left_10m_1bend_terrain_envelope",
+          "timing_mode": "energy",
+          "rank": [
+            2,
+            4.67889061,
+            0.0,
+            97.13142298,
+            361.70725932
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 1,
+          "label": "right_20m_1bend_endpoint_linear",
+          "timing_mode": "fast",
+          "rank": [
+            4,
+            31.19072412,
+            0.0,
+            99.2200931,
+            369.91549504
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 1,
+          "label": "right_20m_1bend_endpoint_linear",
+          "timing_mode": "energy",
+          "rank": [
+            4,
+            31.19072412,
+            0.0,
+            99.2200931,
+            369.91549504
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 1,
+          "label": "right_20m_1bend_endpoint_level",
+          "timing_mode": "fast",
+          "rank": [
+            4,
+            31.19670964,
+            0.0,
+            99.22048962,
+            369.91699142
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 1,
+          "label": "right_20m_1bend_endpoint_level",
+          "timing_mode": "energy",
+          "rank": [
+            4,
+            31.19670964,
+            0.0,
+            99.22048962,
+            369.91699142
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 1,
+          "label": "right_20m_1bend_terrain_envelope",
+          "timing_mode": "fast",
+          "rank": [
+            4,
+            31.22383689,
+            0.0,
+            99.24043558,
+            369.92377323
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 1,
+          "label": "right_20m_1bend_terrain_envelope",
+          "timing_mode": "energy",
+          "rank": [
+            4,
+            31.22383689,
+            0.0,
+            99.24043558,
+            369.92377323
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 1,
+          "label": "right_20m_2bend_endpoint_linear",
+          "timing_mode": "fast",
+          "rank": [
+            10,
+            95.86567056,
+            0.0,
+            101.42916228,
+            378.30438107
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 1,
+          "label": "right_20m_2bend_endpoint_linear",
+          "timing_mode": "energy",
+          "rank": [
+            10,
+            95.86567056,
+            0.0,
+            101.42916228,
+            378.30438107
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 1,
+          "label": "right_20m_2bend_endpoint_level",
+          "timing_mode": "fast",
+          "rank": [
+            10,
+            95.88940231,
+            0.0,
+            101.42979114,
+            378.30675424
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 1,
+          "label": "right_20m_2bend_endpoint_level",
+          "timing_mode": "energy",
+          "rank": [
+            10,
+            95.88940231,
+            0.0,
+            101.42979114,
+            378.30675424
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 1,
+          "label": "right_20m_2bend_terrain_envelope",
+          "timing_mode": "fast",
+          "rank": [
+            10,
+            95.99332889,
+            0.0,
+            101.45069393,
+            378.3171469
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 1,
+          "label": "right_20m_2bend_terrain_envelope",
+          "timing_mode": "energy",
+          "rank": [
+            10,
+            95.99332889,
+            0.0,
+            101.45069393,
+            378.3171469
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 1,
+          "label": "right_30m_1bend_endpoint_linear",
+          "timing_mode": "fast",
+          "rank": [
+            10,
+            127.19377086,
+            0.0,
+            102.23699336,
+            381.4371911
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 1,
+          "label": "right_30m_1bend_endpoint_linear",
+          "timing_mode": "energy",
+          "rank": [
+            10,
+            127.19377086,
+            0.0,
+            102.23699336,
+            381.4371911
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 1,
+          "label": "right_30m_1bend_endpoint_level",
+          "timing_mode": "fast",
+          "rank": [
+            10,
+            127.20396995,
+            0.0,
+            102.23726362,
+            381.438211
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 1,
+          "label": "right_30m_1bend_endpoint_level",
+          "timing_mode": "energy",
+          "rank": [
+            10,
+            127.20396995,
+            0.0,
+            102.23726362,
+            381.438211
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 1,
+          "label": "right_30m_1bend_terrain_envelope",
+          "timing_mode": "fast",
+          "rank": [
+            10,
+            127.25020044,
+            0.0,
+            102.25663754,
+            381.44283405
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 1,
+          "label": "right_30m_1bend_terrain_envelope",
+          "timing_mode": "energy",
+          "rank": [
+            10,
+            127.25020044,
+            0.0,
+            102.25663754,
+            381.44283405
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 1,
+          "label": "right_30m_2bend_endpoint_linear",
+          "timing_mode": "fast",
+          "rank": [
+            10,
+            232.4303974,
+            0.0,
+            105.00504388,
+            391.96085375
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 1,
+          "label": "right_30m_2bend_endpoint_linear",
+          "timing_mode": "energy",
+          "rank": [
+            10,
+            232.4303974,
+            0.0,
+            105.00504388,
+            391.96085375
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 1,
+          "label": "right_30m_2bend_endpoint_level",
+          "timing_mode": "fast",
+          "rank": [
+            10,
+            232.43923511,
+            0.0,
+            105.00527807,
+            391.96173752
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 1,
+          "label": "right_30m_2bend_endpoint_level",
+          "timing_mode": "energy",
+          "rank": [
+            10,
+            232.43923511,
+            0.0,
+            105.00527807,
+            391.96173752
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 1,
+          "label": "right_30m_2bend_terrain_envelope",
+          "timing_mode": "fast",
+          "rank": [
+            10,
+            232.49981325,
+            0.0,
+            105.02503218,
+            391.96779533
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 1,
+          "label": "right_30m_2bend_terrain_envelope",
+          "timing_mode": "energy",
+          "rank": [
+            10,
+            232.49981325,
+            0.0,
+            105.02503218,
+            391.96779533
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 2,
+          "label": "left_10m_1bend_endpoint_linear",
+          "timing_mode": "fast",
+          "rank": [
+            2,
+            3.71501796,
+            0.0,
+            96.9443672,
+            361.22532299
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 2,
+          "label": "left_10m_1bend_endpoint_linear",
+          "timing_mode": "energy",
+          "rank": [
+            2,
+            3.71501796,
+            0.0,
+            96.9443672,
+            361.22532299
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 2,
+          "label": "left_10m_1bend_endpoint_level",
+          "timing_mode": "fast",
+          "rank": [
+            2,
+            3.7238904,
+            0.0,
+            96.94554268,
+            361.22975921
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 2,
+          "label": "left_10m_1bend_endpoint_level",
+          "timing_mode": "energy",
+          "rank": [
+            2,
+            3.7238904,
+            0.0,
+            96.94554268,
+            361.22975921
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 2,
+          "label": "left_10m_1bend_terrain_envelope",
+          "timing_mode": "fast",
+          "rank": [
+            2,
+            3.72115507,
+            0.0,
+            96.94518028,
+            361.22839155
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 2,
+          "label": "left_10m_1bend_terrain_envelope",
+          "timing_mode": "energy",
+          "rank": [
+            2,
+            3.72115507,
+            0.0,
+            96.94518028,
+            361.22839155
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 2,
+          "label": "left_10m_2bend_endpoint_linear",
+          "timing_mode": "fast",
+          "rank": [
+            4,
+            19.33253925,
+            0.0,
+            98.45592459,
+            366.95094882
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 2,
+          "label": "left_10m_2bend_endpoint_linear",
+          "timing_mode": "energy",
+          "rank": [
+            4,
+            19.33253925,
+            0.0,
+            98.45592459,
+            366.95094882
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 2,
+          "label": "left_10m_2bend_endpoint_level",
+          "timing_mode": "fast",
+          "rank": [
+            4,
+            19.37791424,
+            0.0,
+            98.4589304,
+            366.96229257
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 2,
+          "label": "left_10m_2bend_endpoint_level",
+          "timing_mode": "energy",
+          "rank": [
+            4,
+            19.37791424,
+            0.0,
+            98.4589304,
+            366.96229257
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 2,
+          "label": "left_10m_2bend_terrain_envelope",
+          "timing_mode": "fast",
+          "rank": [
+            4,
+            19.37520907,
+            0.0,
+            98.4673886,
+            366.96161628
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 2,
+          "label": "left_10m_2bend_terrain_envelope",
+          "timing_mode": "energy",
+          "rank": [
+            4,
+            19.37520907,
+            0.0,
+            98.4673886,
+            366.96161628
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 2,
+          "label": "left_20m_1bend_terrain_envelope",
+          "timing_mode": "fast",
+          "rank": [
+            4,
+            25.99902569,
+            0.0,
+            98.93733511,
+            368.61757043
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 2,
+          "label": "left_20m_1bend_terrain_envelope",
+          "timing_mode": "energy",
+          "rank": [
+            4,
+            25.99902569,
+            0.0,
+            98.93733511,
+            368.61757043
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 2,
+          "label": "left_20m_2bend_terrain_envelope",
+          "timing_mode": "fast",
+          "rank": [
+            10,
+            81.31980291,
+            0.0,
+            101.10530697,
+            376.8497943
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 2,
+          "label": "left_20m_2bend_terrain_envelope",
+          "timing_mode": "energy",
+          "rank": [
+            10,
+            81.31980291,
+            0.0,
+            101.10530697,
+            376.8497943
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 2,
+          "label": "left_30m_2bend_terrain_envelope",
+          "timing_mode": "fast",
+          "rank": [
+            10,
+            210.89985199,
+            0.0,
+            104.53062684,
+            389.80779921
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 2,
+          "label": "left_30m_2bend_terrain_envelope",
+          "timing_mode": "energy",
+          "rank": [
+            10,
+            210.89985199,
+            0.0,
+            104.53062684,
+            389.80779921
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 3,
+          "label": "left_10m_1bend_terrain_envelope",
+          "timing_mode": "fast",
+          "rank": [
+            2,
+            3.74433777,
+            0.0,
+            96.9701444,
+            361.2399829
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 3,
+          "label": "left_10m_1bend_terrain_envelope",
+          "timing_mode": "energy",
+          "rank": [
+            2,
+            3.74433777,
+            0.0,
+            96.9701444,
+            361.2399829
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 3,
+          "label": "left_20m_1bend_terrain_envelope",
+          "timing_mode": "fast",
+          "rank": [
+            4,
+            26.30870093,
+            0.0,
+            98.91678611,
+            368.69498924
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 3,
+          "label": "left_20m_1bend_terrain_envelope",
+          "timing_mode": "energy",
+          "rank": [
+            4,
+            26.30870093,
+            0.0,
+            98.91678611,
+            368.69498924
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 4,
+          "label": "right_10m_1bend_endpoint_level",
+          "timing_mode": "fast",
+          "rank": [
+            0,
+            0.0,
+            0.0,
+            95.04947427,
+            354.03534947
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 4,
+          "label": "right_10m_1bend_endpoint_level",
+          "timing_mode": "energy",
+          "rank": [
+            0,
+            0.0,
+            0.0,
+            95.04947427,
+            354.03534947
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 4,
+          "label": "right_10m_2bend_endpoint_level",
+          "timing_mode": "fast",
+          "rank": [
+            0,
+            0.0,
+            0.0,
+            96.48266885,
+            359.46047625
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 4,
+          "label": "right_10m_2bend_endpoint_level",
+          "timing_mode": "energy",
+          "rank": [
+            0,
+            0.0,
+            0.0,
+            96.48266885,
+            359.46047625
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 4,
+          "label": "left_10m_2bend_terrain_envelope",
+          "timing_mode": "fast",
+          "rank": [
+            0,
+            0.0,
+            0.0,
+            96.51728827,
+            359.50843535
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 4,
+          "label": "left_10m_2bend_terrain_envelope",
+          "timing_mode": "energy",
+          "rank": [
+            0,
+            0.0,
+            0.0,
+            96.51728827,
+            359.50843535
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 4,
+          "label": "right_20m_1bend_endpoint_level",
+          "timing_mode": "fast",
+          "rank": [
+            0,
+            0.0,
+            0.0,
+            96.4129344,
+            359.24254329
+          ],
+          "improves_local_incumbent": false
+        },
+        {
+          "sweep": 1,
+          "edge": 4,
+          "label": "right_20m_1bend_endpoint_level",
+          "timing_mode": "energy",
+          "rank": [
+            0,
+            0.0,
+            0.0,
+            96.4129344,
+            359.24254329
+          ],
+          "improves_local_incumbent": false
+        }
+      ],
+      "optimality": "Finite templates + coordinate descent; no global optimality or infeasibility guarantee"
+    }
+  },
+  "assignments": {
+    "UAV1": [
+      "S06",
+      "S18",
+      "S11",
+      "S22",
+      "S17",
+      "S04",
+      "S27",
+      "S24",
+      "S07",
+      "S26"
+    ],
+    "UAV2": [
+      "S02",
+      "S03",
+      "S15",
+      "S29",
+      "S30",
+      "S09",
+      "S16",
+      "S05",
+      "S14",
+      "S19",
+      "S13"
+    ],
+    "UAV3": [
+      "S01",
+      "S28",
+      "S10",
+      "S21",
+      "S23",
+      "S08",
+      "S12",
+      "S20",
+      "S25"
+    ]
+  },
+  "services": {
+    "UAV1": [
+      {
+        "sensor": "S06",
+        "uav": "UAV1",
+        "start_s": 44.116420767149165,
+        "end_s": 49.616420767149165,
+        "assumed_bytes": 100000,
+        "position": [
+          -26.94986467210547,
+          10.165203862113572,
+          8.806858180180889
+        ],
+        "stage": 0
+      },
+      {
+        "sensor": "S18",
+        "uav": "UAV1",
+        "start_s": 49.616420767149165,
+        "end_s": 55.116420767149165,
+        "assumed_bytes": 100000,
+        "position": [
+          -26.94986467210547,
+          10.165203862113572,
+          8.806858180180889
+        ],
+        "stage": 0
+      },
+      {
+        "sensor": "S11",
+        "uav": "UAV1",
+        "start_s": 55.116420767149165,
+        "end_s": 60.616420767149165,
+        "assumed_bytes": 100000,
+        "position": [
+          -26.94986467210547,
+          10.165203862113572,
+          8.806858180180889
+        ],
+        "stage": 0
+      },
+      {
+        "sensor": "S22",
+        "uav": "UAV1",
+        "start_s": 108.2469533505558,
+        "end_s": 113.7469533505558,
+        "assumed_bytes": 100000,
+        "position": [
+          -30.338637556290568,
+          -41.47893804802314,
+          10.0
+        ],
+        "stage": 1
+      },
+      {
+        "sensor": "S17",
+        "uav": "UAV1",
+        "start_s": 113.7469533505558,
+        "end_s": 119.2469533505558,
+        "assumed_bytes": 100000,
+        "position": [
+          -30.338637556290568,
+          -41.47893804802314,
+          10.0
+        ],
+        "stage": 1
+      },
+      {
+        "sensor": "S04",
+        "uav": "UAV1",
+        "start_s": 174.0754886750136,
+        "end_s": 179.5754886750136,
+        "assumed_bytes": 100000,
+        "position": [
+          28.5,
+          -45.0,
+          12.0
+        ],
+        "stage": 2
+      },
+      {
+        "sensor": "S27",
+        "uav": "UAV1",
+        "start_s": 179.5754886750136,
+        "end_s": 185.0754886750136,
+        "assumed_bytes": 100000,
+        "position": [
+          28.5,
+          -45.0,
+          12.0
+        ],
+        "stage": 2
+      },
+      {
+        "sensor": "S24",
+        "uav": "UAV1",
+        "start_s": 185.0754886750136,
+        "end_s": 190.5754886750136,
+        "assumed_bytes": 100000,
+        "position": [
+          28.5,
+          -45.0,
+          12.0
+        ],
+        "stage": 2
+      },
+      {
+        "sensor": "S07",
+        "uav": "UAV1",
+        "start_s": 245.66753545856469,
+        "end_s": 251.16753545856469,
+        "assumed_bytes": 100000,
+        "position": [
+          17.185559644700746,
+          14.640526541667725,
+          14.905403924106643
+        ],
+        "stage": 3
+      },
+      {
+        "sensor": "S26",
+        "uav": "UAV1",
+        "start_s": 251.16753545856469,
+        "end_s": 256.66753545856466,
+        "assumed_bytes": 100000,
+        "position": [
+          17.185559644700746,
+          14.640526541667725,
+          14.905403924106643
+        ],
+        "stage": 3
+      }
+    ],
+    "UAV2": [
+      {
+        "sensor": "S02",
+        "uav": "UAV2",
+        "start_s": 44.116420767149165,
+        "end_s": 49.616420767149165,
+        "assumed_bytes": 100000,
+        "position": [
+          -11.94986467210547,
+          20.16520386211357,
+          8.806858180180889
+        ],
+        "stage": 0
+      },
+      {
+        "sensor": "S03",
+        "uav": "UAV2",
+        "start_s": 49.616420767149165,
+        "end_s": 55.116420767149165,
+        "assumed_bytes": 100000,
+        "position": [
+          -11.94986467210547,
+          20.16520386211357,
+          8.806858180180889
+        ],
+        "stage": 0
+      },
+      {
+        "sensor": "S15",
+        "uav": "UAV2",
+        "start_s": 55.116420767149165,
+        "end_s": 60.616420767149165,
+        "assumed_bytes": 100000,
+        "position": [
+          -11.94986467210547,
+          20.16520386211357,
+          8.806858180180889
+        ],
+        "stage": 0
+      },
+      {
+        "sensor": "S29",
+        "uav": "UAV2",
+        "start_s": 108.2469533505558,
+        "end_s": 113.7469533505558,
+        "assumed_bytes": 100000,
+        "position": [
+          -15.338637556290568,
+          -31.478938048023142,
+          10.0
+        ],
+        "stage": 1
+      },
+      {
+        "sensor": "S30",
+        "uav": "UAV2",
+        "start_s": 113.7469533505558,
+        "end_s": 119.2469533505558,
+        "assumed_bytes": 100000,
+        "position": [
+          -15.338637556290568,
+          -31.478938048023142,
+          10.0
+        ],
+        "stage": 1
+      },
+      {
+        "sensor": "S09",
+        "uav": "UAV2",
+        "start_s": 174.0754886750136,
+        "end_s": 179.5754886750136,
+        "assumed_bytes": 100000,
+        "position": [
+          45.0,
+          -34.0,
+          12.0
+        ],
+        "stage": 2
+      },
+      {
+        "sensor": "S16",
+        "uav": "UAV2",
+        "start_s": 179.5754886750136,
+        "end_s": 185.0754886750136,
+        "assumed_bytes": 100000,
+        "position": [
+          45.0,
+          -34.0,
+          12.0
+        ],
+        "stage": 2
+      },
+      {
+        "sensor": "S05",
+        "uav": "UAV2",
+        "start_s": 245.66753545856469,
+        "end_s": 251.16753545856469,
+        "assumed_bytes": 100000,
+        "position": [
+          32.185559644700746,
+          24.640526541667725,
+          14.905403924106643
+        ],
+        "stage": 3
+      },
+      {
+        "sensor": "S14",
+        "uav": "UAV2",
+        "start_s": 251.16753545856469,
+        "end_s": 256.66753545856466,
+        "assumed_bytes": 100000,
+        "position": [
+          32.185559644700746,
+          24.640526541667725,
+          14.905403924106643
+        ],
+        "stage": 3
+      },
+      {
+        "sensor": "S19",
+        "uav": "UAV2",
+        "start_s": 256.66753545856466,
+        "end_s": 262.16753545856466,
+        "assumed_bytes": 100000,
+        "position": [
+          32.185559644700746,
+          24.640526541667725,
+          14.905403924106643
+        ],
+        "stage": 3
+      },
+      {
+        "sensor": "S13",
+        "uav": "UAV2",
+        "start_s": 262.16753545856466,
+        "end_s": 267.66753545856466,
+        "assumed_bytes": 100000,
+        "position": [
+          32.185559644700746,
+          24.640526541667725,
+          14.905403924106643
+        ],
+        "stage": 3
+      }
+    ],
+    "UAV3": [
+      {
+        "sensor": "S01",
+        "uav": "UAV3",
+        "start_s": 44.116420767149165,
+        "end_s": 49.616420767149165,
+        "assumed_bytes": 100000,
+        "position": [
+          -26.94986467210547,
+          30.16520386211357,
+          8.806858180180889
+        ],
+        "stage": 0
+      },
+      {
+        "sensor": "S28",
+        "uav": "UAV3",
+        "start_s": 49.616420767149165,
+        "end_s": 55.116420767149165,
+        "assumed_bytes": 100000,
+        "position": [
+          -26.94986467210547,
+          30.16520386211357,
+          8.806858180180889
+        ],
+        "stage": 0
+      },
+      {
+        "sensor": "S10",
+        "uav": "UAV3",
+        "start_s": 108.2469533505558,
+        "end_s": 113.7469533505558,
+        "assumed_bytes": 100000,
+        "position": [
+          -30.338637556290568,
+          -21.478938048023142,
+          10.0
+        ],
+        "stage": 1
+      },
+      {
+        "sensor": "S21",
+        "uav": "UAV3",
+        "start_s": 113.7469533505558,
+        "end_s": 119.2469533505558,
+        "assumed_bytes": 100000,
+        "position": [
+          -30.338637556290568,
+          -21.478938048023142,
+          10.0
+        ],
+        "stage": 1
+      },
+      {
+        "sensor": "S23",
+        "uav": "UAV3",
+        "start_s": 174.0754886750136,
+        "end_s": 179.5754886750136,
+        "assumed_bytes": 100000,
+        "position": [
+          28.5,
+          -23.0,
+          12.0
+        ],
+        "stage": 2
+      },
+      {
+        "sensor": "S08",
+        "uav": "UAV3",
+        "start_s": 245.66753545856469,
+        "end_s": 251.16753545856469,
+        "assumed_bytes": 100000,
+        "position": [
+          17.185559644700746,
+          34.640526541667725,
+          14.905403924106643
+        ],
+        "stage": 3
+      },
+      {
+        "sensor": "S12",
+        "uav": "UAV3",
+        "start_s": 251.16753545856469,
+        "end_s": 256.66753545856466,
+        "assumed_bytes": 100000,
+        "position": [
+          17.185559644700746,
+          34.640526541667725,
+          14.905403924106643
+        ],
+        "stage": 3
+      },
+      {
+        "sensor": "S20",
+        "uav": "UAV3",
+        "start_s": 256.66753545856466,
+        "end_s": 262.16753545856466,
+        "assumed_bytes": 100000,
+        "position": [
+          17.185559644700746,
+          34.640526541667725,
+          14.905403924106643
+        ],
+        "stage": 3
+      },
+      {
+        "sensor": "S25",
+        "uav": "UAV3",
+        "start_s": 262.16753545856466,
+        "end_s": 267.66753545856466,
+        "assumed_bytes": 100000,
+        "position": [
+          17.185559644700746,
+          34.640526541667725,
+          14.905403924106643
+        ],
+        "stage": 3
+      }
+    ]
+  },
+  "flight_bounds_xy_m": [
+    -78,
+    47,
+    -47,
+    47
+  ],
+  "phases": {
+    "CLIMB": {
+      "UAV1": [
+        [
+          0.0,
+          -70.0,
+          -10.0,
+          0.12
+        ],
+        [
+          13.133333333333333,
+          -70.0,
+          -10.0,
+          8.0
+        ]
+      ],
+      "UAV2": [
+        [
+          0.0,
+          -55.0,
+          0.0,
+          0.12
+        ],
+        [
+          13.133333333333333,
+          -55.0,
+          0.0,
+          8.0
+        ]
+      ],
+      "UAV3": [
+        [
+          0.0,
+          -70.0,
+          10.0,
+          0.12
+        ],
+        [
+          13.133333333333333,
+          -70.0,
+          10.0,
+          8.0
+        ]
+      ]
+    },
+    "MISSION": {
+      "UAV1": [
+        [
+          0.0,
+          -70.0,
+          -10.0,
+          8.0
+        ],
+        [
+          354.0353494684762,
+          -70.0,
+          -10.0,
+          8.0
+        ]
+      ],
+      "UAV2": [
+        [
+          0.0,
+          -55.0,
+          0.0,
+          8.0
+        ],
+        [
+          354.0353494684762,
+          -55.0,
+          0.0,
+          8.0
+        ]
+      ],
+      "UAV3": [
+        [
+          0.0,
+          -70.0,
+          10.0,
+          8.0
+        ],
+        [
+          354.0353494684762,
+          -70.0,
+          10.0,
+          8.0
+        ]
+      ]
+    }
+  },
+  "safety_policy": {
+    "mission_abort_separation_m": 12.0,
+    "prediction_warning_m": 14.0,
+    "tracking_abort_m": 2.0,
+    "tracking_pause_m": 0.8
+  },
+  "source_sha256": {
+    "config/farm.json": "5fe4e317aeb60fb0598debb6e8ff6fe504f5507dda0ad880140efbcbbd2c3e81",
+    "config/terrain.csv": "48136f433a6d1d365941e98ffbfa9b9afb9ae1d1f0443e3e7f2886346ca4d19a",
+    "config/energy_model.json": "f991dc14bcfee85ad25b23a0203783f1a6c9719ee5a85de45f7ba1be25dd1faf",
+    "config/optimized_connectors_v12.json": "58bda50152b4d6c15a3d4b04c6379faac344deb110780e8991538d0d08728b32",
+    "config/reference_execution_v11.json": "5915a6de97f1dab842c5998fbc3e1601b3ec5e7d2c25eab851f5f4e4e0cd786b",
+    "config/arm_budget.json": "ed955251f64c901dc47e45dbd9cecedd1f9bf87e873fb09cbf9e2659d08b1abb",
+    "scripts/cruise_profile.py": "bcf16c4ce9a5e08dea8e0192f46626d5768499aa5698cf85bb6140b6b3eac3bc",
+    "scripts/arm_deadline.py": "09146cb55d5df843561dd41943dc3c60b56f149845bca3a829580c2f4edd5fb1",
+    "scripts/execution_plan.py": "ef3f5cb6b0645daba8df4a057e04dde0bb9b325f2a0492da9e5b32cf106a0c78"
+  },
+  "preparation": {
+    "vehicles": 3,
+    "stages": 0,
+    "speed": 1.2
+  },
+  "summary": {
+    "vehicles": 3,
+    "service_stages": 4,
+    "expected_sensors": 30,
+    "planned_mission_reference_s": 354.0353494684762,
+    "checks": {
+      "reference_min_pair_m": 18.027756377319946,
+      "reference_max_pair_m": 22.0,
+      "reference_min_agl_m": 7.79881286809295,
+      "reference_max_radius_m": 12.298373876248844,
+      "conservative_agl_with_tracking_m": 5.117003658009518,
+      "assumed_tracking_budget_m": 2.0,
+      "deadline_misses": 0,
+      "total_lateness_s": 0.0,
+      "deadline_feasible": true,
+      "note": "Conditional reference geometry only. Deadline clock starts above pads, excluding launch."
+    },
+    "predicted_arm_deadline": {
+      "clock": "since first ARM command",
+      "services": [
+        {
+          "sensor": "S01",
+          "stage": 0,
+          "reference_end_s": 49.616420767149165,
+          "predicted_since_arm_s": 73.61642076714917,
+          "deadline_s": 300,
+          "slack_s": 226.38357923285082
+        },
+        {
+          "sensor": "S28",
+          "stage": 0,
+          "reference_end_s": 55.116420767149165,
+          "predicted_since_arm_s": 79.11642076714917,
+          "deadline_s": 300,
+          "slack_s": 220.88357923285082
+        },
+        {
+          "sensor": "S06",
+          "stage": 0,
+          "reference_end_s": 49.616420767149165,
+          "predicted_since_arm_s": 73.61642076714917,
+          "deadline_s": 300,
+          "slack_s": 226.38357923285082
+        },
+        {
+          "sensor": "S18",
+          "stage": 0,
+          "reference_end_s": 55.116420767149165,
+          "predicted_since_arm_s": 79.11642076714917,
+          "deadline_s": 300,
+          "slack_s": 220.88357923285082
+        },
+        {
+          "sensor": "S02",
+          "stage": 0,
+          "reference_end_s": 49.616420767149165,
+          "predicted_since_arm_s": 73.61642076714917,
+          "deadline_s": 300,
+          "slack_s": 226.38357923285082
+        },
+        {
+          "sensor": "S03",
+          "stage": 0,
+          "reference_end_s": 55.116420767149165,
+          "predicted_since_arm_s": 79.11642076714917,
+          "deadline_s": 300,
+          "slack_s": 220.88357923285082
+        },
+        {
+          "sensor": "S11",
+          "stage": 0,
+          "reference_end_s": 60.616420767149165,
+          "predicted_since_arm_s": 84.61642076714917,
+          "deadline_s": 300,
+          "slack_s": 215.38357923285082
+        },
+        {
+          "sensor": "S15",
+          "stage": 0,
+          "reference_end_s": 60.616420767149165,
+          "predicted_since_arm_s": 84.61642076714917,
+          "deadline_s": 300,
+          "slack_s": 215.38357923285082
+        },
+        {
+          "sensor": "S10",
+          "stage": 1,
+          "reference_end_s": 113.7469533505558,
+          "predicted_since_arm_s": 138.7469533505558,
+          "deadline_s": 300,
+          "slack_s": 161.2530466494442
+        },
+        {
+          "sensor": "S29",
+          "stage": 1,
+          "reference_end_s": 113.7469533505558,
+          "predicted_since_arm_s": 138.7469533505558,
+          "deadline_s": 300,
+          "slack_s": 161.2530466494442
+        },
+        {
+          "sensor": "S30",
+          "stage": 1,
+          "reference_end_s": 119.2469533505558,
+          "predicted_since_arm_s": 144.2469533505558,
+          "deadline_s": 300,
+          "slack_s": 155.7530466494442
+        },
+        {
+          "sensor": "S21",
+          "stage": 1,
+          "reference_end_s": 119.2469533505558,
+          "predicted_since_arm_s": 144.2469533505558,
+          "deadline_s": 300,
+          "slack_s": 155.7530466494442
+        },
+        {
+          "sensor": "S22",
+          "stage": 1,
+          "reference_end_s": 113.7469533505558,
+          "predicted_since_arm_s": 138.7469533505558,
+          "deadline_s": 300,
+          "slack_s": 161.2530466494442
+        },
+        {
+          "sensor": "S17",
+          "stage": 1,
+          "reference_end_s": 119.2469533505558,
+          "predicted_since_arm_s": 144.2469533505558,
+          "deadline_s": 300,
+          "slack_s": 155.7530466494442
+        },
+        {
+          "sensor": "S04",
+          "stage": 2,
+          "reference_end_s": 179.5754886750136,
+          "predicted_since_arm_s": 205.5754886750136,
+          "deadline_s": 300,
+          "slack_s": 94.42451132498641
+        },
+        {
+          "sensor": "S23",
+          "stage": 2,
+          "reference_end_s": 179.5754886750136,
+          "predicted_since_arm_s": 205.5754886750136,
+          "deadline_s": 300,
+          "slack_s": 94.42451132498641
+        },
+        {
+          "sensor": "S27",
+          "stage": 2,
+          "reference_end_s": 185.0754886750136,
+          "predicted_since_arm_s": 211.0754886750136,
+          "deadline_s": 300,
+          "slack_s": 88.92451132498641
+        },
+        {
+          "sensor": "S09",
+          "stage": 2,
+          "reference_end_s": 179.5754886750136,
+          "predicted_since_arm_s": 205.5754886750136,
+          "deadline_s": 300,
+          "slack_s": 94.42451132498641
+        },
+        {
+          "sensor": "S16",
+          "stage": 2,
+          "reference_end_s": 185.0754886750136,
+          "predicted_since_arm_s": 211.0754886750136,
+          "deadline_s": 300,
+          "slack_s": 88.92451132498641
+        },
+        {
+          "sensor": "S24",
+          "stage": 2,
+          "reference_end_s": 190.5754886750136,
+          "predicted_since_arm_s": 216.5754886750136,
+          "deadline_s": 300,
+          "slack_s": 83.42451132498641
+        },
+        {
+          "sensor": "S05",
+          "stage": 3,
+          "reference_end_s": 251.16753545856469,
+          "predicted_since_arm_s": 278.16753545856466,
+          "deadline_s": 300,
+          "slack_s": 21.832464541435343
+        },
+        {
+          "sensor": "S08",
+          "stage": 3,
+          "reference_end_s": 251.16753545856469,
+          "predicted_since_arm_s": 278.16753545856466,
+          "deadline_s": 300,
+          "slack_s": 21.832464541435343
+        },
+        {
+          "sensor": "S12",
+          "stage": 3,
+          "reference_end_s": 256.66753545856466,
+          "predicted_since_arm_s": 283.66753545856466,
+          "deadline_s": 300,
+          "slack_s": 16.332464541435343
+        },
+        {
+          "sensor": "S14",
+          "stage": 3,
+          "reference_end_s": 256.66753545856466,
+          "predicted_since_arm_s": 283.66753545856466,
+          "deadline_s": 300,
+          "slack_s": 16.332464541435343
+        },
+        {
+          "sensor": "S19",
+          "stage": 3,
+          "reference_end_s": 262.16753545856466,
+          "predicted_since_arm_s": 289.16753545856466,
+          "deadline_s": 300,
+          "slack_s": 10.832464541435343
+        },
+        {
+          "sensor": "S20",
+          "stage": 3,
+          "reference_end_s": 262.16753545856466,
+          "predicted_since_arm_s": 289.16753545856466,
+          "deadline_s": 300,
+          "slack_s": 10.832464541435343
+        },
+        {
+          "sensor": "S13",
+          "stage": 3,
+          "reference_end_s": 267.66753545856466,
+          "predicted_since_arm_s": 294.66753545856466,
+          "deadline_s": 300,
+          "slack_s": 5.332464541435343
+        },
+        {
+          "sensor": "S25",
+          "stage": 3,
+          "reference_end_s": 267.66753545856466,
+          "predicted_since_arm_s": 294.66753545856466,
+          "deadline_s": 300,
+          "slack_s": 5.332464541435343
+        },
+        {
+          "sensor": "S07",
+          "stage": 3,
+          "reference_end_s": 251.16753545856469,
+          "predicted_since_arm_s": 278.16753545856466,
+          "deadline_s": 300,
+          "slack_s": 21.832464541435343
+        },
+        {
+          "sensor": "S26",
+          "stage": 3,
+          "reference_end_s": 256.66753545856466,
+          "predicted_since_arm_s": 283.66753545856466,
+          "deadline_s": 300,
+          "slack_s": 16.332464541435343
+        }
+      ],
+      "deadline_misses": 0,
+      "total_lateness_s": 0.0,
+      "last_service_since_arm_s": 294.66753545856466,
+      "minimum_slack_s": 5.332464541435343,
+      "budget": {
+        "schema": "arm_deadline_budget_v1",
+        "launch_budget_s": 20,
+        "per_service_stop_reserve_s": 1.0,
+        "global_reserve_s": 3.0,
+        "observed_max_launch_s": 17.048000000000002,
+        "observed_max_stage_increment_s": 0.5767487108746394,
+        "derivation": "ceil(max launch + 2 s); ceil_to_0.25(max incremental service drift + 0.25 s); global 3 s",
+        "calibration": [
+          {
+            "path": "archive://farm-sim/experiments/formation_grid30_v6_20261102_01/runtime/collection_flight_tests/20261102_114611_169189_summary.json",
+            "sha256": "61ccec87e336480c410aa56bcf9e98a48dbe9e3c90ba7d0f95c073082318ab5a",
+            "launch_to_mission_s": 17.048000000000002,
+            "stage_observations": [
+              {
+                "stage": 0,
+                "cumulative_overhead_s": 0.5486536642894322,
+                "increment_s": 0.5486536642894322
+              },
+              {
+                "stage": 1,
+                "cumulative_overhead_s": 1.0619869976227676,
+                "increment_s": 0.5133333333333354
+              },
+              {
+                "stage": 2,
+                "cumulative_overhead_s": 1.6047549869410886,
+                "increment_s": 0.542767989318321
+              },
+              {
+                "stage": 3,
+                "cumulative_overhead_s": 2.1580758603628,
+                "increment_s": 0.5533208734217112
+              },
+              {
+                "stage": 4,
+                "cumulative_overhead_s": 2.6554091936961584,
+                "increment_s": 0.4973333333333585
+              },
+              {
+                "stage": 5,
+                "cumulative_overhead_s": 3.144742527029507,
+                "increment_s": 0.4893333333333487
+              }
+            ]
+          },
+          {
+            "path": "archive://farm-sim/experiments/formation_random30_seed404_sitl_v1_20261102_01/runtime/collection_flight_tests/20261102_121554_386926_summary.json",
+            "sha256": "c826824f8100f41a1949f15c9ab9a12061ea706ce6b951d157d08d70e82bfe03",
+            "launch_to_mission_s": 17.02000000000004,
+            "stage_observations": [
+              {
+                "stage": 0,
+                "cumulative_overhead_s": 0.5731884567319199,
+                "increment_s": 0.5731884567319199
+              },
+              {
+                "stage": 1,
+                "cumulative_overhead_s": 1.0787357918003124,
+                "increment_s": 0.5055473350683926
+              },
+              {
+                "stage": 2,
+                "cumulative_overhead_s": 1.5431497031028414,
+                "increment_s": 0.46441391130252896
+              },
+              {
+                "stage": 3,
+                "cumulative_overhead_s": 2.0988810718624364,
+                "increment_s": 0.5557313687595951
+              },
+              {
+                "stage": 4,
+                "cumulative_overhead_s": 2.675629782737076,
+                "increment_s": 0.5767487108746394
+              },
+              {
+                "stage": 5,
+                "cumulative_overhead_s": 3.1687593105417022,
+                "increment_s": 0.4931295278046264
+              },
+              {
+                "stage": 6,
+                "cumulative_overhead_s": 3.73279370940989,
+                "increment_s": 0.5640343988681877
+              },
+              {
+                "stage": 7,
+                "cumulative_overhead_s": 4.219857328080877,
+                "increment_s": 0.48706361867098735
+              }
+            ]
+          }
+        ],
+        "scope": "Development calibration, including seed404; future replay is same-case verification, not unseen validation."
+      },
+      "caveat": "Conservative design reserve based on development flights; not a statistical or worst-case guarantee.",
+      "wait_reserve_energy_wh": 1.846407402489022,
+      "budgeted_mission_energy_proxy_wh": 95.0494742659981
+    },
+    "scope": "Frozen full-team v12 connector verification; geometric service, not radio bytes."
+  },
+  "flight_ceiling_m": 18.0,
+  "lifted_service_revalidation": true
+}

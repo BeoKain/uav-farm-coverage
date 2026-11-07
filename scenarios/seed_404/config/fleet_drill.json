@@ -1,0 +1,2706 @@
+{
+  "schema": "formation_execution_v12",
+  "ids": [
+    "UAV1",
+    "UAV2",
+    "UAV3"
+  ],
+  "formation": true,
+  "geometric": true,
+  "config": {
+    "schema_version": 1,
+    "world": "farm",
+    "frame": "Gazebo world ENU, metres",
+    "bounds_xy_m": [
+      -50,
+      50,
+      -50,
+      50
+    ],
+    "grid_resolution_m": 1.0,
+    "hill": {
+      "center_xy_m": [
+        10,
+        8
+      ],
+      "height_m": 8,
+      "radii_xy_m": [
+        23,
+        26
+      ]
+    },
+    "terrain_file": "config/terrain.csv",
+    "terrain_interpolation": "piecewise linear; diagonal (i+1,j) to (i,j+1)",
+    "sensors": [
+      {
+        "id": "S01",
+        "world_enu_m": [
+          -41.25536163788628,
+          -9.415984980255509,
+          0.65
+        ],
+        "ground_z_m": 0.0,
+        "data_bytes": 100000,
+        "deadline_s": 300
+      },
+      {
+        "id": "S02",
+        "world_enu_m": [
+          -49.67490694090765,
+          -40.65414020296606,
+          0.65
+        ],
+        "ground_z_m": 0.0,
+        "data_bytes": 100000,
+        "deadline_s": 300
+      },
+      {
+        "id": "S03",
+        "world_enu_m": [
+          9.675086360595863,
+          -16.726258297297292,
+          0.7296595622946718
+        ],
+        "ground_z_m": 0.07965956229467176,
+        "data_bytes": 100000,
+        "deadline_s": 300
+      },
+      {
+        "id": "S04",
+        "world_enu_m": [
+          -10.397429045633665,
+          -39.99190328915411,
+          0.65
+        ],
+        "ground_z_m": 0.0,
+        "data_bytes": 100000,
+        "deadline_s": 300
+      },
+      {
+        "id": "S05",
+        "world_enu_m": [
+          38.24903417831118,
+          16.776250931136303,
+          0.65
+        ],
+        "ground_z_m": 0.0,
+        "data_bytes": 100000,
+        "deadline_s": 300
+      },
+      {
+        "id": "S06",
+        "world_enu_m": [
+          -2.0013503054650315,
+          3.2041177210081813,
+          4.497335156025853
+        ],
+        "ground_z_m": 3.847335156025853,
+        "data_bytes": 100000,
+        "deadline_s": 300
+      },
+      {
+        "id": "S07",
+        "world_enu_m": [
+          -32.09160517191988,
+          8.561584347846818,
+          0.65
+        ],
+        "ground_z_m": 0.0,
+        "data_bytes": 100000,
+        "deadline_s": 300
+      },
+      {
+        "id": "S08",
+        "world_enu_m": [
+          24.978802101728547,
+          -31.62888199789593,
+          0.65
+        ],
+        "ground_z_m": 0.0,
+        "data_bytes": 100000,
+        "deadline_s": 300
+      },
+      {
+        "id": "S09",
+        "world_enu_m": [
+          -35.87178370575893,
+          0.608612396347894,
+          0.65
+        ],
+        "ground_z_m": 0.0,
+        "data_bytes": 100000,
+        "deadline_s": 300
+      },
+      {
+        "id": "S10",
+        "world_enu_m": [
+          -36.75623662606969,
+          -9.160316180711426,
+          0.65
+        ],
+        "ground_z_m": 0.0,
+        "data_bytes": 100000,
+        "deadline_s": 300
+      },
+      {
+        "id": "S11",
+        "world_enu_m": [
+          -23.29369816465654,
+          -45.41268626064108,
+          0.65
+        ],
+        "ground_z_m": 0.0,
+        "data_bytes": 100000,
+        "deadline_s": 300
+      },
+      {
+        "id": "S12",
+        "world_enu_m": [
+          -16.03339840901255,
+          31.626126833764516,
+          0.65
+        ],
+        "ground_z_m": 0.0,
+        "data_bytes": 100000,
+        "deadline_s": 300
+      },
+      {
+        "id": "S13",
+        "world_enu_m": [
+          4.598107629183232,
+          -29.186716620149276,
+          0.6499999999999999
+        ],
+        "ground_z_m": 0.0,
+        "data_bytes": 100000,
+        "deadline_s": 300
+      },
+      {
+        "id": "S14",
+        "world_enu_m": [
+          -44.76314017754706,
+          -40.583890359790985,
+          0.6499999999999999
+        ],
+        "ground_z_m": 0.0,
+        "data_bytes": 100000,
+        "deadline_s": 300
+      },
+      {
+        "id": "S15",
+        "world_enu_m": [
+          49.0211437945035,
+          26.2018139878858,
+          0.65
+        ],
+        "ground_z_m": 0.0,
+        "data_bytes": 100000,
+        "deadline_s": 300
+      },
+      {
+        "id": "S16",
+        "world_enu_m": [
+          10.223382832282212,
+          4.715487257358994,
+          8.385543618403378
+        ],
+        "ground_z_m": 7.735543618403379,
+        "data_bytes": 100000,
+        "deadline_s": 300
+      },
+      {
+        "id": "S17",
+        "world_enu_m": [
+          35.12972920144641,
+          -38.965824613505475,
+          0.65
+        ],
+        "ground_z_m": 0.0,
+        "data_bytes": 100000,
+        "deadline_s": 300
+      },
+      {
+        "id": "S18",
+        "world_enu_m": [
+          27.938639532428624,
+          32.97672547591273,
+          0.6500000000000004
+        ],
+        "ground_z_m": 0.0,
+        "data_bytes": 100000,
+        "deadline_s": 300
+      },
+      {
+        "id": "S19",
+        "world_enu_m": [
+          -20.402882971126203,
+          23.057204129326266,
+          0.6500000000000004
+        ],
+        "ground_z_m": 0.0,
+        "data_bytes": 100000,
+        "deadline_s": 300
+      },
+      {
+        "id": "S20",
+        "world_enu_m": [
+          -17.960029580722825,
+          16.3043006811034,
+          0.65
+        ],
+        "ground_z_m": 0.0,
+        "data_bytes": 100000,
+        "deadline_s": 300
+      },
+      {
+        "id": "S21",
+        "world_enu_m": [
+          -24.826761569231415,
+          -30.30495761447388,
+          0.65
+        ],
+        "ground_z_m": 0.0,
+        "data_bytes": 100000,
+        "deadline_s": 300
+      },
+      {
+        "id": "S22",
+        "world_enu_m": [
+          48.47292811273151,
+          -28.82041151464858,
+          0.65
+        ],
+        "ground_z_m": 0.0,
+        "data_bytes": 100000,
+        "deadline_s": 300
+      },
+      {
+        "id": "S23",
+        "world_enu_m": [
+          -26.036008121858323,
+          -24.168242324986664,
+          0.6499999999999999
+        ],
+        "ground_z_m": 0.0,
+        "data_bytes": 100000,
+        "deadline_s": 300
+      },
+      {
+        "id": "S24",
+        "world_enu_m": [
+          0.6223516967475504,
+          -30.296321568823203,
+          0.6499999999999999
+        ],
+        "ground_z_m": 0.0,
+        "data_bytes": 100000,
+        "deadline_s": 300
+      },
+      {
+        "id": "S25",
+        "world_enu_m": [
+          -45.716781807826564,
+          -14.568767641439116,
+          0.65
+        ],
+        "ground_z_m": 0.0,
+        "data_bytes": 100000,
+        "deadline_s": 300
+      },
+      {
+        "id": "S26",
+        "world_enu_m": [
+          -4.274431627897599,
+          -48.87998440664945,
+          0.65
+        ],
+        "ground_z_m": 0.0,
+        "data_bytes": 100000,
+        "deadline_s": 300
+      },
+      {
+        "id": "S27",
+        "world_enu_m": [
+          48.58877914810323,
+          -38.632015061947875,
+          0.65
+        ],
+        "ground_z_m": 0.0,
+        "data_bytes": 100000,
+        "deadline_s": 300
+      },
+      {
+        "id": "S28",
+        "world_enu_m": [
+          1.3894493510153936,
+          46.6140207543783,
+          0.65
+        ],
+        "ground_z_m": 0.0,
+        "data_bytes": 100000,
+        "deadline_s": 300
+      },
+      {
+        "id": "S29",
+        "world_enu_m": [
+          29.238510791913214,
+          38.85669115350284,
+          0.65
+        ],
+        "ground_z_m": 0.0,
+        "data_bytes": 100000,
+        "deadline_s": 300
+      },
+      {
+        "id": "S30",
+        "world_enu_m": [
+          44.63961769805829,
+          17.5382750271055,
+          0.65
+        ],
+        "ground_z_m": 0.0,
+        "data_bytes": 100000,
+        "deadline_s": 300
+      }
+    ],
+    "uav_spawns": [
+      {
+        "id": "UAV1",
+        "instance": 0,
+        "system_id": 1,
+        "namespace": "/fmu",
+        "world_enu_m": [
+          -70.0,
+          -10.0,
+          0.12
+        ],
+        "yaw_rad": 0
+      },
+      {
+        "id": "UAV2",
+        "instance": 1,
+        "system_id": 2,
+        "namespace": "/px4_1/fmu",
+        "world_enu_m": [
+          -55.0,
+          0.0,
+          0.12
+        ],
+        "yaw_rad": 0
+      },
+      {
+        "id": "UAV3",
+        "instance": 2,
+        "system_id": 3,
+        "namespace": "/px4_2/fmu",
+        "world_enu_m": [
+          -70.0,
+          10.0,
+          0.12
+        ],
+        "yaw_rad": 0
+      }
+    ],
+    "note": "Farm ROI unchanged [-50,50]^2; separate flat west apron outside farm. Extended terrain grid is for flight checking, not enlarged sensor ROI.",
+    "scenario": {
+      "schema": "random30_iid_v1",
+      "layout": "uniform_iid_xy",
+      "seed": 404,
+      "count": 30,
+      "generator": "Python random.Random(seed); successive uniform X then Y draws",
+      "placement": "Full original farm ROI; no minimum spacing, rejection or load balancing",
+      "terrain": "Same triangulated mesh; antenna at ground + 0.65 m"
+    },
+    "flight_bounds_xy_m": [
+      -78,
+      47,
+      -47,
+      47
+    ]
+  },
+  "policy": {
+    "min_distance_m": 12.0,
+    "max_distance_m": 28.0,
+    "max_radius_m": 18.0,
+    "tracking_budget_m": 2.0,
+    "min_agl_m": 5.0,
+    "planned_clearance_m": 8.0,
+    "collection_range_m": 28.0,
+    "service_range_reserve_m": 2.0,
+    "horizontal_speed_m_s": 1.4,
+    "vertical_speed_m_s": 0.6,
+    "acceleration_m_s2": 0.4,
+    "nominal_link_bps": 160000.0,
+    "service_guard_s": 0.5,
+    "scales": [
+      0.9,
+      1.0,
+      1.1
+    ],
+    "max_world_altitude_m": 18.0,
+    "pause_error_m": 0.8,
+    "resume_error_m": 0.3,
+    "max_pause_s": 45.0,
+    "max_step_s": 0.1,
+    "max_age_s": 0.5,
+    "service_position_error_m": 0.35,
+    "service_speed_m_s": 0.25,
+    "service_settle_s": 0.5,
+    "warning_min_m": 14.0,
+    "warning_max_m": 26.0
+  },
+  "mission": {
+    "schema": "formation_energy_offline_v6",
+    "executable_in_sitl": false,
+    "scope": "Airborne reference only; no ROS/PX4/Gazebo execution or measured radio/battery.",
+    "policy": {
+      "min_distance_m": 12.0,
+      "max_distance_m": 28.0,
+      "max_radius_m": 18.0,
+      "tracking_budget_m": 2.0,
+      "min_agl_m": 5.0,
+      "planned_clearance_m": 8.0,
+      "collection_range_m": 28.0,
+      "service_range_reserve_m": 2.0,
+      "horizontal_speed_m_s": 1.4,
+      "vertical_speed_m_s": 0.6,
+      "acceleration_m_s2": 0.4,
+      "nominal_link_bps": 160000.0,
+      "service_guard_s": 0.5,
+      "scales": [
+        0.9,
+        1.0,
+        1.1
+      ],
+      "max_world_altitude_m": 18.0
+    },
+    "initial_state": [
+      -65.0,
+      0.0,
+      7.0,
+      1.0
+    ],
+    "stages": [
+      {
+        "state": [
+          -26.036008121858323,
+          -24.168242324986664,
+          8.175063898322888,
+          1.0
+        ],
+        "sensor_ids": [
+          "S01",
+          "S02",
+          "S04",
+          "S07",
+          "S09",
+          "S10",
+          "S11",
+          "S14",
+          "S21",
+          "S23",
+          "S25"
+        ],
+        "start_s": 38.00230098932967,
+        "end_s": 60.00230098932967
+      },
+      {
+        "state": [
+          4.598107629183232,
+          -29.186716620149276,
+          10.175063898322888,
+          1.1
+        ],
+        "sensor_ids": [
+          "S03",
+          "S06",
+          "S26"
+        ],
+        "start_s": 88.14089066631529,
+        "end_s": 93.64089066631529
+      },
+      {
+        "state": [
+          24.978802101728547,
+          -31.62888199789593,
+          12.0,
+          1.1
+        ],
+        "sensor_ids": [
+          "S08",
+          "S13",
+          "S17",
+          "S22",
+          "S24",
+          "S27"
+        ],
+        "start_s": 113.57337881839553,
+        "end_s": 124.57337881839553
+      },
+      {
+        "state": [
+          27.938639532428624,
+          32.97672547591273,
+          15.195088650593089,
+          1.1
+        ],
+        "sensor_ids": [
+          "S05",
+          "S15",
+          "S16",
+          "S18",
+          "S29",
+          "S30"
+        ],
+        "start_s": 176.02504807254286,
+        "end_s": 187.02504807254286
+      },
+      {
+        "state": [
+          1.3894493510153936,
+          34.0,
+          14.954728475893702,
+          1.1
+        ],
+        "sensor_ids": [
+          "S12",
+          "S19",
+          "S20",
+          "S28"
+        ],
+        "start_s": 211.25305053839807,
+        "end_s": 222.25305053839807
+      }
+    ],
+    "services": [
+      {
+        "sensor": "S01",
+        "uav": "UAV3",
+        "start_s": 38.00230098932967,
+        "end_s": 43.50230098932967,
+        "assumed_bytes": 100000,
+        "position": [
+          -31.036008121858323,
+          -14.168242324986664,
+          8.175063898322888
+        ],
+        "stage": 0
+      },
+      {
+        "sensor": "S02",
+        "uav": "UAV1",
+        "start_s": 38.00230098932967,
+        "end_s": 43.50230098932967,
+        "assumed_bytes": 100000,
+        "position": [
+          -31.036008121858323,
+          -34.168242324986664,
+          8.175063898322888
+        ],
+        "stage": 0
+      },
+      {
+        "sensor": "S07",
+        "uav": "UAV3",
+        "start_s": 43.50230098932967,
+        "end_s": 49.00230098932967,
+        "assumed_bytes": 100000,
+        "position": [
+          -31.036008121858323,
+          -14.168242324986664,
+          8.175063898322888
+        ],
+        "stage": 0
+      },
+      {
+        "sensor": "S09",
+        "uav": "UAV3",
+        "start_s": 49.00230098932967,
+        "end_s": 54.50230098932967,
+        "assumed_bytes": 100000,
+        "position": [
+          -31.036008121858323,
+          -14.168242324986664,
+          8.175063898322888
+        ],
+        "stage": 0
+      },
+      {
+        "sensor": "S10",
+        "uav": "UAV3",
+        "start_s": 54.50230098932967,
+        "end_s": 60.002300989329676,
+        "assumed_bytes": 100000,
+        "position": [
+          -31.036008121858323,
+          -14.168242324986664,
+          8.175063898322888
+        ],
+        "stage": 0
+      },
+      {
+        "sensor": "S14",
+        "uav": "UAV1",
+        "start_s": 43.50230098932967,
+        "end_s": 49.00230098932967,
+        "assumed_bytes": 100000,
+        "position": [
+          -31.036008121858323,
+          -34.168242324986664,
+          8.175063898322888
+        ],
+        "stage": 0
+      },
+      {
+        "sensor": "S04",
+        "uav": "UAV2",
+        "start_s": 38.00230098932967,
+        "end_s": 43.50230098932967,
+        "assumed_bytes": 100000,
+        "position": [
+          -16.036008121858323,
+          -24.168242324986664,
+          8.175063898322888
+        ],
+        "stage": 0
+      },
+      {
+        "sensor": "S11",
+        "uav": "UAV2",
+        "start_s": 43.50230098932967,
+        "end_s": 49.00230098932967,
+        "assumed_bytes": 100000,
+        "position": [
+          -16.036008121858323,
+          -24.168242324986664,
+          8.175063898322888
+        ],
+        "stage": 0
+      },
+      {
+        "sensor": "S25",
+        "uav": "UAV1",
+        "start_s": 49.00230098932967,
+        "end_s": 54.50230098932967,
+        "assumed_bytes": 100000,
+        "position": [
+          -31.036008121858323,
+          -34.168242324986664,
+          8.175063898322888
+        ],
+        "stage": 0
+      },
+      {
+        "sensor": "S21",
+        "uav": "UAV2",
+        "start_s": 49.00230098932967,
+        "end_s": 54.50230098932967,
+        "assumed_bytes": 100000,
+        "position": [
+          -16.036008121858323,
+          -24.168242324986664,
+          8.175063898322888
+        ],
+        "stage": 0
+      },
+      {
+        "sensor": "S23",
+        "uav": "UAV1",
+        "start_s": 54.50230098932967,
+        "end_s": 60.002300989329676,
+        "assumed_bytes": 100000,
+        "position": [
+          -31.036008121858323,
+          -34.168242324986664,
+          8.175063898322888
+        ],
+        "stage": 0
+      },
+      {
+        "sensor": "S06",
+        "uav": "UAV3",
+        "start_s": 88.14089066631529,
+        "end_s": 93.64089066631529,
+        "assumed_bytes": 100000,
+        "position": [
+          -0.9018923708167677,
+          -18.186716620149276,
+          10.175063898322888
+        ],
+        "stage": 1
+      },
+      {
+        "sensor": "S26",
+        "uav": "UAV1",
+        "start_s": 88.14089066631529,
+        "end_s": 93.64089066631529,
+        "assumed_bytes": 100000,
+        "position": [
+          -0.9018923708167677,
+          -40.18671662014928,
+          10.175063898322888
+        ],
+        "stage": 1
+      },
+      {
+        "sensor": "S03",
+        "uav": "UAV2",
+        "start_s": 88.14089066631529,
+        "end_s": 93.64089066631529,
+        "assumed_bytes": 100000,
+        "position": [
+          15.598107629183232,
+          -29.186716620149276,
+          10.175063898322888
+        ],
+        "stage": 1
+      },
+      {
+        "sensor": "S22",
+        "uav": "UAV2",
+        "start_s": 113.57337881839553,
+        "end_s": 119.07337881839553,
+        "assumed_bytes": 100000,
+        "position": [
+          35.97880210172855,
+          -31.62888199789593,
+          12.0
+        ],
+        "stage": 2
+      },
+      {
+        "sensor": "S27",
+        "uav": "UAV2",
+        "start_s": 119.07337881839553,
+        "end_s": 124.57337881839553,
+        "assumed_bytes": 100000,
+        "position": [
+          35.97880210172855,
+          -31.62888199789593,
+          12.0
+        ],
+        "stage": 2
+      },
+      {
+        "sensor": "S13",
+        "uav": "UAV1",
+        "start_s": 113.57337881839553,
+        "end_s": 119.07337881839553,
+        "assumed_bytes": 100000,
+        "position": [
+          19.478802101728547,
+          -42.62888199789593,
+          12.0
+        ],
+        "stage": 2
+      },
+      {
+        "sensor": "S17",
+        "uav": "UAV1",
+        "start_s": 119.07337881839553,
+        "end_s": 124.57337881839553,
+        "assumed_bytes": 100000,
+        "position": [
+          19.478802101728547,
+          -42.62888199789593,
+          12.0
+        ],
+        "stage": 2
+      },
+      {
+        "sensor": "S24",
+        "uav": "UAV3",
+        "start_s": 113.57337881839553,
+        "end_s": 119.07337881839553,
+        "assumed_bytes": 100000,
+        "position": [
+          19.478802101728547,
+          -20.62888199789593,
+          12.0
+        ],
+        "stage": 2
+      },
+      {
+        "sensor": "S08",
+        "uav": "UAV3",
+        "start_s": 119.07337881839553,
+        "end_s": 124.57337881839553,
+        "assumed_bytes": 100000,
+        "position": [
+          19.478802101728547,
+          -20.62888199789593,
+          12.0
+        ],
+        "stage": 2
+      },
+      {
+        "sensor": "S15",
+        "uav": "UAV2",
+        "start_s": 176.02504807254286,
+        "end_s": 181.52504807254286,
+        "assumed_bytes": 100000,
+        "position": [
+          38.938639532428624,
+          32.97672547591273,
+          15.195088650593089
+        ],
+        "stage": 3
+      },
+      {
+        "sensor": "S16",
+        "uav": "UAV1",
+        "start_s": 176.02504807254286,
+        "end_s": 181.52504807254286,
+        "assumed_bytes": 100000,
+        "position": [
+          22.438639532428624,
+          21.97672547591273,
+          15.195088650593089
+        ],
+        "stage": 3
+      },
+      {
+        "sensor": "S30",
+        "uav": "UAV2",
+        "start_s": 181.52504807254286,
+        "end_s": 187.02504807254286,
+        "assumed_bytes": 100000,
+        "position": [
+          38.938639532428624,
+          32.97672547591273,
+          15.195088650593089
+        ],
+        "stage": 3
+      },
+      {
+        "sensor": "S05",
+        "uav": "UAV1",
+        "start_s": 181.52504807254286,
+        "end_s": 187.02504807254286,
+        "assumed_bytes": 100000,
+        "position": [
+          22.438639532428624,
+          21.97672547591273,
+          15.195088650593089
+        ],
+        "stage": 3
+      },
+      {
+        "sensor": "S18",
+        "uav": "UAV3",
+        "start_s": 176.02504807254286,
+        "end_s": 181.52504807254286,
+        "assumed_bytes": 100000,
+        "position": [
+          22.438639532428624,
+          43.97672547591273,
+          15.195088650593089
+        ],
+        "stage": 3
+      },
+      {
+        "sensor": "S29",
+        "uav": "UAV3",
+        "start_s": 181.52504807254286,
+        "end_s": 187.02504807254286,
+        "assumed_bytes": 100000,
+        "position": [
+          22.438639532428624,
+          43.97672547591273,
+          15.195088650593089
+        ],
+        "stage": 3
+      },
+      {
+        "sensor": "S19",
+        "uav": "UAV1",
+        "start_s": 211.25305053839807,
+        "end_s": 216.75305053839807,
+        "assumed_bytes": 100000,
+        "position": [
+          -4.110550648984606,
+          23.0,
+          14.954728475893702
+        ],
+        "stage": 4
+      },
+      {
+        "sensor": "S20",
+        "uav": "UAV1",
+        "start_s": 216.75305053839807,
+        "end_s": 222.25305053839807,
+        "assumed_bytes": 100000,
+        "position": [
+          -4.110550648984606,
+          23.0,
+          14.954728475893702
+        ],
+        "stage": 4
+      },
+      {
+        "sensor": "S12",
+        "uav": "UAV3",
+        "start_s": 211.25305053839807,
+        "end_s": 216.75305053839807,
+        "assumed_bytes": 100000,
+        "position": [
+          -4.110550648984606,
+          45.0,
+          14.954728475893702
+        ],
+        "stage": 4
+      },
+      {
+        "sensor": "S28",
+        "uav": "UAV2",
+        "start_s": 211.25305053839807,
+        "end_s": 216.75305053839807,
+        "assumed_bytes": 100000,
+        "position": [
+          12.389449351015394,
+          34.0,
+          14.954728475893702
+        ],
+        "stage": 4
+      }
+    ],
+    "segments": [
+      {
+        "start": [
+          -65.0,
+          0.0,
+          7.0,
+          1.0
+        ],
+        "end": [
+          -26.036008121858323,
+          -24.168242324986664,
+          8.175063898322888,
+          1.0
+        ],
+        "start_s": 0.0,
+        "end_s": 38.00230098932967,
+        "duration_s": 38.00230098932967,
+        "kind": "TRANSIT",
+        "profile": {
+          "kind": "smooth_cruise_v1",
+          "duration_s": 38.00230098932967,
+          "ramp_s": 5.251723800466917,
+          "cruise_s": 27.498853388395833,
+          "peak_progress_rate_s_inv": 0.030533813014448574
+        }
+      },
+      {
+        "start": [
+          -26.036008121858323,
+          -24.168242324986664,
+          8.175063898322888,
+          1.0
+        ],
+        "end": [
+          -26.036008121858323,
+          -24.168242324986664,
+          8.175063898322888,
+          1.0
+        ],
+        "start_s": 38.00230098932967,
+        "end_s": 60.00230098932967,
+        "duration_s": 22.0,
+        "kind": "SERVICE",
+        "profile": {
+          "kind": "hold",
+          "duration_s": 22.0
+        }
+      },
+      {
+        "start": [
+          -26.036008121858323,
+          -24.168242324986664,
+          8.175063898322888,
+          1.0
+        ],
+        "end": [
+          4.598107629183232,
+          -29.186716620149276,
+          10.175063898322888,
+          1.1
+        ],
+        "start_s": 60.00230098932967,
+        "end_s": 88.14089066631529,
+        "duration_s": 28.138589676985617,
+        "kind": "TRANSIT",
+        "profile": {
+          "kind": "smooth_cruise_v1",
+          "duration_s": 28.138589676985617,
+          "ramp_s": 5.260224935027478,
+          "cruise_s": 17.61813980693066,
+          "peak_progress_rate_s_inv": 0.04370941766506739
+        }
+      },
+      {
+        "start": [
+          4.598107629183232,
+          -29.186716620149276,
+          10.175063898322888,
+          1.1
+        ],
+        "end": [
+          4.598107629183232,
+          -29.186716620149276,
+          10.175063898322888,
+          1.1
+        ],
+        "start_s": 88.14089066631529,
+        "end_s": 93.64089066631529,
+        "duration_s": 5.5,
+        "kind": "SERVICE",
+        "profile": {
+          "kind": "hold",
+          "duration_s": 5.5
+        }
+      },
+      {
+        "start": [
+          4.598107629183232,
+          -29.186716620149276,
+          10.175063898322888,
+          1.1
+        ],
+        "end": [
+          24.978802101728547,
+          -31.62888199789593,
+          12.0,
+          1.1
+        ],
+        "start_s": 93.64089066631529,
+        "end_s": 113.57337881839553,
+        "duration_s": 19.932488152080246,
+        "kind": "TRANSIT",
+        "profile": {
+          "kind": "smooth_cruise_v1",
+          "duration_s": 19.932488152080246,
+          "ramp_s": 5.270708063528488,
+          "cruise_s": 9.391072025023272,
+          "peak_progress_rate_s_inv": 0.06820454228343133
+        }
+      },
+      {
+        "start": [
+          24.978802101728547,
+          -31.62888199789593,
+          12.0,
+          1.1
+        ],
+        "end": [
+          24.978802101728547,
+          -31.62888199789593,
+          12.0,
+          1.1
+        ],
+        "start_s": 113.57337881839553,
+        "end_s": 124.57337881839553,
+        "duration_s": 11.0,
+        "kind": "SERVICE",
+        "profile": {
+          "kind": "hold",
+          "duration_s": 11.0
+        }
+      },
+      {
+        "start": [
+          24.978802101728547,
+          -31.62888199789593,
+          12.0,
+          1.1
+        ],
+        "end": [
+          27.938639532428624,
+          32.97672547591273,
+          15.195088650593089,
+          1.1
+        ],
+        "start_s": 124.57337881839553,
+        "end_s": 176.02504807254286,
+        "duration_s": 51.45166925414735,
+        "kind": "TRANSIT",
+        "profile": {
+          "kind": "smooth_cruise_v1",
+          "duration_s": 51.45166925414735,
+          "ramp_s": 5.256402938898743,
+          "cruise_s": 40.93886337634986,
+          "peak_progress_rate_s_inv": 0.021647239636540635
+        }
+      },
+      {
+        "start": [
+          27.938639532428624,
+          32.97672547591273,
+          15.195088650593089,
+          1.1
+        ],
+        "end": [
+          27.938639532428624,
+          32.97672547591273,
+          15.195088650593089,
+          1.1
+        ],
+        "start_s": 176.02504807254286,
+        "end_s": 187.02504807254286,
+        "duration_s": 11.0,
+        "kind": "SERVICE",
+        "profile": {
+          "kind": "hold",
+          "duration_s": 11.0
+        }
+      },
+      {
+        "start": [
+          27.938639532428624,
+          32.97672547591273,
+          15.195088650593089,
+          1.1
+        ],
+        "end": [
+          1.3894493510153936,
+          34.0,
+          14.954728475893702,
+          1.1
+        ],
+        "start_s": 187.02504807254286,
+        "end_s": 211.25305053839807,
+        "duration_s": 24.22800246585522,
+        "kind": "TRANSIT",
+        "profile": {
+          "kind": "smooth_cruise_v1",
+          "duration_s": 24.22800246585522,
+          "ramp_s": 5.2502148316221815,
+          "cruise_s": 13.727572802610858,
+          "peak_progress_rate_s_inv": 0.05269318106374804
+        }
+      },
+      {
+        "start": [
+          1.3894493510153936,
+          34.0,
+          14.954728475893702,
+          1.1
+        ],
+        "end": [
+          1.3894493510153936,
+          34.0,
+          14.954728475893702,
+          1.1
+        ],
+        "start_s": 211.25305053839807,
+        "end_s": 222.25305053839807,
+        "duration_s": 11.0,
+        "kind": "SERVICE",
+        "profile": {
+          "kind": "hold",
+          "duration_s": 11.0
+        }
+      },
+      {
+        "start": [
+          1.3894493510153936,
+          34.0,
+          14.954728475893702,
+          1.1
+        ],
+        "end": [
+          -65.0,
+          0.0,
+          7.0,
+          1.0
+        ],
+        "start_s": 222.25305053839807,
+        "end_s": 281.4469189825381,
+        "duration_s": 59.19386844414002,
+        "kind": "RETURN",
+        "profile": {
+          "kind": "smooth_cruise_v1",
+          "duration_s": 59.19386844414002,
+          "ramp_s": 5.279074159343064,
+          "cruise_s": 48.635720125453894,
+          "peak_progress_rate_s_inv": 0.01854778476419009
+        }
+      }
+    ],
+    "energy_estimate": {
+      "status": "uncalibrated_reference_estimate",
+      "per_uav": {
+        "UAV1": {
+          "quasi_steady_j": 87126.06465579948,
+          "positive_climb_work_j": 221.20121036627995,
+          "positive_kinetic_work_j": 15.913585959716904,
+          "avionics_j": 1407.2345949126907,
+          "radio_j": 181.50000000000003,
+          "total_j": 88951.91404703817,
+          "total_wh": 24.70886501306616
+        },
+        "UAV2": {
+          "quasi_steady_j": 87113.5844750881,
+          "positive_climb_work_j": 221.20121036627995,
+          "positive_kinetic_work_j": 16.254544401419217,
+          "avionics_j": 1407.2345949126907,
+          "radio_j": 148.5,
+          "total_j": 88906.77482476848,
+          "total_wh": 24.696326340213467
+        },
+        "UAV3": {
+          "quasi_steady_j": 87123.58301841101,
+          "positive_climb_work_j": 221.20121036627995,
+          "positive_kinetic_work_j": 15.925194687720314,
+          "avionics_j": 1407.2345949126907,
+          "radio_j": 165.00000000000003,
+          "total_j": 88932.9440183777,
+          "total_wh": 24.703595560660474
+        }
+      },
+      "team_wh": 74.1087869139401,
+      "mission_energy_limit_wh_per_uav": null,
+      "budget_feasible": null,
+      "derived": {
+        "hover_electrical_proxy_w": 311.52698328383235,
+        "induced_velocity_m_s": 5.8079959115679785,
+        "rotor_tip_speed_m_s": 107.42462454852617
+      },
+      "segments": [
+        {
+          "start_s": 0.0,
+          "end_s": 38.00230098932967,
+          "energy": {
+            "UAV1": {
+              "quasi_steady_j": 11740.921198904662,
+              "positive_climb_work_j": 31.717235486882867,
+              "positive_kinetic_work_j": 2.6991336616873216,
+              "avionics_j": 190.01150494664836,
+              "total_j": 11965.34907299988
+            },
+            "UAV2": {
+              "quasi_steady_j": 11740.921198904662,
+              "positive_climb_work_j": 31.717235486882867,
+              "positive_kinetic_work_j": 2.6991336616873216,
+              "avionics_j": 190.01150494664836,
+              "total_j": 11965.34907299988
+            },
+            "UAV3": {
+              "quasi_steady_j": 11740.921198904662,
+              "positive_climb_work_j": 31.717235486882867,
+              "positive_kinetic_work_j": 2.6991336616873216,
+              "avionics_j": 190.01150494664836,
+              "total_j": 11965.34907299988
+            }
+          }
+        },
+        {
+          "start_s": 38.00230098932967,
+          "end_s": 60.00230098932967,
+          "energy": {
+            "UAV1": {
+              "quasi_steady_j": 6853.593632244312,
+              "positive_climb_work_j": 0.0,
+              "positive_kinetic_work_j": 0.0,
+              "avionics_j": 110.0,
+              "total_j": 6963.593632244312
+            },
+            "UAV2": {
+              "quasi_steady_j": 6853.593632244312,
+              "positive_climb_work_j": 0.0,
+              "positive_kinetic_work_j": 0.0,
+              "avionics_j": 110.0,
+              "total_j": 6963.593632244312
+            },
+            "UAV3": {
+              "quasi_steady_j": 6853.593632244312,
+              "positive_climb_work_j": 0.0,
+              "positive_kinetic_work_j": 0.0,
+              "avionics_j": 110.0,
+              "total_j": 6963.593632244312
+            }
+          }
+        },
+        {
+          "start_s": 60.00230098932967,
+          "end_s": 88.14089066631529,
+          "energy": {
+            "UAV1": {
+              "quasi_steady_j": 8703.945570288692,
+              "positive_climb_work_j": 53.98384808205128,
+              "positive_kinetic_work_j": 2.493291139296625,
+              "avionics_j": 140.6929483849281,
+              "total_j": 8901.115657894969
+            },
+            "UAV2": {
+              "quasi_steady_j": 8698.815164812266,
+              "positive_climb_work_j": 53.98384808205128,
+              "positive_kinetic_work_j": 2.7078790834947957,
+              "avionics_j": 140.6929483849281,
+              "total_j": 8896.19984036274
+            },
+            "UAV3": {
+              "quasi_steady_j": 8705.211878234037,
+              "positive_climb_work_j": 53.98384808205128,
+              "positive_kinetic_work_j": 2.4405116834755667,
+              "avionics_j": 140.6929483849281,
+              "total_j": 8902.329186384492
+            }
+          }
+        },
+        {
+          "start_s": 88.14089066631529,
+          "end_s": 93.64089066631529,
+          "energy": {
+            "UAV1": {
+              "quasi_steady_j": 1713.398408061078,
+              "positive_climb_work_j": 0.0,
+              "positive_kinetic_work_j": 0.0,
+              "avionics_j": 27.5,
+              "total_j": 1740.898408061078
+            },
+            "UAV2": {
+              "quasi_steady_j": 1713.398408061078,
+              "positive_climb_work_j": 0.0,
+              "positive_kinetic_work_j": 0.0,
+              "avionics_j": 27.5,
+              "total_j": 1740.898408061078
+            },
+            "UAV3": {
+              "quasi_steady_j": 1713.398408061078,
+              "positive_climb_work_j": 0.0,
+              "positive_kinetic_work_j": 0.0,
+              "avionics_j": 27.5,
+              "total_j": 1740.898408061078
+            }
+          }
+        },
+        {
+          "start_s": 93.64089066631529,
+          "end_s": 113.57337881839553,
+          "energy": {
+            "UAV1": {
+              "quasi_steady_j": 6167.952309534133,
+              "positive_climb_work_j": 49.25853663619406,
+              "positive_kinetic_work_j": 2.718682929752175,
+              "avionics_j": 99.66244076040124,
+              "total_j": 6319.59196986048
+            },
+            "UAV2": {
+              "quasi_steady_j": 6167.952309534133,
+              "positive_climb_work_j": 49.25853663619406,
+              "positive_kinetic_work_j": 2.718682929752175,
+              "avionics_j": 99.66244076040124,
+              "total_j": 6319.59196986048
+            },
+            "UAV3": {
+              "quasi_steady_j": 6167.952309534133,
+              "positive_climb_work_j": 49.25853663619406,
+              "positive_kinetic_work_j": 2.718682929752175,
+              "avionics_j": 99.66244076040124,
+              "total_j": 6319.59196986048
+            }
+          }
+        },
+        {
+          "start_s": 113.57337881839553,
+          "end_s": 124.57337881839553,
+          "energy": {
+            "UAV1": {
+              "quasi_steady_j": 3426.796816122156,
+              "positive_climb_work_j": 0.0,
+              "positive_kinetic_work_j": 0.0,
+              "avionics_j": 55.0,
+              "total_j": 3481.796816122156
+            },
+            "UAV2": {
+              "quasi_steady_j": 3426.796816122156,
+              "positive_climb_work_j": 0.0,
+              "positive_kinetic_work_j": 0.0,
+              "avionics_j": 55.0,
+              "total_j": 3481.796816122156
+            },
+            "UAV3": {
+              "quasi_steady_j": 3426.796816122156,
+              "positive_climb_work_j": 0.0,
+              "positive_kinetic_work_j": 0.0,
+              "avionics_j": 55.0,
+              "total_j": 3481.796816122156
+            }
+          }
+        },
+        {
+          "start_s": 124.57337881839553,
+          "end_s": 176.02504807254286,
+          "energy": {
+            "UAV1": {
+              "quasi_steady_j": 15888.95687134847,
+              "positive_climb_work_j": 86.24159016115176,
+              "positive_kinetic_work_j": 2.703945508938816,
+              "avionics_j": 257.25834627073675,
+              "total_j": 16235.160753289298
+            },
+            "UAV2": {
+              "quasi_steady_j": 15888.95687134847,
+              "positive_climb_work_j": 86.24159016115176,
+              "positive_kinetic_work_j": 2.703945508938816,
+              "avionics_j": 257.25834627073675,
+              "total_j": 16235.160753289298
+            },
+            "UAV3": {
+              "quasi_steady_j": 15888.95687134847,
+              "positive_climb_work_j": 86.24159016115176,
+              "positive_kinetic_work_j": 2.703945508938816,
+              "avionics_j": 257.25834627073675,
+              "total_j": 16235.160753289298
+            }
+          }
+        },
+        {
+          "start_s": 176.02504807254286,
+          "end_s": 187.02504807254286,
+          "energy": {
+            "UAV1": {
+              "quasi_steady_j": 3426.796816122156,
+              "positive_climb_work_j": 0.0,
+              "positive_kinetic_work_j": 0.0,
+              "avionics_j": 55.0,
+              "total_j": 3481.796816122156
+            },
+            "UAV2": {
+              "quasi_steady_j": 3426.796816122156,
+              "positive_climb_work_j": 0.0,
+              "positive_kinetic_work_j": 0.0,
+              "avionics_j": 55.0,
+              "total_j": 3481.796816122156
+            },
+            "UAV3": {
+              "quasi_steady_j": 3426.796816122156,
+              "positive_climb_work_j": 0.0,
+              "positive_kinetic_work_j": 0.0,
+              "avionics_j": 55.0,
+              "total_j": 3481.796816122156
+            }
+          }
+        },
+        {
+          "start_s": 187.02504807254286,
+          "end_s": 211.25305053839807,
+          "energy": {
+            "UAV1": {
+              "quasi_steady_j": 7492.6837080652385,
+              "positive_climb_work_j": 0.0,
+              "positive_kinetic_work_j": 2.6975828095758843,
+              "avionics_j": 121.14001232927609,
+              "total_j": 7616.52130320409
+            },
+            "UAV2": {
+              "quasi_steady_j": 7492.6837080652385,
+              "positive_climb_work_j": 0.0,
+              "positive_kinetic_work_j": 2.6975828095758843,
+              "avionics_j": 121.14001232927609,
+              "total_j": 7616.52130320409
+            },
+            "UAV3": {
+              "quasi_steady_j": 7492.6837080652385,
+              "positive_climb_work_j": 0.0,
+              "positive_kinetic_work_j": 2.6975828095758843,
+              "avionics_j": 121.14001232927609,
+              "total_j": 7616.52130320409
+            }
+          }
+        },
+        {
+          "start_s": 211.25305053839807,
+          "end_s": 222.25305053839807,
+          "energy": {
+            "UAV1": {
+              "quasi_steady_j": 3426.796816122156,
+              "positive_climb_work_j": 0.0,
+              "positive_kinetic_work_j": 0.0,
+              "avionics_j": 55.0,
+              "total_j": 3481.796816122156
+            },
+            "UAV2": {
+              "quasi_steady_j": 3426.796816122156,
+              "positive_climb_work_j": 0.0,
+              "positive_kinetic_work_j": 0.0,
+              "avionics_j": 55.0,
+              "total_j": 3481.796816122156
+            },
+            "UAV3": {
+              "quasi_steady_j": 3426.796816122156,
+              "positive_climb_work_j": 0.0,
+              "positive_kinetic_work_j": 0.0,
+              "avionics_j": 55.0,
+              "total_j": 3481.796816122156
+            }
+          }
+        },
+        {
+          "start_s": 222.25305053839807,
+          "end_s": 281.4469189825381,
+          "energy": {
+            "UAV1": {
+              "quasi_steady_j": 18284.222508986415,
+              "positive_climb_work_j": 0.0,
+              "positive_kinetic_work_j": 2.6009499104660825,
+              "avionics_j": 295.9693422207001,
+              "total_j": 18582.792801117583
+            },
+            "UAV2": {
+              "quasi_steady_j": 18276.87273375146,
+              "positive_climb_work_j": 0.0,
+              "positive_kinetic_work_j": 2.7273204079702253,
+              "avionics_j": 295.9693422207001,
+              "total_j": 18575.56939638013
+            },
+            "UAV3": {
+              "quasi_steady_j": 18280.4745636526,
+              "positive_climb_work_j": 0.0,
+              "positive_kinetic_work_j": 2.6653380942905516,
+              "avionics_j": 295.9693422207001,
+              "total_j": 18579.10924396759
+            }
+          }
+        }
+      ],
+      "excludes": [
+        "takeoff",
+        "landing",
+        "feedback pauses",
+        "wind",
+        "battery/SOC dynamics"
+      ]
+    },
+    "summary": {
+      "sensors": 30,
+      "geometrically_scheduled": 30,
+      "stages": 5,
+      "duration_s": 281.4469189825381,
+      "airborne_collection_complete_s": 222.25305053839807,
+      "deadline_misses": 0,
+      "total_lateness_s": 0.0,
+      "deadline_feasible": true,
+      "loads": {
+        "UAV1": 11,
+        "UAV2": 9,
+        "UAV3": 10
+      },
+      "min_world_altitude_m": 7.0,
+      "max_world_altitude_m": 15.195088650593089,
+      "scales_used": [
+        1.0,
+        1.1
+      ],
+      "retiming_mode": "fast",
+      "team_energy_estimate_wh": 74.1087869139401,
+      "energy_budget_feasible": null,
+      "peak_horizontal_speed_m_s": 1.2
+    },
+    "arm_deadline_prediction": {
+      "clock": "since first ARM command",
+      "services": [
+        {
+          "sensor": "S01",
+          "stage": 0,
+          "reference_end_s": 43.50230098932967,
+          "predicted_since_arm_s": 67.50230098932967,
+          "deadline_s": 300,
+          "slack_s": 232.49769901067032
+        },
+        {
+          "sensor": "S02",
+          "stage": 0,
+          "reference_end_s": 43.50230098932967,
+          "predicted_since_arm_s": 67.50230098932967,
+          "deadline_s": 300,
+          "slack_s": 232.49769901067032
+        },
+        {
+          "sensor": "S07",
+          "stage": 0,
+          "reference_end_s": 49.00230098932967,
+          "predicted_since_arm_s": 73.00230098932967,
+          "deadline_s": 300,
+          "slack_s": 226.99769901067032
+        },
+        {
+          "sensor": "S09",
+          "stage": 0,
+          "reference_end_s": 54.50230098932967,
+          "predicted_since_arm_s": 78.50230098932967,
+          "deadline_s": 300,
+          "slack_s": 221.49769901067032
+        },
+        {
+          "sensor": "S10",
+          "stage": 0,
+          "reference_end_s": 60.002300989329676,
+          "predicted_since_arm_s": 84.00230098932968,
+          "deadline_s": 300,
+          "slack_s": 215.99769901067032
+        },
+        {
+          "sensor": "S14",
+          "stage": 0,
+          "reference_end_s": 49.00230098932967,
+          "predicted_since_arm_s": 73.00230098932967,
+          "deadline_s": 300,
+          "slack_s": 226.99769901067032
+        },
+        {
+          "sensor": "S04",
+          "stage": 0,
+          "reference_end_s": 43.50230098932967,
+          "predicted_since_arm_s": 67.50230098932967,
+          "deadline_s": 300,
+          "slack_s": 232.49769901067032
+        },
+        {
+          "sensor": "S11",
+          "stage": 0,
+          "reference_end_s": 49.00230098932967,
+          "predicted_since_arm_s": 73.00230098932967,
+          "deadline_s": 300,
+          "slack_s": 226.99769901067032
+        },
+        {
+          "sensor": "S25",
+          "stage": 0,
+          "reference_end_s": 54.50230098932967,
+          "predicted_since_arm_s": 78.50230098932967,
+          "deadline_s": 300,
+          "slack_s": 221.49769901067032
+        },
+        {
+          "sensor": "S21",
+          "stage": 0,
+          "reference_end_s": 54.50230098932967,
+          "predicted_since_arm_s": 78.50230098932967,
+          "deadline_s": 300,
+          "slack_s": 221.49769901067032
+        },
+        {
+          "sensor": "S23",
+          "stage": 0,
+          "reference_end_s": 60.002300989329676,
+          "predicted_since_arm_s": 84.00230098932968,
+          "deadline_s": 300,
+          "slack_s": 215.99769901067032
+        },
+        {
+          "sensor": "S06",
+          "stage": 1,
+          "reference_end_s": 93.64089066631529,
+          "predicted_since_arm_s": 118.64089066631529,
+          "deadline_s": 300,
+          "slack_s": 181.35910933368473
+        },
+        {
+          "sensor": "S26",
+          "stage": 1,
+          "reference_end_s": 93.64089066631529,
+          "predicted_since_arm_s": 118.64089066631529,
+          "deadline_s": 300,
+          "slack_s": 181.35910933368473
+        },
+        {
+          "sensor": "S03",
+          "stage": 1,
+          "reference_end_s": 93.64089066631529,
+          "predicted_since_arm_s": 118.64089066631529,
+          "deadline_s": 300,
+          "slack_s": 181.35910933368473
+        },
+        {
+          "sensor": "S22",
+          "stage": 2,
+          "reference_end_s": 119.07337881839553,
+          "predicted_since_arm_s": 145.07337881839553,
+          "deadline_s": 300,
+          "slack_s": 154.92662118160447
+        },
+        {
+          "sensor": "S27",
+          "stage": 2,
+          "reference_end_s": 124.57337881839553,
+          "predicted_since_arm_s": 150.57337881839553,
+          "deadline_s": 300,
+          "slack_s": 149.42662118160447
+        },
+        {
+          "sensor": "S13",
+          "stage": 2,
+          "reference_end_s": 119.07337881839553,
+          "predicted_since_arm_s": 145.07337881839553,
+          "deadline_s": 300,
+          "slack_s": 154.92662118160447
+        },
+        {
+          "sensor": "S17",
+          "stage": 2,
+          "reference_end_s": 124.57337881839553,
+          "predicted_since_arm_s": 150.57337881839553,
+          "deadline_s": 300,
+          "slack_s": 149.42662118160447
+        },
+        {
+          "sensor": "S24",
+          "stage": 2,
+          "reference_end_s": 119.07337881839553,
+          "predicted_since_arm_s": 145.07337881839553,
+          "deadline_s": 300,
+          "slack_s": 154.92662118160447
+        },
+        {
+          "sensor": "S08",
+          "stage": 2,
+          "reference_end_s": 124.57337881839553,
+          "predicted_since_arm_s": 150.57337881839553,
+          "deadline_s": 300,
+          "slack_s": 149.42662118160447
+        },
+        {
+          "sensor": "S15",
+          "stage": 3,
+          "reference_end_s": 181.52504807254286,
+          "predicted_since_arm_s": 208.52504807254286,
+          "deadline_s": 300,
+          "slack_s": 91.47495192745714
+        },
+        {
+          "sensor": "S16",
+          "stage": 3,
+          "reference_end_s": 181.52504807254286,
+          "predicted_since_arm_s": 208.52504807254286,
+          "deadline_s": 300,
+          "slack_s": 91.47495192745714
+        },
+        {
+          "sensor": "S30",
+          "stage": 3,
+          "reference_end_s": 187.02504807254286,
+          "predicted_since_arm_s": 214.02504807254286,
+          "deadline_s": 300,
+          "slack_s": 85.97495192745714
+        },
+        {
+          "sensor": "S05",
+          "stage": 3,
+          "reference_end_s": 187.02504807254286,
+          "predicted_since_arm_s": 214.02504807254286,
+          "deadline_s": 300,
+          "slack_s": 85.97495192745714
+        },
+        {
+          "sensor": "S18",
+          "stage": 3,
+          "reference_end_s": 181.52504807254286,
+          "predicted_since_arm_s": 208.52504807254286,
+          "deadline_s": 300,
+          "slack_s": 91.47495192745714
+        },
+        {
+          "sensor": "S29",
+          "stage": 3,
+          "reference_end_s": 187.02504807254286,
+          "predicted_since_arm_s": 214.02504807254286,
+          "deadline_s": 300,
+          "slack_s": 85.97495192745714
+        },
+        {
+          "sensor": "S19",
+          "stage": 4,
+          "reference_end_s": 216.75305053839807,
+          "predicted_since_arm_s": 244.75305053839807,
+          "deadline_s": 300,
+          "slack_s": 55.24694946160193
+        },
+        {
+          "sensor": "S20",
+          "stage": 4,
+          "reference_end_s": 222.25305053839807,
+          "predicted_since_arm_s": 250.25305053839807,
+          "deadline_s": 300,
+          "slack_s": 49.74694946160193
+        },
+        {
+          "sensor": "S12",
+          "stage": 4,
+          "reference_end_s": 216.75305053839807,
+          "predicted_since_arm_s": 244.75305053839807,
+          "deadline_s": 300,
+          "slack_s": 55.24694946160193
+        },
+        {
+          "sensor": "S28",
+          "stage": 4,
+          "reference_end_s": 216.75305053839807,
+          "predicted_since_arm_s": 244.75305053839807,
+          "deadline_s": 300,
+          "slack_s": 55.24694946160193
+        }
+      ],
+      "deadline_misses": 0,
+      "total_lateness_s": 0.0,
+      "last_service_since_arm_s": 250.25305053839807,
+      "minimum_slack_s": 49.74694946160193,
+      "budget": {
+        "schema": "arm_deadline_budget_v1",
+        "launch_budget_s": 20,
+        "per_service_stop_reserve_s": 1.0,
+        "global_reserve_s": 3.0,
+        "observed_max_launch_s": 17.048000000000002,
+        "observed_max_stage_increment_s": 0.5767487108746394,
+        "derivation": "ceil(max launch + 2 s); ceil_to_0.25(max incremental service drift + 0.25 s); global 3 s",
+        "calibration": [
+          {
+            "path": "archive://farm-sim/experiments/formation_grid30_v6_20261102_01/runtime/collection_flight_tests/20261102_114611_169189_summary.json",
+            "sha256": "61ccec87e336480c410aa56bcf9e98a48dbe9e3c90ba7d0f95c073082318ab5a",
+            "launch_to_mission_s": 17.048000000000002,
+            "stage_observations": [
+              {
+                "stage": 0,
+                "cumulative_overhead_s": 0.5486536642894322,
+                "increment_s": 0.5486536642894322
+              },
+              {
+                "stage": 1,
+                "cumulative_overhead_s": 1.0619869976227676,
+                "increment_s": 0.5133333333333354
+              },
+              {
+                "stage": 2,
+                "cumulative_overhead_s": 1.6047549869410886,
+                "increment_s": 0.542767989318321
+              },
+              {
+                "stage": 3,
+                "cumulative_overhead_s": 2.1580758603628,
+                "increment_s": 0.5533208734217112
+              },
+              {
+                "stage": 4,
+                "cumulative_overhead_s": 2.6554091936961584,
+                "increment_s": 0.4973333333333585
+              },
+              {
+                "stage": 5,
+                "cumulative_overhead_s": 3.144742527029507,
+                "increment_s": 0.4893333333333487
+              }
+            ]
+          },
+          {
+            "path": "archive://farm-sim/experiments/formation_random30_seed404_sitl_v1_20261102_01/runtime/collection_flight_tests/20261102_121554_386926_summary.json",
+            "sha256": "c826824f8100f41a1949f15c9ab9a12061ea706ce6b951d157d08d70e82bfe03",
+            "launch_to_mission_s": 17.02000000000004,
+            "stage_observations": [
+              {
+                "stage": 0,
+                "cumulative_overhead_s": 0.5731884567319199,
+                "increment_s": 0.5731884567319199
+              },
+              {
+                "stage": 1,
+                "cumulative_overhead_s": 1.0787357918003124,
+                "increment_s": 0.5055473350683926
+              },
+              {
+                "stage": 2,
+                "cumulative_overhead_s": 1.5431497031028414,
+                "increment_s": 0.46441391130252896
+              },
+              {
+                "stage": 3,
+                "cumulative_overhead_s": 2.0988810718624364,
+                "increment_s": 0.5557313687595951
+              },
+              {
+                "stage": 4,
+                "cumulative_overhead_s": 2.675629782737076,
+                "increment_s": 0.5767487108746394
+              },
+              {
+                "stage": 5,
+                "cumulative_overhead_s": 3.1687593105417022,
+                "increment_s": 0.4931295278046264
+              },
+              {
+                "stage": 6,
+                "cumulative_overhead_s": 3.73279370940989,
+                "increment_s": 0.5640343988681877
+              },
+              {
+                "stage": 7,
+                "cumulative_overhead_s": 4.219857328080877,
+                "increment_s": 0.48706361867098735
+              }
+            ]
+          }
+        ],
+        "scope": "Development calibration, including seed404; future replay is same-case verification, not unseen validation."
+      },
+      "caveat": "Conservative design reserve based on development flights; not a statistical or worst-case guarantee."
+    },
+    "search": {
+      "method": "deterministic multistart + 2-opt/insertion; smooth-cruise segment duration search",
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "orders_evaluated": 26,
+      "mission_evaluations": 52,
+      "optimality": "No global optimum or infeasibility proof",
+      "arm_altitude_refinement": {
+        "accepted_stage_changes": 0,
+        "method": "one coordinate sweep, same XY/scale and ARM deadline ranking"
+      }
+    }
+  },
+  "flight_bounds_xy_m": [
+    -78,
+    47,
+    -47,
+    47
+  ],
+  "safety_policy": {
+    "mission_abort_separation_m": 12.0,
+    "prediction_warning_m": 14.0,
+    "tracking_abort_m": 2.0,
+    "tracking_pause_m": 0.8
+  },
+  "flight_ceiling_m": 18.0,
+  "services": {
+    "UAV1": [
+      {
+        "sensor": "S02",
+        "uav": "UAV1",
+        "start_s": 38.00230098932967,
+        "end_s": 43.50230098932967,
+        "assumed_bytes": 100000,
+        "position": [
+          -31.036008121858323,
+          -34.168242324986664,
+          8.175063898322888
+        ],
+        "stage": 0
+      },
+      {
+        "sensor": "S14",
+        "uav": "UAV1",
+        "start_s": 43.50230098932967,
+        "end_s": 49.00230098932967,
+        "assumed_bytes": 100000,
+        "position": [
+          -31.036008121858323,
+          -34.168242324986664,
+          8.175063898322888
+        ],
+        "stage": 0
+      },
+      {
+        "sensor": "S25",
+        "uav": "UAV1",
+        "start_s": 49.00230098932967,
+        "end_s": 54.50230098932967,
+        "assumed_bytes": 100000,
+        "position": [
+          -31.036008121858323,
+          -34.168242324986664,
+          8.175063898322888
+        ],
+        "stage": 0
+      },
+      {
+        "sensor": "S23",
+        "uav": "UAV1",
+        "start_s": 54.50230098932967,
+        "end_s": 60.002300989329676,
+        "assumed_bytes": 100000,
+        "position": [
+          -31.036008121858323,
+          -34.168242324986664,
+          8.175063898322888
+        ],
+        "stage": 0
+      },
+      {
+        "sensor": "S26",
+        "uav": "UAV1",
+        "start_s": 88.14089066631529,
+        "end_s": 93.64089066631529,
+        "assumed_bytes": 100000,
+        "position": [
+          -0.9018923708167677,
+          -40.18671662014928,
+          10.175063898322888
+        ],
+        "stage": 1
+      },
+      {
+        "sensor": "S13",
+        "uav": "UAV1",
+        "start_s": 113.57337881839553,
+        "end_s": 119.07337881839553,
+        "assumed_bytes": 100000,
+        "position": [
+          19.478802101728547,
+          -42.62888199789593,
+          12.0
+        ],
+        "stage": 2
+      },
+      {
+        "sensor": "S17",
+        "uav": "UAV1",
+        "start_s": 119.07337881839553,
+        "end_s": 124.57337881839553,
+        "assumed_bytes": 100000,
+        "position": [
+          19.478802101728547,
+          -42.62888199789593,
+          12.0
+        ],
+        "stage": 2
+      },
+      {
+        "sensor": "S16",
+        "uav": "UAV1",
+        "start_s": 176.02504807254286,
+        "end_s": 181.52504807254286,
+        "assumed_bytes": 100000,
+        "position": [
+          22.438639532428624,
+          21.97672547591273,
+          15.195088650593089
+        ],
+        "stage": 3
+      },
+      {
+        "sensor": "S05",
+        "uav": "UAV1",
+        "start_s": 181.52504807254286,
+        "end_s": 187.02504807254286,
+        "assumed_bytes": 100000,
+        "position": [
+          22.438639532428624,
+          21.97672547591273,
+          15.195088650593089
+        ],
+        "stage": 3
+      },
+      {
+        "sensor": "S19",
+        "uav": "UAV1",
+        "start_s": 211.25305053839807,
+        "end_s": 216.75305053839807,
+        "assumed_bytes": 100000,
+        "position": [
+          -4.110550648984606,
+          23.0,
+          14.954728475893702
+        ],
+        "stage": 4
+      },
+      {
+        "sensor": "S20",
+        "uav": "UAV1",
+        "start_s": 216.75305053839807,
+        "end_s": 222.25305053839807,
+        "assumed_bytes": 100000,
+        "position": [
+          -4.110550648984606,
+          23.0,
+          14.954728475893702
+        ],
+        "stage": 4
+      }
+    ],
+    "UAV2": [
+      {
+        "sensor": "S04",
+        "uav": "UAV2",
+        "start_s": 38.00230098932967,
+        "end_s": 43.50230098932967,
+        "assumed_bytes": 100000,
+        "position": [
+          -16.036008121858323,
+          -24.168242324986664,
+          8.175063898322888
+        ],
+        "stage": 0
+      },
+      {
+        "sensor": "S11",
+        "uav": "UAV2",
+        "start_s": 43.50230098932967,
+        "end_s": 49.00230098932967,
+        "assumed_bytes": 100000,
+        "position": [
+          -16.036008121858323,
+          -24.168242324986664,
+          8.175063898322888
+        ],
+        "stage": 0
+      },
+      {
+        "sensor": "S21",
+        "uav": "UAV2",
+        "start_s": 49.00230098932967,
+        "end_s": 54.50230098932967,
+        "assumed_bytes": 100000,
+        "position": [
+          -16.036008121858323,
+          -24.168242324986664,
+          8.175063898322888
+        ],
+        "stage": 0
+      },
+      {
+        "sensor": "S03",
+        "uav": "UAV2",
+        "start_s": 88.14089066631529,
+        "end_s": 93.64089066631529,
+        "assumed_bytes": 100000,
+        "position": [
+          15.598107629183232,
+          -29.186716620149276,
+          10.175063898322888
+        ],
+        "stage": 1
+      },
+      {
+        "sensor": "S22",
+        "uav": "UAV2",
+        "start_s": 113.57337881839553,
+        "end_s": 119.07337881839553,
+        "assumed_bytes": 100000,
+        "position": [
+          35.97880210172855,
+          -31.62888199789593,
+          12.0
+        ],
+        "stage": 2
+      },
+      {
+        "sensor": "S27",
+        "uav": "UAV2",
+        "start_s": 119.07337881839553,
+        "end_s": 124.57337881839553,
+        "assumed_bytes": 100000,
+        "position": [
+          35.97880210172855,
+          -31.62888199789593,
+          12.0
+        ],
+        "stage": 2
+      },
+      {
+        "sensor": "S15",
+        "uav": "UAV2",
+        "start_s": 176.02504807254286,
+        "end_s": 181.52504807254286,
+        "assumed_bytes": 100000,
+        "position": [
+          38.938639532428624,
+          32.97672547591273,
+          15.195088650593089
+        ],
+        "stage": 3
+      },
+      {
+        "sensor": "S30",
+        "uav": "UAV2",
+        "start_s": 181.52504807254286,
+        "end_s": 187.02504807254286,
+        "assumed_bytes": 100000,
+        "position": [
+          38.938639532428624,
+          32.97672547591273,
+          15.195088650593089
+        ],
+        "stage": 3
+      },
+      {
+        "sensor": "S28",
+        "uav": "UAV2",
+        "start_s": 211.25305053839807,
+        "end_s": 216.75305053839807,
+        "assumed_bytes": 100000,
+        "position": [
+          12.389449351015394,
+          34.0,
+          14.954728475893702
+        ],
+        "stage": 4
+      }
+    ],
+    "UAV3": [
+      {
+        "sensor": "S01",
+        "uav": "UAV3",
+        "start_s": 38.00230098932967,
+        "end_s": 43.50230098932967,
+        "assumed_bytes": 100000,
+        "position": [
+          -31.036008121858323,
+          -14.168242324986664,
+          8.175063898322888
+        ],
+        "stage": 0
+      },
+      {
+        "sensor": "S07",
+        "uav": "UAV3",
+        "start_s": 43.50230098932967,
+        "end_s": 49.00230098932967,
+        "assumed_bytes": 100000,
+        "position": [
+          -31.036008121858323,
+          -14.168242324986664,
+          8.175063898322888
+        ],
+        "stage": 0
+      },
+      {
+        "sensor": "S09",
+        "uav": "UAV3",
+        "start_s": 49.00230098932967,
+        "end_s": 54.50230098932967,
+        "assumed_bytes": 100000,
+        "position": [
+          -31.036008121858323,
+          -14.168242324986664,
+          8.175063898322888
+        ],
+        "stage": 0
+      },
+      {
+        "sensor": "S10",
+        "uav": "UAV3",
+        "start_s": 54.50230098932967,
+        "end_s": 60.002300989329676,
+        "assumed_bytes": 100000,
+        "position": [
+          -31.036008121858323,
+          -14.168242324986664,
+          8.175063898322888
+        ],
+        "stage": 0
+      },
+      {
+        "sensor": "S06",
+        "uav": "UAV3",
+        "start_s": 88.14089066631529,
+        "end_s": 93.64089066631529,
+        "assumed_bytes": 100000,
+        "position": [
+          -0.9018923708167677,
+          -18.186716620149276,
+          10.175063898322888
+        ],
+        "stage": 1
+      },
+      {
+        "sensor": "S24",
+        "uav": "UAV3",
+        "start_s": 113.57337881839553,
+        "end_s": 119.07337881839553,
+        "assumed_bytes": 100000,
+        "position": [
+          19.478802101728547,
+          -20.62888199789593,
+          12.0
+        ],
+        "stage": 2
+      },
+      {
+        "sensor": "S08",
+        "uav": "UAV3",
+        "start_s": 119.07337881839553,
+        "end_s": 124.57337881839553,
+        "assumed_bytes": 100000,
+        "position": [
+          19.478802101728547,
+          -20.62888199789593,
+          12.0
+        ],
+        "stage": 2
+      },
+      {
+        "sensor": "S18",
+        "uav": "UAV3",
+        "start_s": 176.02504807254286,
+        "end_s": 181.52504807254286,
+        "assumed_bytes": 100000,
+        "position": [
+          22.438639532428624,
+          43.97672547591273,
+          15.195088650593089
+        ],
+        "stage": 3
+      },
+      {
+        "sensor": "S29",
+        "uav": "UAV3",
+        "start_s": 181.52504807254286,
+        "end_s": 187.02504807254286,
+        "assumed_bytes": 100000,
+        "position": [
+          22.438639532428624,
+          43.97672547591273,
+          15.195088650593089
+        ],
+        "stage": 3
+      },
+      {
+        "sensor": "S12",
+        "uav": "UAV3",
+        "start_s": 211.25305053839807,
+        "end_s": 216.75305053839807,
+        "assumed_bytes": 100000,
+        "position": [
+          -4.110550648984606,
+          45.0,
+          14.954728475893702
+        ],
+        "stage": 4
+      }
+    ]
+  },
+  "assignments": {
+    "UAV1": [
+      "S02",
+      "S14",
+      "S25",
+      "S23",
+      "S26",
+      "S13",
+      "S17",
+      "S16",
+      "S05",
+      "S19",
+      "S20"
+    ],
+    "UAV2": [
+      "S04",
+      "S11",
+      "S21",
+      "S03",
+      "S22",
+      "S27",
+      "S15",
+      "S30",
+      "S28"
+    ],
+    "UAV3": [
+      "S01",
+      "S07",
+      "S09",
+      "S10",
+      "S06",
+      "S24",
+      "S08",
+      "S18",
+      "S29",
+      "S12"
+    ]
+  },
+  "lifted_service_revalidation": true,
+  "source_sha256": {
+    "config/farm.json": "530de1d3ab774c33da6f2d9562a5b7e8fc7b8dbdf392b7d301de71ec24f76b0f",
+    "config/terrain.csv": "48136f433a6d1d365941e98ffbfa9b9afb9ae1d1f0443e3e7f2886346ca4d19a",
+    "config/energy_model.json": "f991dc14bcfee85ad25b23a0203783f1a6c9719ee5a85de45f7ba1be25dd1faf",
+    "config/arm_budget.json": "ed955251f64c901dc47e45dbd9cecedd1f9bf87e873fb09cbf9e2659d08b1abb",
+    "config/adapter_template.json": "79b99bc8323ed63e1ae2369f600b6ea55353d616e74638bca7868e097ecd5c56",
+    "config/stops_hint_source.json": "f34dca5c0a3197280f219b42625700c6547acce6b0ba5326dde7acf941bc4718"
+  },
+  "preparation": {
+    "seed": 404,
+    "start_world_z_m": 7.0,
+    "speed_m_s": 1.4,
+    "base_plan": "archive://farm-sim/experiments/formation_generated_7m_seed404_v68_20261105_01/config/fleet_drill.json",
+    "base_sha256": "39d52f3ab22e6764cb24c3486a1109cd4d61cc6ca1525285f0b5535e0b036684"
+  },
+  "summary": {
+    "vehicles": 3,
+    "expected_sensors": 30,
+    "planned_mission_reference_s": 281.4469189825381,
+    "predicted_arm_slack_s": 49.74694946160193,
+    "scope": "Same reference geometry and service, preserving baseline segment stretch"
+  },
+  "phases": {
+    "CLIMB": {
+      "UAV1": [
+        [
+          0.0,
+          -70.0,
+          -10.0,
+          0.12
+        ],
+        [
+          11.466666666666667,
+          -70.0,
+          -10.0,
+          7.0
+        ]
+      ],
+      "UAV2": [
+        [
+          0.0,
+          -55.0,
+          0.0,
+          0.12
+        ],
+        [
+          11.466666666666667,
+          -55.0,
+          0.0,
+          7.0
+        ]
+      ],
+      "UAV3": [
+        [
+          0.0,
+          -70.0,
+          10.0,
+          0.12
+        ],
+        [
+          11.466666666666667,
+          -70.0,
+          10.0,
+          7.0
+        ]
+      ]
+    },
+    "MISSION": {
+      "UAV1": [
+        [
+          0.0,
+          -70.0,
+          -10.0,
+          7.0
+        ],
+        [
+          38.00230098932967,
+          -31.036008121858323,
+          -34.168242324986664,
+          8.175063898322888
+        ],
+        [
+          60.00230098932967,
+          -31.036008121858323,
+          -34.168242324986664,
+          8.175063898322888
+        ],
+        [
+          88.14089066631529,
+          -0.9018923708167677,
+          -40.18671662014928,
+          10.175063898322888
+        ],
+        [
+          93.64089066631529,
+          -0.9018923708167677,
+          -40.18671662014928,
+          10.175063898322888
+        ],
+        [
+          113.57337881839553,
+          19.478802101728547,
+          -42.62888199789593,
+          12.0
+        ],
+        [
+          124.57337881839553,
+          19.478802101728547,
+          -42.62888199789593,
+          12.0
+        ],
+        [
+          176.02504807254286,
+          22.438639532428624,
+          21.97672547591273,
+          15.195088650593089
+        ],
+        [
+          187.02504807254286,
+          22.438639532428624,
+          21.97672547591273,
+          15.195088650593089
+        ],
+        [
+          211.25305053839807,
+          -4.110550648984606,
+          23.0,
+          14.954728475893702
+        ],
+        [
+          222.25305053839807,
+          -4.110550648984606,
+          23.0,
+          14.954728475893702
+        ],
+        [
+          281.4469189825381,
+          -70.0,
+          -10.0,
+          7.0
+        ]
+      ],
+      "UAV2": [
+        [
+          0.0,
+          -55.0,
+          0.0,
+          7.0
+        ],
+        [
+          38.00230098932967,
+          -16.036008121858323,
+          -24.168242324986664,
+          8.175063898322888
+        ],
+        [
+          60.00230098932967,
+          -16.036008121858323,
+          -24.168242324986664,
+          8.175063898322888
+        ],
+        [
+          88.14089066631529,
+          15.598107629183232,
+          -29.186716620149276,
+          10.175063898322888
+        ],
+        [
+          93.64089066631529,
+          15.598107629183232,
+          -29.186716620149276,
+          10.175063898322888
+        ],
+        [
+          113.57337881839553,
+          35.97880210172855,
+          -31.62888199789593,
+          12.0
+        ],
+        [
+          124.57337881839553,
+          35.97880210172855,
+          -31.62888199789593,
+          12.0
+        ],
+        [
+          176.02504807254286,
+          38.938639532428624,
+          32.97672547591273,
+          15.195088650593089
+        ],
+        [
+          187.02504807254286,
+          38.938639532428624,
+          32.97672547591273,
+          15.195088650593089
+        ],
+        [
+          211.25305053839807,
+          12.389449351015394,
+          34.0,
+          14.954728475893702
+        ],
+        [
+          222.25305053839807,
+          12.389449351015394,
+          34.0,
+          14.954728475893702
+        ],
+        [
+          281.4469189825381,
+          -55.0,
+          0.0,
+          7.0
+        ]
+      ],
+      "UAV3": [
+        [
+          0.0,
+          -70.0,
+          10.0,
+          7.0
+        ],
+        [
+          38.00230098932967,
+          -31.036008121858323,
+          -14.168242324986664,
+          8.175063898322888
+        ],
+        [
+          60.00230098932967,
+          -31.036008121858323,
+          -14.168242324986664,
+          8.175063898322888
+        ],
+        [
+          88.14089066631529,
+          -0.9018923708167677,
+          -18.186716620149276,
+          10.175063898322888
+        ],
+        [
+          93.64089066631529,
+          -0.9018923708167677,
+          -18.186716620149276,
+          10.175063898322888
+        ],
+        [
+          113.57337881839553,
+          19.478802101728547,
+          -20.62888199789593,
+          12.0
+        ],
+        [
+          124.57337881839553,
+          19.478802101728547,
+          -20.62888199789593,
+          12.0
+        ],
+        [
+          176.02504807254286,
+          22.438639532428624,
+          43.97672547591273,
+          15.195088650593089
+        ],
+        [
+          187.02504807254286,
+          22.438639532428624,
+          43.97672547591273,
+          15.195088650593089
+        ],
+        [
+          211.25305053839807,
+          -4.110550648984606,
+          45.0,
+          14.954728475893702
+        ],
+        [
+          222.25305053839807,
+          -4.110550648984606,
+          45.0,
+          14.954728475893702
+        ],
+        [
+          281.4469189825381,
+          -70.0,
+          10.0,
+          7.0
+        ]
+      ]
+    }
+  }
+}

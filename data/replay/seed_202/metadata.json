@@ -1,0 +1,18 @@
+{
+  "layout_seed": 202,
+  "speed_m_s": 1.4,
+  "mission_duration_s": 303.984,
+  "arm_to_mission_s": 15.512,
+  "mission_epoch_gazebo_s": 38.632,
+  "source_hashes": {
+    "archive://farm-sim/experiments/formation_speed_v69_20261105_01/cases/seed_202/speed_1.4/runtime/collection_flight_tests/20261105_125805_751990_summary.json": "c90e4c4673f16c755a70045fe7c4f0f9440692b674865c5f5cf7b16acfee4a94",
+    "archive://farm-sim/experiments/formation_speed_v69_20261105_01/cases/seed_202/speed_1.4/runtime/collection_flight_tests/20261105_125805_751990_flight.csv": "b03af7a94385053b3fc309114ff473e134b6a37a478e8d8a2814cc96e420fb24",
+    "archive://farm-sim/experiments/formation_speed_v69_20261105_01/cases/seed_202/speed_1.4/runtime/collection_flight_sessions/20261105_125742/gazebo_truth.csv": "1f84a671224ce161977073b4f02a8fd03552fb8a6d672cf3d301de0fc9aea5d5",
+    "archive://farm-sim/experiments/formation_speed_v69_20261105_01/cases/seed_202/speed_1.4/config/terrain.csv": "48136f433a6d1d365941e98ffbfa9b9afb9ae1d1f0443e3e7f2886346ca4d19a",
+    "archive://farm-sim/experiments/formation_ns3_speed14_v70_20261105_01/replay.cc": "789aaaf392c11dfbf0090832a8bb8be375f3e42a845d46bdf026b8da5f8e35fc",
+    "archive://farm-sim/network/terrain_mesh.h": "97f2baca348ec76022c38e4db71acc9fcd9ced2651849075ada6e3961e379737",
+    "archive://farm-sim/experiments/formation_ns3_speed14_v70_20261105_01/run.py": "d9a4ebab54b6709a6a911fdd6f324b8d4f1ce8211c192a3a0d23fd055ae34c7a",
+    "archive://farm-sim/scripts/run_ns3_replay.py": "97755f360c15d0c5a7026f7a5298085bb825275e2ee6f9e66362be23825816ea"
+  },
+  "scope": "Retained executed Gazebo trajectory and continuous credited service windows, not a new flight"
+}

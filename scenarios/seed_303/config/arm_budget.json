@@ -1,0 +1,96 @@
+{
+  "schema": "arm_deadline_budget_v1",
+  "launch_budget_s": 20,
+  "per_service_stop_reserve_s": 1.0,
+  "global_reserve_s": 3.0,
+  "observed_max_launch_s": 17.048000000000002,
+  "observed_max_stage_increment_s": 0.5767487108746394,
+  "derivation": "ceil(max launch + 2 s); ceil_to_0.25(max incremental service drift + 0.25 s); global 3 s",
+  "calibration": [
+    {
+      "path": "archive://farm-sim/experiments/formation_grid30_v6_20261102_01/runtime/collection_flight_tests/20261102_114611_169189_summary.json",
+      "sha256": "61ccec87e336480c410aa56bcf9e98a48dbe9e3c90ba7d0f95c073082318ab5a",
+      "launch_to_mission_s": 17.048000000000002,
+      "stage_observations": [
+        {
+          "stage": 0,
+          "cumulative_overhead_s": 0.5486536642894322,
+          "increment_s": 0.5486536642894322
+        },
+        {
+          "stage": 1,
+          "cumulative_overhead_s": 1.0619869976227676,
+          "increment_s": 0.5133333333333354
+        },
+        {
+          "stage": 2,
+          "cumulative_overhead_s": 1.6047549869410886,
+          "increment_s": 0.542767989318321
+        },
+        {
+          "stage": 3,
+          "cumulative_overhead_s": 2.1580758603628,
+          "increment_s": 0.5533208734217112
+        },
+        {
+          "stage": 4,
+          "cumulative_overhead_s": 2.6554091936961584,
+          "increment_s": 0.4973333333333585
+        },
+        {
+          "stage": 5,
+          "cumulative_overhead_s": 3.144742527029507,
+          "increment_s": 0.4893333333333487
+        }
+      ]
+    },
+    {
+      "path": "archive://farm-sim/experiments/formation_random30_seed404_sitl_v1_20261102_01/runtime/collection_flight_tests/20261102_121554_386926_summary.json",
+      "sha256": "c826824f8100f41a1949f15c9ab9a12061ea706ce6b951d157d08d70e82bfe03",
+      "launch_to_mission_s": 17.02000000000004,
+      "stage_observations": [
+        {
+          "stage": 0,
+          "cumulative_overhead_s": 0.5731884567319199,
+          "increment_s": 0.5731884567319199
+        },
+        {
+          "stage": 1,
+          "cumulative_overhead_s": 1.0787357918003124,
+          "increment_s": 0.5055473350683926
+        },
+        {
+          "stage": 2,
+          "cumulative_overhead_s": 1.5431497031028414,
+          "increment_s": 0.46441391130252896
+        },
+        {
+          "stage": 3,
+          "cumulative_overhead_s": 2.0988810718624364,
+          "increment_s": 0.5557313687595951
+        },
+        {
+          "stage": 4,
+          "cumulative_overhead_s": 2.675629782737076,
+          "increment_s": 0.5767487108746394
+        },
+        {
+          "stage": 5,
+          "cumulative_overhead_s": 3.1687593105417022,
+          "increment_s": 0.4931295278046264
+        },
+        {
+          "stage": 6,
+          "cumulative_overhead_s": 3.73279370940989,
+          "increment_s": 0.5640343988681877
+        },
+        {
+          "stage": 7,
+          "cumulative_overhead_s": 4.219857328080877,
+          "increment_s": 0.48706361867098735
+        }
+      ]
+    }
+  ],
+  "scope": "Development calibration, including seed404; future replay is same-case verification, not unseen validation."
+}

@@ -1,0 +1,947 @@
+{
+  "version": "0.1.0",
+  "date": "2026-11-07",
+  "scope": "Git candidate files before this manifest; manifest itself excluded to avoid a self-hash",
+  "files": [
+    {
+      "path": ".env.example",
+      "bytes": 227,
+      "sha256": "832f6425b9d49b1c569bfb88f598c6e49145c867ece2a0a36855686cd409a567"
+    },
+    {
+      "path": ".github/workflows/offline.yml",
+      "bytes": 537,
+      "sha256": "f944fa7cc5d80bcfff2a9ac508eca4f3159c134a00d2a01cebca9052031d1fbb"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 275,
+      "sha256": "0083d103c283b984cb5cf7026623a4b9c52714284816c60668858e1c37e0a107"
+    },
+    {
+      "path": "CITATION.cff",
+      "bytes": 482,
+      "sha256": "f4365f5b33aed5752ef14739b21710a54c30fe3562c801bc3446400da07bd047"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "bytes": 989,
+      "sha256": "5a5d6647ccb78973e5c68f8b88448dee6f1094b0929db7672b3e771fa1c565cb"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 828,
+      "sha256": "057968693fd3611ead851b356d93623508487f6535a04875e2640da2c86257f1"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4688,
+      "sha256": "15f8ae6e3cff2c039bd011564f2dbf576c843d0dfd32845a09f7edd4e99845bd"
+    },
+    {
+      "path": "README.vi.md",
+      "bytes": 3517,
+      "sha256": "ed44178ece07f40e7f1b91ef570e27af9e20a6a30f68d200a5bdc3248a88efa8"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 2135,
+      "sha256": "96cf6e85cbc87ad38f6cd96d80449650e359edcf045e13d79c3498ddb41b6f84"
+    },
+    {
+      "path": "assets/models/farm_terrain/meshes/terrain.dae",
+      "bytes": 1232017,
+      "sha256": "4c61af8d5497a9a33f3ed0efff4da3a3f80adcdf5e3ecf52ebc5c223ef035882"
+    },
+    {
+      "path": "assets/models/farm_terrain/model.config",
+      "bytes": 146,
+      "sha256": "39a2d8431df981d9dfe38492962da92960ea9a1e9c8347004884370b153dfd8e"
+    },
+    {
+      "path": "assets/models/farm_terrain/model.sdf",
+      "bytes": 674,
+      "sha256": "10067d46aef9f55b0c293473b117aa54b099a3aeba21262ff859a0bc2b3aab42"
+    },
+    {
+      "path": "assets/models/x500/model.config",
+      "bytes": 768,
+      "sha256": "52fdda8e66faa5095434d54e4dcaad5a6a8833cd014e0a5b439349ed8b4a1b67"
+    },
+    {
+      "path": "assets/models/x500/model.sdf",
+      "bytes": 4398,
+      "sha256": "f52323ca2513c12ee2fd29fdcf742998d973cfd09c34ceb142c2fc31765c13b3"
+    },
+    {
+      "path": "assets/models/x500_base/LICENSE",
+      "bytes": 1526,
+      "sha256": "cee4ef94e73cd38fb2886f5d7e7a04d6488f54b1e70cd8b1b29d74f38bfdba5b"
+    },
+    {
+      "path": "assets/models/x500_base/materials/textures/CF.png",
+      "bytes": 1567802,
+      "sha256": "3a56ec48eeaaf7774e8d3e8e5e88f6973bfa5652c610974c3eb2dbec6ec85944"
+    },
+    {
+      "path": "assets/models/x500_base/materials/textures/nxp.png",
+      "bytes": 25522,
+      "sha256": "6c2262c84e0f5f55dbe38e712e6508d654fb6e7c427d1a19cdd62231bc2d52b1"
+    },
+    {
+      "path": "assets/models/x500_base/materials/textures/rd.png",
+      "bytes": 26435,
+      "sha256": "9d8851c37dc612c336b46e41744c17fb8333a0af33ac4be93f7147f7549a8e25"
+    },
+    {
+      "path": "assets/models/x500_base/meshes/1345_prop_ccw.stl",
+      "bytes": 522784,
+      "sha256": "ba197e0961117a3462b555d65edf3433ba8ff5691624100a185242cb5f456244"
+    },
+    {
+      "path": "assets/models/x500_base/meshes/1345_prop_cw.stl",
+      "bytes": 521884,
+      "sha256": "7aa4b61c1ddc5304c9c1f5602eacf5e2ec5eafb95dd1f2a3368342f256122fc0"
+    },
+    {
+      "path": "assets/models/x500_base/meshes/5010Base.dae",
+      "bytes": 369574,
+      "sha256": "798396a1945c7ff55a0840b77869e27affdd35fed0d784fff96b68f50f160ea0"
+    },
+    {
+      "path": "assets/models/x500_base/meshes/5010Bell.dae",
+      "bytes": 393792,
+      "sha256": "b90a1b2dd63a8ebbe1f3339ed18cef23673e0d8f03314fd9b9533a68b6b66668"
+    },
+    {
+      "path": "assets/models/x500_base/meshes/CF.png",
+      "bytes": 1567802,
+      "sha256": "3a56ec48eeaaf7774e8d3e8e5e88f6973bfa5652c610974c3eb2dbec6ec85944"
+    },
+    {
+      "path": "assets/models/x500_base/meshes/NXP-HGD-CF.dae",
+      "bytes": 22399616,
+      "sha256": "7321861b113866996dfa79b403def5666d4b796810840d2c057c7b51fc315b0a"
+    },
+    {
+      "path": "assets/models/x500_base/model.config",
+      "bytes": 773,
+      "sha256": "4856afbdeb52f19468f56ddaf4be57c04688f347b8cef2f609daacd2d014d437"
+    },
+    {
+      "path": "assets/models/x500_base/model.sdf",
+      "bytes": 17305,
+      "sha256": "19832aaee5c106aaa72444f2313ba573249fa11e693369a0b5fa2e8f0ee5c6fa"
+    },
+    {
+      "path": "assets/models/x500_base/thumbnails/1.png",
+      "bytes": 32312,
+      "sha256": "54d00187e5a03766d5e7b73311bc6bfa22f51cd98b823a287b2da8c551c3175e"
+    },
+    {
+      "path": "assets/models/x500_base/thumbnails/2.png",
+      "bytes": 52133,
+      "sha256": "cb6040c119b2a382030165a2a98ab9e9cf816557808a4549c323f2a3792cb8b4"
+    },
+    {
+      "path": "assets/models/x500_base/thumbnails/3.png",
+      "bytes": 28374,
+      "sha256": "848f431c64b34df15c59ad874e6211695ac53ee932ad3509ebb7c6372fc67375"
+    },
+    {
+      "path": "assets/models/x500_base/thumbnails/4.png",
+      "bytes": 27300,
+      "sha256": "86e1b7f31a49894caeef210f43248587d6454eba467a492f9bc147bf732ae666"
+    },
+    {
+      "path": "assets/models/x500_base/thumbnails/5.png",
+      "bytes": 23786,
+      "sha256": "b76053e95f7aff65c6f83533fb5635554292acb26fe51376c2d62e437e350e75"
+    },
+    {
+      "path": "configs/dependencies.repos",
+      "bytes": 139,
+      "sha256": "45f280bbb4ada225e6aa29e223228cb2f4418cdc0bbf259359d44de7eb66e8b0"
+    },
+    {
+      "path": "configs/environment.lock.json",
+      "bytes": 484,
+      "sha256": "eb6572aa2331792424806b503797209d887a45213cca4fee3f7ae859b2a0b26b"
+    },
+    {
+      "path": "data/replay/seed_101/assignments.csv",
+      "bytes": 675,
+      "sha256": "9b6d512c2dfa49bfe981305cd646c86d9c4ad347d5cc5cdba49db766dd6cf6d3"
+    },
+    {
+      "path": "data/replay/seed_101/metadata.json",
+      "bytes": 1692,
+      "sha256": "26934ccdde7647916ac1c098c05bb05ff5ae2c76a76f904ea64c35d944ea9760"
+    },
+    {
+      "path": "data/replay/seed_101/positions.csv",
+      "bytes": 1795,
+      "sha256": "7c748513e55c70255b46d2cd3e1f7d7ce6a15635bc9d42163bc51fc3ea8e49c5"
+    },
+    {
+      "path": "data/replay/seed_101/trajectories.csv",
+      "bytes": 3841393,
+      "sha256": "923c6f433ba7ce425c97ca878a73939439605a814dc88107b9515fe444c37341"
+    },
+    {
+      "path": "data/replay/seed_202/assignments.csv",
+      "bytes": 669,
+      "sha256": "0241c60f8286de65d96650398389a4a92f8db456122f56288844802e7e3a4e90"
+    },
+    {
+      "path": "data/replay/seed_202/metadata.json",
+      "bytes": 1692,
+      "sha256": "8b0ea1ab76bbfcb253e17def95df7f988826ed90979404ec7bee53f48707d3e4"
+    },
+    {
+      "path": "data/replay/seed_202/positions.csv",
+      "bytes": 1785,
+      "sha256": "84210ab5cfb9125c769d1a47f4c18891f237f59cd254347bc09cdd418d84be2d"
+    },
+    {
+      "path": "data/replay/seed_202/trajectories.csv",
+      "bytes": 3334066,
+      "sha256": "115da245437a5fd8c924a66d2be24b1d9322fe37c8a9d834cf398582ebfddf0b"
+    },
+    {
+      "path": "data/replay/seed_303/assignments.csv",
+      "bytes": 698,
+      "sha256": "8ff74ba280d616d20f41c408e989e3caa3320e8809afca682036ed0725ccad95"
+    },
+    {
+      "path": "data/replay/seed_303/metadata.json",
+      "bytes": 1690,
+      "sha256": "1eede793e0c4345f8360c5069a93696f703f92e79af5c6d633cabf4dc1f3ca52"
+    },
+    {
+      "path": "data/replay/seed_303/positions.csv",
+      "bytes": 1775,
+      "sha256": "a98f6c881e35d2a082d6d7edaad9c53d95ca3725704a29aae60f0f51747d52a7"
+    },
+    {
+      "path": "data/replay/seed_303/trajectories.csv",
+      "bytes": 3495918,
+      "sha256": "4ce78bb0e648b6db1e51a0bf92f2b5b9eb9fbeeaad6e5a240f299dd69e4bf0c3"
+    },
+    {
+      "path": "data/replay/seed_404/assignments.csv",
+      "bytes": 674,
+      "sha256": "a97ff4954cd425fb8b836be7f785f083137fdf8f188a8b2f833264638ac7e112"
+    },
+    {
+      "path": "data/replay/seed_404/metadata.json",
+      "bytes": 1690,
+      "sha256": "0ce840887bbce030a62b5f296f5f1ef605ee7642b645f25670c6a73f2662d39f"
+    },
+    {
+      "path": "data/replay/seed_404/positions.csv",
+      "bytes": 1760,
+      "sha256": "b7c86e6966b1239a17191042954ca70cff5e8a5bcc617ab785827a6822218ff4"
+    },
+    {
+      "path": "data/replay/seed_404/trajectories.csv",
+      "bytes": 3579744,
+      "sha256": "fa0b010e047994efd28a6f583cba0c8d1678f3220dde9c25fa99ea0dff370b16"
+    },
+    {
+      "path": "data/replay/seed_505/assignments.csv",
+      "bytes": 682,
+      "sha256": "b5b0a4c263db67a8b231e9e3983c28ea8ae6d022281fc8d250d5348c168a2999"
+    },
+    {
+      "path": "data/replay/seed_505/metadata.json",
+      "bytes": 1704,
+      "sha256": "d74d39917b2a83250bb30ff357003cbeb2cbc757dc54030679db21fd0f9b170a"
+    },
+    {
+      "path": "data/replay/seed_505/positions.csv",
+      "bytes": 1761,
+      "sha256": "efce8a7c9a13c676a0c25a637b0886693819945da32df071e0971b277133595d"
+    },
+    {
+      "path": "data/replay/seed_505/trajectories.csv",
+      "bytes": 3669839,
+      "sha256": "6f7d6f4a9e87d2dd30127a0fa8f6c89d673a6c4f21ede887221607e8624f623e"
+    },
+    {
+      "path": "docs/ARCHITECTURE.md",
+      "bytes": 4265,
+      "sha256": "de0278f91247a94e83f950863ba47e29842ee3fc8182d71027780b8f84f02cb5"
+    },
+    {
+      "path": "docs/INSTALL.md",
+      "bytes": 4647,
+      "sha256": "04f07a4dfb254f7ea2a31837539eb84ad7c47bf672f5cc490f1d13f8aec6439e"
+    },
+    {
+      "path": "docs/PROVENANCE.md",
+      "bytes": 3656,
+      "sha256": "c5740784c38b48c8e7e26d7c38adbdfb8130acfb581e8c347938522d6a413745"
+    },
+    {
+      "path": "docs/PUBLISH.md",
+      "bytes": 2070,
+      "sha256": "6c2abae52e275f4b36aa07d76c4f5dc1a7b1e22e5e60250f785b3e031f578123"
+    },
+    {
+      "path": "docs/REFERENCES.md",
+      "bytes": 1614,
+      "sha256": "aaee08e15224197651d8e248f14567e0394de1893f99cfcf6d40be336578a63d"
+    },
+    {
+      "path": "docs/RELEASE_CHECKS.md",
+      "bytes": 2928,
+      "sha256": "9c013dd9f73ec3dc5890e18b52cc755ca2cf525c35c1c1f7a3b18d5efcfb91d7"
+    },
+    {
+      "path": "docs/RESULTS.md",
+      "bytes": 4055,
+      "sha256": "818ac239f55632c7153acca55effa4b0c460c3e035bab8bc3586b56054ec1862"
+    },
+    {
+      "path": "docs/core_function_hashes.json",
+      "bytes": 54803,
+      "sha256": "7a6f204a4553530eafaf2658726c69cb0ac2f19ccffff2e9ab97b6819e5cec1c"
+    },
+    {
+      "path": "docs/figures/five_layouts.png",
+      "bytes": 133432,
+      "sha256": "3a7f1553dd7be1fcf7e586389cfd79f9d5f991e71c951a9f132cf32a547bfc94"
+    },
+    {
+      "path": "docs/figures/formation_geometry.png",
+      "bytes": 76193,
+      "sha256": "0449c07174c18605f3953b62c155d513e1d56dc3dd94930342f39309f7486304"
+    },
+    {
+      "path": "docs/figures/gazebo_gui_v18.png",
+      "bytes": 165230,
+      "sha256": "10774949761a604c4160438c8c68cd09d3a31858ba05f43d7c1e936886bb0934"
+    },
+    {
+      "path": "docs/figures/guard_states.png",
+      "bytes": 77732,
+      "sha256": "673f668a8b51ef64a69ab493edb6ec887a3848613916d87980abbcb12b3d808b"
+    },
+    {
+      "path": "docs/figures/lidar_v56.png",
+      "bytes": 129190,
+      "sha256": "f4e8a330212e0ca9051b8f5896d549861fce5e5924504f28c5461b31d221bff3"
+    },
+    {
+      "path": "docs/figures/network_results.png",
+      "bytes": 79180,
+      "sha256": "1c989acd124e3e80e44cc7f445b25f7f60d59f2a14089afec78491d2ff860975"
+    },
+    {
+      "path": "docs/figures/planner_flow.png",
+      "bytes": 100751,
+      "sha256": "5bf8d7dc0fcf78ce1e02967435146edf3448b5c6010b70aac27a94062a730bca"
+    },
+    {
+      "path": "docs/figures/ros_topics.png",
+      "bytes": 58947,
+      "sha256": "74daf059e5eeedc4a378fe6aad29e7452415460561239dad56474ecde56da15b"
+    },
+    {
+      "path": "docs/figures/seed202_safety.png",
+      "bytes": 205338,
+      "sha256": "a4c00083da1e5a4a7c818fb7dc2b3c76562fd91b6d2fd9e7f697b012b8c6917c"
+    },
+    {
+      "path": "docs/figures/seed_101_2d.png",
+      "bytes": 239372,
+      "sha256": "73410e2687f08004e10f27a729510ee16da0d46f4f86078ffc1b8f191bced3d7"
+    },
+    {
+      "path": "docs/figures/seed_101_3d.png",
+      "bytes": 330157,
+      "sha256": "24be36b5c025c24a4877d35744baa76681b4de9f6db57d02835242736401edb1"
+    },
+    {
+      "path": "docs/figures/seed_202_2d.png",
+      "bytes": 204298,
+      "sha256": "fed47b684bfda6ec5b5638aada93e4c9e338a6654d4ac1e5e05df710acf96ef8"
+    },
+    {
+      "path": "docs/figures/seed_202_3d.png",
+      "bytes": 326564,
+      "sha256": "1fbf023c875f47eb8a545f4d7f0ad398fef6fc67769e9f412354db093fadafa0"
+    },
+    {
+      "path": "docs/figures/seed_303_2d.png",
+      "bytes": 185797,
+      "sha256": "f3089f14af566cd4f1565ef71dcf2a8477e6ff8e936c4a7eda5ef6b17e7cb85c"
+    },
+    {
+      "path": "docs/figures/seed_303_3d.png",
+      "bytes": 327906,
+      "sha256": "4b546206cda8837076d60f98509c9c7ea23b650d29ac9d1211892a3f164a4e5e"
+    },
+    {
+      "path": "docs/figures/seed_404_2d.png",
+      "bytes": 203079,
+      "sha256": "2741768b454d565f32a44dd78f4c84a053a98d3ef419330dcf7eddc98488b103"
+    },
+    {
+      "path": "docs/figures/seed_404_3d.png",
+      "bytes": 322523,
+      "sha256": "59a6638df52e9343d8c8ff958b47a44c24f231a7a6452bccef2744070e168d32"
+    },
+    {
+      "path": "docs/figures/seed_505_2d.png",
+      "bytes": 204173,
+      "sha256": "eee7eba7923df4c2cba0a57d41ce695a630f99fe18c688e87001018d93aecee4"
+    },
+    {
+      "path": "docs/figures/seed_505_3d.png",
+      "bytes": 326604,
+      "sha256": "52bd16c3211190b258b34eb63ee921605e094e9e0c11200dc1a0264988000d0b"
+    },
+    {
+      "path": "docs/figures/speed_comparison.png",
+      "bytes": 212749,
+      "sha256": "e932488773f6b268c1ddf1de0bf02a7c272ce316a8968fb801a2aae4fb377283"
+    },
+    {
+      "path": "docs/figures/system_overview.png",
+      "bytes": 75021,
+      "sha256": "950d5837181fef653692b80c942c18b91e03b05ff75fbf3ff6256d0f96817189"
+    },
+    {
+      "path": "docs/source_manifest.json",
+      "bytes": 63697,
+      "sha256": "5da94b36eb960f1af6a055bbb9656ba7ab476f78dc85fc38383f18a60315b6f2"
+    },
+    {
+      "path": "licenses/PX4-BSD-3-Clause.txt",
+      "bytes": 1527,
+      "sha256": "0e31cba0e521c572e59a350286c6d1272abff7a7b6ebecb0e7d9eee6547a2106"
+    },
+    {
+      "path": "licenses/ns-3-GPL-2.0.txt",
+      "bytes": 17987,
+      "sha256": "ab15fd526bd8dd18a9e77ebc139656bf4d33e97fc7238cd11bf60e2b9b8666c6"
+    },
+    {
+      "path": "licenses/px4_msgs-BSD-3-Clause.txt",
+      "bytes": 1520,
+      "sha256": "1757308f1a82f6203bc448a11462f22b8466b4bdd59bc3dce97f01a478cd4d2d"
+    },
+    {
+      "path": "network/replay.cc",
+      "bytes": 15672,
+      "sha256": "789aaaf392c11dfbf0090832a8bb8be375f3e42a845d46bdf026b8da5f8e35fc"
+    },
+    {
+      "path": "network/terrain_mesh.h",
+      "bytes": 3266,
+      "sha256": "97f2baca348ec76022c38e4db71acc9fcd9ced2651849075ada6e3961e379737"
+    },
+    {
+      "path": "requirements-analysis.txt",
+      "bytes": 35,
+      "sha256": "5fb01894cc1dd72e4be879095f560805b4a4029518a471d74682397c89968535"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 52,
+      "sha256": "e7352184dbec3097a3fdb160ad2fb565c3d189ab65e7ee3eac46eea58320e6a7"
+    },
+    {
+      "path": "results/tables/network_results.csv",
+      "bytes": 1046,
+      "sha256": "253892d745bd59f49aee9d5b23f67b7b1728f77e8a012afd585dce316d034621"
+    },
+    {
+      "path": "results/tables/network_sensors.csv",
+      "bytes": 54474,
+      "sha256": "920a1bbff84ee8fd0ea4e8817f927d6e545cc898bc3219f232fe0958c6dc99e9"
+    },
+    {
+      "path": "results/tables/speed_results.csv",
+      "bytes": 12137,
+      "sha256": "0a7118a93963f0d7c6d5a9caa413a2498ae0477a1da109089fd40c844091295f"
+    },
+    {
+      "path": "scenarios/seed_101/config/adapter_template.json",
+      "bytes": 10685,
+      "sha256": "79b99bc8323ed63e1ae2369f600b6ea55353d616e74638bca7868e097ecd5c56"
+    },
+    {
+      "path": "scenarios/seed_101/config/arm_budget.json",
+      "bytes": 3143,
+      "sha256": "9dca72040613dc16ccb8b5b526b99223c5d4ec32c6d25c91f083b7f8be27b9c4"
+    },
+    {
+      "path": "scenarios/seed_101/config/energy_model.json",
+      "bytes": 1699,
+      "sha256": "49a050410b1efe65ea179757dcb15eefb1f36d1ad0819ada74dc767d51efc0e8"
+    },
+    {
+      "path": "scenarios/seed_101/config/farm.json",
+      "bytes": 8193,
+      "sha256": "6c0dc9980e60b113689f84defd77d96a7f65c345d459017ffccd2a51c11ff956"
+    },
+    {
+      "path": "scenarios/seed_101/config/fleet_drill.json",
+      "bytes": 75874,
+      "sha256": "a516c388c222a6f3fd582180bed12006c2493b3ceb20f93e17eedfd4b1ad7ee6"
+    },
+    {
+      "path": "scenarios/seed_101/config/terrain.csv",
+      "bytes": 218086,
+      "sha256": "48136f433a6d1d365941e98ffbfa9b9afb9ae1d1f0443e3e7f2886346ca4d19a"
+    },
+    {
+      "path": "scenarios/seed_101/generate.py",
+      "bytes": 5971,
+      "sha256": "b35e3d41459cb573cb9b2bd8b245f8cadf13d017ed01e0dfdef7f31d25f84ef5"
+    },
+    {
+      "path": "scenarios/seed_101/gui_trails.config",
+      "bytes": 9706,
+      "sha256": "2b48c02f9a1837d372c9963e67ca84b347162b8c16e5624c4efbbfb580a077d3"
+    },
+    {
+      "path": "scenarios/seed_101/worlds/farm.sdf",
+      "bytes": 55926,
+      "sha256": "d04926955496fb06bff235f2889e419d55ce1983f82498fd23c4b1b689d03756"
+    },
+    {
+      "path": "scenarios/seed_202/config/adapter_template.json",
+      "bytes": 10685,
+      "sha256": "79b99bc8323ed63e1ae2369f600b6ea55353d616e74638bca7868e097ecd5c56"
+    },
+    {
+      "path": "scenarios/seed_202/config/arm_budget.json",
+      "bytes": 3143,
+      "sha256": "9dca72040613dc16ccb8b5b526b99223c5d4ec32c6d25c91f083b7f8be27b9c4"
+    },
+    {
+      "path": "scenarios/seed_202/config/energy_model.json",
+      "bytes": 1699,
+      "sha256": "49a050410b1efe65ea179757dcb15eefb1f36d1ad0819ada74dc767d51efc0e8"
+    },
+    {
+      "path": "scenarios/seed_202/config/farm.json",
+      "bytes": 8138,
+      "sha256": "4f5f4b6aa580077fe8266c18d0cc27c3506feb6bf40ae9ff5051f036cbdc9ccf"
+    },
+    {
+      "path": "scenarios/seed_202/config/fleet_drill.json",
+      "bytes": 67589,
+      "sha256": "5e374e01963eecda49993c19f6556043766c322dfae1b5706e184a774f6346e2"
+    },
+    {
+      "path": "scenarios/seed_202/config/terrain.csv",
+      "bytes": 218086,
+      "sha256": "48136f433a6d1d365941e98ffbfa9b9afb9ae1d1f0443e3e7f2886346ca4d19a"
+    },
+    {
+      "path": "scenarios/seed_202/generate.py",
+      "bytes": 4056,
+      "sha256": "2622b11326cd483c1df6f4b319f34e0ebde2dca862246424e217debf343eb526"
+    },
+    {
+      "path": "scenarios/seed_202/gui_trails.config",
+      "bytes": 9706,
+      "sha256": "2b48c02f9a1837d372c9963e67ca84b347162b8c16e5624c4efbbfb580a077d3"
+    },
+    {
+      "path": "scenarios/seed_202/worlds/farm.sdf",
+      "bytes": 55887,
+      "sha256": "786bd2870571300c20eacb01bd4af74ffdfdea11ef5379845ca6072d7995fa74"
+    },
+    {
+      "path": "scenarios/seed_303/config/adapter_template.json",
+      "bytes": 10685,
+      "sha256": "79b99bc8323ed63e1ae2369f600b6ea55353d616e74638bca7868e097ecd5c56"
+    },
+    {
+      "path": "scenarios/seed_303/config/arm_budget.json",
+      "bytes": 3143,
+      "sha256": "9dca72040613dc16ccb8b5b526b99223c5d4ec32c6d25c91f083b7f8be27b9c4"
+    },
+    {
+      "path": "scenarios/seed_303/config/energy_model.json",
+      "bytes": 1699,
+      "sha256": "49a050410b1efe65ea179757dcb15eefb1f36d1ad0819ada74dc767d51efc0e8"
+    },
+    {
+      "path": "scenarios/seed_303/config/farm.json",
+      "bytes": 8160,
+      "sha256": "e47f03cc565a01f3711f7f34ea6dc15335682827e6ba5c0ab8233792afc5291f"
+    },
+    {
+      "path": "scenarios/seed_303/config/fleet_drill.json",
+      "bytes": 77672,
+      "sha256": "f21d8a1e86320066528b6a43669317ae0a5797cece4b155e8959c07ad0c43115"
+    },
+    {
+      "path": "scenarios/seed_303/config/terrain.csv",
+      "bytes": 218086,
+      "sha256": "48136f433a6d1d365941e98ffbfa9b9afb9ae1d1f0443e3e7f2886346ca4d19a"
+    },
+    {
+      "path": "scenarios/seed_303/generate.py",
+      "bytes": 4056,
+      "sha256": "757c5b0b0fbd36e93d9f8dc1127bee957b2546ff2b833ea44b77bf3d597f55b3"
+    },
+    {
+      "path": "scenarios/seed_303/gui_trails.config",
+      "bytes": 9706,
+      "sha256": "2b48c02f9a1837d372c9963e67ca84b347162b8c16e5624c4efbbfb580a077d3"
+    },
+    {
+      "path": "scenarios/seed_303/worlds/farm.sdf",
+      "bytes": 55874,
+      "sha256": "4d32e97d96500e4c10c66b4f2b30cba1c1521f1a86912d3e6e771c8d45161d1c"
+    },
+    {
+      "path": "scenarios/seed_404/config/adapter_template.json",
+      "bytes": 10685,
+      "sha256": "79b99bc8323ed63e1ae2369f600b6ea55353d616e74638bca7868e097ecd5c56"
+    },
+    {
+      "path": "scenarios/seed_404/config/arm_budget.json",
+      "bytes": 3143,
+      "sha256": "9dca72040613dc16ccb8b5b526b99223c5d4ec32c6d25c91f083b7f8be27b9c4"
+    },
+    {
+      "path": "scenarios/seed_404/config/energy_model.json",
+      "bytes": 1699,
+      "sha256": "49a050410b1efe65ea179757dcb15eefb1f36d1ad0819ada74dc767d51efc0e8"
+    },
+    {
+      "path": "scenarios/seed_404/config/farm.json",
+      "bytes": 8094,
+      "sha256": "530de1d3ab774c33da6f2d9562a5b7e8fc7b8dbdf392b7d301de71ec24f76b0f"
+    },
+    {
+      "path": "scenarios/seed_404/config/fleet_drill.json",
+      "bytes": 69464,
+      "sha256": "6c383b5f2e8639ddfe50133527fa58216239c788636e9178191fcc420e70ab3a"
+    },
+    {
+      "path": "scenarios/seed_404/config/stops_hint_source.json",
+      "bytes": 127660,
+      "sha256": "79d7da919a7e43a542505e6a7f991420128ccaa555e96ae290d1fc4c2eb327d7"
+    },
+    {
+      "path": "scenarios/seed_404/config/terrain.csv",
+      "bytes": 218086,
+      "sha256": "48136f433a6d1d365941e98ffbfa9b9afb9ae1d1f0443e3e7f2886346ca4d19a"
+    },
+    {
+      "path": "scenarios/seed_404/generate.py",
+      "bytes": 6116,
+      "sha256": "c80a3e7c35ca34f3797e215158d088bce9799677dc761a6eae442f930e06692e"
+    },
+    {
+      "path": "scenarios/seed_404/gui_trails.config",
+      "bytes": 9706,
+      "sha256": "2b48c02f9a1837d372c9963e67ca84b347162b8c16e5624c4efbbfb580a077d3"
+    },
+    {
+      "path": "scenarios/seed_404/worlds/farm.sdf",
+      "bytes": 55871,
+      "sha256": "2964c5cc5bc3336de422c89307ff220ff35dba31c18237cffd3c840915bc845f"
+    },
+    {
+      "path": "scenarios/seed_505/config/adapter_template.json",
+      "bytes": 10685,
+      "sha256": "79b99bc8323ed63e1ae2369f600b6ea55353d616e74638bca7868e097ecd5c56"
+    },
+    {
+      "path": "scenarios/seed_505/config/arm_budget.json",
+      "bytes": 3143,
+      "sha256": "9dca72040613dc16ccb8b5b526b99223c5d4ec32c6d25c91f083b7f8be27b9c4"
+    },
+    {
+      "path": "scenarios/seed_505/config/energy_model.json",
+      "bytes": 1699,
+      "sha256": "49a050410b1efe65ea179757dcb15eefb1f36d1ad0819ada74dc767d51efc0e8"
+    },
+    {
+      "path": "scenarios/seed_505/config/farm.json",
+      "bytes": 8115,
+      "sha256": "5fe4e317aeb60fb0598debb6e8ff6fe504f5507dda0ad880140efbcbbd2c3e81"
+    },
+    {
+      "path": "scenarios/seed_505/config/fleet_drill.json",
+      "bytes": 66722,
+      "sha256": "a5ed17ebba9fe7d7663c4dbe965057344cdec5fd4a74a21c29097dfba71cd406"
+    },
+    {
+      "path": "scenarios/seed_505/config/stops_hint_source.json",
+      "bytes": 164811,
+      "sha256": "05070b41a08a8725ead13b79708129cfb529b959ad73d6a951c3b48202c621b0"
+    },
+    {
+      "path": "scenarios/seed_505/config/terrain.csv",
+      "bytes": 218086,
+      "sha256": "48136f433a6d1d365941e98ffbfa9b9afb9ae1d1f0443e3e7f2886346ca4d19a"
+    },
+    {
+      "path": "scenarios/seed_505/generate.py",
+      "bytes": 6116,
+      "sha256": "1b8b7562cc87bd20c86cb9de0949f31dab47a41464704e759a8b586d402edf03"
+    },
+    {
+      "path": "scenarios/seed_505/gui_trails.config",
+      "bytes": 9706,
+      "sha256": "2b48c02f9a1837d372c9963e67ca84b347162b8c16e5624c4efbbfb580a077d3"
+    },
+    {
+      "path": "scenarios/seed_505/worlds/farm.sdf",
+      "bytes": 55862,
+      "sha256": "dc804752d5246f1750c3e9d9293df31643925e07e05230bb669257c32057b711"
+    },
+    {
+      "path": "scripts/check_environment.sh",
+      "bytes": 287,
+      "sha256": "bb621ddd44233b98b202cb5cdc90e4b483737c8dd424647597ee77fbe4624895"
+    },
+    {
+      "path": "scripts/common.sh",
+      "bytes": 485,
+      "sha256": "21bcee5a843096775a47375950f739852b22ff766059e3d12f89eaf85ab20852"
+    },
+    {
+      "path": "scripts/run_gazebo.sh",
+      "bytes": 544,
+      "sha256": "9990b9a4da89774b1125a22f0f3deeaa0cd02e6f3d7da4308ecd74680b4e2310"
+    },
+    {
+      "path": "scripts/run_ns3.sh",
+      "bytes": 213,
+      "sha256": "adb8ef1b3fb2145623c22d93605412cbeed9601d5676d9beedac7f2023b3dd79"
+    },
+    {
+      "path": "scripts/setup_ros_workspace.sh",
+      "bytes": 747,
+      "sha256": "4f372ed3db910d8531fb4c408d3752024b8a31b0e1fb3cf916137634c9aa7957"
+    },
+    {
+      "path": "src/uav_farm/arm_deadline.py",
+      "bytes": 10996,
+      "sha256": "09146cb55d5df843561dd41943dc3c60b56f149845bca3a829580c2f4edd5fb1"
+    },
+    {
+      "path": "src/uav_farm/baseline_planner.py",
+      "bytes": 18944,
+      "sha256": "0bfe8ca02513898086797dd5af1ee25f28cbad1b0c51b000524c350b1ad7b0c2"
+    },
+    {
+      "path": "src/uav_farm/collect_fleet.py",
+      "bytes": 4646,
+      "sha256": "6798a366b19908625f2dfe8bfe6905fcf1a235d75b099d4df26ba70a4aeb3f23"
+    },
+    {
+      "path": "src/uav_farm/collect_fleet_pose.py",
+      "bytes": 11950,
+      "sha256": "1c8803facc2b03255c943cee8ee2eab71b8da307899615fc834825ffb7d355ca"
+    },
+    {
+      "path": "src/uav_farm/corridor.py",
+      "bytes": 3655,
+      "sha256": "15854fdf6355f833e00c718ce6a9a33d0a68e1f9f82d2384c00aba8283f5c19a"
+    },
+    {
+      "path": "src/uav_farm/cruise_profile.py",
+      "bytes": 3549,
+      "sha256": "bcf16c4ce9a5e08dea8e0192f46626d5768499aa5698cf85bb6140b6b3eac3bc"
+    },
+    {
+      "path": "src/uav_farm/energy_model.py",
+      "bytes": 6302,
+      "sha256": "9c0328e5dc6f150d0e0910894d1b703cd6f16428f7f2582afdfeb7206cdd1af7"
+    },
+    {
+      "path": "src/uav_farm/evaluate_fleet.py",
+      "bytes": 5779,
+      "sha256": "860177000a89378070b38afed9c027442ce756d9a31bfe74e3c64af09ed12564"
+    },
+    {
+      "path": "src/uav_farm/execution_analysis.py",
+      "bytes": 7265,
+      "sha256": "18b7ef6a462c2f125008838297b185bc6b0bb2a49a21b0a8f35af095918be5e0"
+    },
+    {
+      "path": "src/uav_farm/execution_flight_test.py",
+      "bytes": 26694,
+      "sha256": "972ba17ce18a91ccec899bf91c6ca8cc21a5d1eae339a4228e0c828baa5043f0"
+    },
+    {
+      "path": "src/uav_farm/execution_plan.py",
+      "bytes": 7341,
+      "sha256": "69bfe803ba6484b9557eb18cb4e978ff4881fad8108692a0fc19aca0bb84705e"
+    },
+    {
+      "path": "src/uav_farm/execution_supervisor.py",
+      "bytes": 8218,
+      "sha256": "4b5a87f5bbe0df8c2409523ee1b37f3024e402633617c79fc2c1ae883506c38f"
+    },
+    {
+      "path": "src/uav_farm/farm_sim.py",
+      "bytes": 9430,
+      "sha256": "5c40f7795cc22b314aa1c366bec0182ffa38e19cd2b894878e937b423f7dd4e4"
+    },
+    {
+      "path": "src/uav_farm/fleet_guard.py",
+      "bytes": 6500,
+      "sha256": "c8e27938524568254738993e5a720b044bf69bcc6fe9671d7571b98a2f62f15c"
+    },
+    {
+      "path": "src/uav_farm/fleet_mag.py",
+      "bytes": 1604,
+      "sha256": "2c231190c4c39a39721bab1a2ecfef0a9ac2a57c9a495093fdcd8ab19ffd41d4"
+    },
+    {
+      "path": "src/uav_farm/fleet_plan.py",
+      "bytes": 717,
+      "sha256": "daaf8fcec6ebfbffad0a7b39f79344368f6a9ad5e02e776ca996e19d4b18befd"
+    },
+    {
+      "path": "src/uav_farm/formation_timebase.py",
+      "bytes": 2600,
+      "sha256": "37c2cd4aef6609aafb6d21e7a2320f70d07f1bee01a257e7a37aadbe96d2ffa7"
+    },
+    {
+      "path": "src/uav_farm/freshness_diagnostics.py",
+      "bytes": 1107,
+      "sha256": "d6f38ce1e970843ee8651ec16ea9ff4a83dba59a4d6610c90fad0775cc0bf299"
+    },
+    {
+      "path": "src/uav_farm/lidar_geometry.py",
+      "bytes": 2637,
+      "sha256": "3f4b08761556de6e1f33d611023583e92cfe27e513182a8bd2b3cc5feff08e17"
+    },
+    {
+      "path": "src/uav_farm/mag_interface.py",
+      "bytes": 193,
+      "sha256": "8dafb213a9ba791cc548b6f15ab6c4dd5842f2cae06b65a3e9e6cddd4f08569f"
+    },
+    {
+      "path": "src/uav_farm/mission_optimizer.py",
+      "bytes": 23127,
+      "sha256": "95e96758315bbfc51800ec007ac22432e7eaf91c827c6f6806ecce9a8e925b27"
+    },
+    {
+      "path": "src/uav_farm/online_corridor.py",
+      "bytes": 1311,
+      "sha256": "9b716b6f1827d8c1cc3cca0e806cf04f21b44317a0aafcc54648fe8fbad63514"
+    },
+    {
+      "path": "src/uav_farm/plot_execution.py",
+      "bytes": 4902,
+      "sha256": "92601492d7b13050339a7ec22828929448ec3cae829e151e7fd2589335f26b6b"
+    },
+    {
+      "path": "src/uav_farm/probe_protocol.py",
+      "bytes": 2861,
+      "sha256": "cb22d34809007b4921ebe059000378fac53b414d0231c515c4fb32fa03f9466c"
+    },
+    {
+      "path": "src/uav_farm/project_paths.py",
+      "bytes": 408,
+      "sha256": "ede5c2ae3beccf76dc0ac930f9ebd539fe73ba2abd18297d835bc0c3e0983b7b"
+    },
+    {
+      "path": "src/uav_farm/record_fleet_truth.py",
+      "bytes": 2114,
+      "sha256": "3718044e8cbe4908f56c91272ff5a768be4eac24ac56fbb2d14806088a37958d"
+    },
+    {
+      "path": "src/uav_farm/replan_service.py",
+      "bytes": 3760,
+      "sha256": "3b98c9584a9b0000e07948d074aef7d51db93fd27ca537ba47cb96e4d88d245f"
+    },
+    {
+      "path": "src/uav_farm/route_probe.py",
+      "bytes": 863,
+      "sha256": "af1a9cb37108b38c14fd4b4e197f7baabc4706cdd78acadd94e2493a39d96f6a"
+    },
+    {
+      "path": "src/uav_farm/run_execution_sim.py",
+      "bytes": 12440,
+      "sha256": "c16ed858e3e2748352a8d3286b00ab513e328a626a5ced9ec7a612aeebd11673"
+    },
+    {
+      "path": "src/uav_farm/sitl_gcs_heartbeat.py",
+      "bytes": 1229,
+      "sha256": "b0502f77bbd0767cb55354cfaa0fa9370ac746c459166dc486257d7cc1b10209"
+    },
+    {
+      "path": "src/uav_farm/sweep_interrupts.py",
+      "bytes": 662,
+      "sha256": "612edb9f5e944520357f2eadfdd0cd0cdd067471e369e1705eccc9465dc5e108"
+    },
+    {
+      "path": "src/uav_farm/telemetry_watchdog.py",
+      "bytes": 2361,
+      "sha256": "f95a1be18b083a1982d478c475bba00e1770dc2004788cc694ecfad24c480bb4"
+    },
+    {
+      "path": "src/uav_farm/terrain_links.py",
+      "bytes": 4718,
+      "sha256": "0c73125af7e22a2cf6bfcf6d71a3b2e5b70ef098d722e543042efe69dc8f7db6"
+    },
+    {
+      "path": "src/uav_farm/timed_pose.py",
+      "bytes": 1778,
+      "sha256": "d4494bb87204d2f48430891994f0836962d1b0db376ecb11f585bfd1f65fe26c"
+    },
+    {
+      "path": "tests/test_core.py",
+      "bytes": 5592,
+      "sha256": "3dac5ef7616955c0deb1204b6930bba8954d78d966f3ef518b24d0ddc1baebad"
+    },
+    {
+      "path": "tools/audit_release.py",
+      "bytes": 2503,
+      "sha256": "74c3bf937a23240ba9f6b14d34b4cc816c7bcbe2c85038b506131fc7040afa8b"
+    },
+    {
+      "path": "tools/check_environment.py",
+      "bytes": 1856,
+      "sha256": "f52c791fc1641d603b4f91eb0062ac3fae11e146e0ff20f177de613a31bc132a"
+    },
+    {
+      "path": "tools/plan.py",
+      "bytes": 740,
+      "sha256": "ff412452fc4656114ccf7d0afac2d0c9cca11670d0ad94cbf355a1f570ad3ab0"
+    },
+    {
+      "path": "tools/prepare_case.py",
+      "bytes": 1449,
+      "sha256": "a766dde9aaa3e5b8b7f51544dfc4c77c8c6f610e1f198dc97f367f95d1aa98bb"
+    },
+    {
+      "path": "tools/replay_ns3.py",
+      "bytes": 2625,
+      "sha256": "2f992131ff7c63a905e67cc09ca63653f82507642a50a83b1201324ccae2d8ec"
+    },
+    {
+      "path": "tools/run_case.py",
+      "bytes": 949,
+      "sha256": "f658a5aede5e9fcfb8bb57f7bc790a695d28fc6c30502394a751a46cfcbbb50c"
+    },
+    {
+      "path": "tools/validate_one.py",
+      "bytes": 1585,
+      "sha256": "6fceb43fa7afeacb206a5d9b6c9e541c13d8c6495bf60bca9c8c240e34d3cdea"
+    },
+    {
+      "path": "tools/validate_scenarios.py",
+      "bytes": 384,
+      "sha256": "af91ad61b6dbb77dd7f84b43d81ea5cdd29a8c8440fdbdaafdaf6b6424d3d5df"
+    }
+  ]
+}
